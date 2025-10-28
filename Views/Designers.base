@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "name": "All Designers",
+  "type": "base",
+  "source": {
+    "type": "folder",
+    "path": "Designers"
+  },
+  "columns": [
+    {
+      "id": "designer-name",
+      "name": "Designer",
+      "type": "text",
+      "property": "designer-name",
+      "width": 200
+    },
+    {
+      "id": "active-years",
+      "name": "Active Years",
+      "type": "text",
+      "property": "active-years",
+      "width": 120
+    },
+    {
+      "id": "birth-year",
+      "name": "Born",
+      "type": "number",
+      "property": "birth-year",
+      "width": 80
+    }
+  ],
+  "sort": [
+    {
+      "column": "designer-name",
+      "direction": "asc"
+    }
+  ],
+  "filters": []
+}

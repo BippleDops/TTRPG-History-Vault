@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "TTRPG YouTube Video",
+  "behavior": "create",
+  "noteContentFormat": "---\nsource-type: youtube\nurl: {{url}}\nchannel: {{schema:@VideoObject:author}}\npublished: {{schema:@VideoObject:uploadDate|date:YYYY-MM-DD}}\narchived-date: {{time:YYYY-MM-DD}}\ntags:\n  - research\n  - youtube\n  - video\n  - web-archive\n---\n\n# {{title}}\n\n## Video Information\n- **Channel**: {{schema:@VideoObject:author}}\n- **Published**: {{schema:@VideoObject:uploadDate|date:YYYY-MM-DD}}\n- **Duration**: {{schema:@VideoObject:duration|replace:PT:|replace:M: min |replace:S: sec}}\n- **URL**: {{url}}\n\n## Description\n{{schema:@VideoObject:description}}\n\n## Embedded Video\n![{{title}}]({{url}})\n\n## Research Notes\n\n### Key Points\n-\n\n### Relevance to TTRPG History\n-\n\n### Related Vault Entries\n- Game: \n- Designer: \n- Publisher: \n- Mechanic: \n- Era: \n\n---\n\n*Captured for TTRPG History Vault research purposes.*",
+  "path": "Research Archive",
+  "noteNameFormat": "VIDEO {{schema:@VideoObject:uploadDate|date:YYYY-MM-DD}} - {{schema:@VideoObject:name|safe_name}}",
+  "triggers": [
+    "https://www.youtube.com/watch"
+  ]
+}

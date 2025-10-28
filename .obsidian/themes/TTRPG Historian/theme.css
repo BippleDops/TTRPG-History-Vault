@@ -1,0 +1,1029 @@
+/*
+TTRPG Historian Theme v1.0
+A classic fantasy/parchment aesthetic for documenting TTRPG history
+Inspired by vintage RPG manuals, illuminated manuscripts, and gaming tables
+*/
+
+/* ===============================================
+   COLOR PALETTE
+   =============================================== */
+:root {
+  /* Primary Colors */
+  --parchment-bg: #F4ECD8;
+  --parchment-light: #FFF8E7;
+  --parchment-dark: #E8DCC4;
+
+  /* Accent Colors */
+  --burgundy: #8B1538;
+  --burgundy-hover: #A01B44;
+  --gold: #D4AF37;
+  --gold-hover: #E6C84D;
+
+  /* Text Colors */
+  --text-primary: #2C1810;
+  --text-secondary: #5C4033;
+  --text-muted: #8B7355;
+  --text-faint: #B8A896;
+
+  /* UI Colors */
+  --ui-border: #C4B5A0;
+  --ui-hover: #E0D4C0;
+  --ui-active: #D4C8B4;
+
+  /* Semantic Colors */
+  --link-color: #6B2C3E;
+  --link-hover: #8B1538;
+  --link-external: #4A5F7A;
+  --tag-bg: #E8DCC4;
+  --tag-text: #5C4033;
+
+  /* Graph View */
+  --graph-node: #8B1538;
+  --graph-link: #C4B5A0;
+  --graph-tag: #D4AF37;
+}
+
+/* Dark Mode Overrides */
+.theme-dark {
+  --parchment-bg: #1A1410;
+  --parchment-light: #242018;
+  --parchment-dark: #120E0A;
+
+  --text-primary: #E8DCC4;
+  --text-secondary: #C4B5A0;
+  --text-muted: #8B7355;
+  --text-faint: #5C4033;
+
+  --ui-border: #3A2F24;
+  --ui-hover: #2C231A;
+  --ui-active: #3A2F24;
+
+  --link-color: #D4AF37;
+  --link-hover: #E6C84D;
+  --tag-bg: #2C231A;
+}
+
+/* ===============================================
+   TYPOGRAPHY
+   =============================================== */
+
+/* Body Text - Readable serif for long-form content */
+body {
+  --font-text: 'Crimson Text', 'Georgia', 'Times New Roman', serif;
+  --font-text-size: 17px;
+  --line-height-normal: 1.7;
+}
+
+/* UI Text - Clean sans-serif */
+.nav-file-title,
+.nav-folder-title,
+.menu,
+.workspace-tab-header,
+.setting-item {
+  --font-ui: 'Quattrocento Sans', 'Segoe UI', 'Helvetica', sans-serif;
+}
+
+/* Headers - Bold serif with decorative styling */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  font-family: 'Cinzel', 'Palatino', 'Georgia', serif;
+  color: var(--burgundy);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Code/Monospace - Technical content */
+code, pre, .cm-line {
+  font-family: 'Inconsolata', 'Courier New', monospace;
+}
+
+/* ===============================================
+   MAIN LAYOUT
+   =============================================== */
+
+/* Background */
+.workspace {
+  background-color: var(--parchment-bg);
+}
+
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-content {
+  background-color: var(--parchment-bg);
+  color: var(--text-primary);
+}
+
+/* Editor and Reading Mode */
+.markdown-preview-section,
+.cm-scroller {
+  background-color: var(--parchment-light);
+  padding: 40px 60px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(44, 24, 16, 0.1);
+}
+
+/* ===============================================
+   HEADERS
+   =============================================== */
+
+.markdown-preview-view h1 {
+  font-size: 2.2em;
+  border-bottom: 3px solid var(--gold);
+  padding-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.markdown-preview-view h2 {
+  font-size: 1.8em;
+  border-bottom: 2px solid var(--ui-border);
+  padding-bottom: 8px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.markdown-preview-view h3 {
+  font-size: 1.5em;
+  color: var(--burgundy);
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.markdown-preview-view h4 {
+  font-size: 1.3em;
+  color: var(--text-secondary);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+  font-size: 1.1em;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+/* ===============================================
+   LINKS
+   =============================================== */
+
+/* Internal Links (Wikilinks) */
+.markdown-preview-view .internal-link {
+  color: var(--link-color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--link-color);
+  padding-bottom: 1px;
+  transition: all 0.2s ease;
+}
+
+.markdown-preview-view .internal-link:hover {
+  color: var(--link-hover);
+  border-bottom-color: var(--gold);
+  background-color: var(--parchment-dark);
+}
+
+/* External Links */
+.markdown-preview-view .external-link {
+  color: var(--link-external);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--link-external);
+}
+
+.markdown-preview-view .external-link:hover {
+  border-bottom-style: solid;
+  background-color: var(--parchment-dark);
+}
+
+/* ===============================================
+   TABLES (Datacore Queries) - Monster Stat Block Style
+   =============================================== */
+
+.markdown-preview-view table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  background-color: var(--parchment-light);
+  border: 3px solid var(--burgundy);
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(139, 21, 56, 0.2);
+}
+
+.markdown-preview-view thead {
+  background: linear-gradient(to bottom, var(--burgundy) 0%, #6B1538 100%);
+  color: var(--parchment-light);
+  position: relative;
+}
+
+.markdown-preview-view thead::before {
+  content: "🎲 ADVENTURE LOG 🎲";
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--burgundy);
+  color: var(--gold);
+  padding: 4px 20px;
+  border-radius: 4px 4px 0 0;
+  font-family: 'Cinzel', serif;
+  font-size: 0.75em;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.markdown-preview-view thead th {
+  padding: 14px 16px;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 0.9em;
+  border-bottom: 4px double var(--gold);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.markdown-preview-view tbody tr {
+  border-bottom: 1px solid var(--ui-border);
+  transition: background-color 0.15s ease;
+}
+
+.markdown-preview-view tbody tr:hover {
+  background-color: var(--ui-hover);
+}
+
+.markdown-preview-view tbody tr:last-child {
+  border-bottom: none;
+}
+
+.markdown-preview-view td {
+  padding: 10px 16px;
+  color: var(--text-primary);
+}
+
+.markdown-preview-view tbody tr:nth-child(even) {
+  background-color: var(--parchment-dark);
+}
+
+/* ===============================================
+   CODE BLOCKS
+   =============================================== */
+
+.markdown-preview-view pre {
+  background-color: var(--parchment-dark);
+  border: 1px solid var(--ui-border);
+  border-left: 4px solid var(--burgundy);
+  border-radius: 4px;
+  padding: 16px;
+  margin: 20px 0;
+}
+
+.markdown-preview-view code {
+  background-color: var(--parchment-dark);
+  color: var(--text-primary);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.markdown-preview-view pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* ===============================================
+   PROPERTIES / FRONTMATTER
+   =============================================== */
+
+.metadata-container {
+  background-color: var(--parchment-dark);
+  border: 2px solid var(--gold);
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 30px;
+}
+
+.metadata-property {
+  padding: 4px 0;
+  border-bottom: 1px solid var(--ui-border);
+}
+
+.metadata-property-key {
+  color: var(--burgundy);
+  font-weight: 600;
+  font-family: 'Quattrocento Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 0.5px;
+}
+
+.metadata-property-value {
+  color: var(--text-primary);
+}
+
+/* ===============================================
+   CALLOUTS - RPG Ability Score Boxes
+   =============================================== */
+
+.callout {
+  border: 3px solid var(--ui-border);
+  border-left-width: 6px;
+  border-radius: 6px;
+  margin: 20px 0;
+  padding: 18px;
+  background-color: var(--parchment-light);
+  box-shadow: 0 2px 8px rgba(44, 24, 16, 0.15);
+  position: relative;
+}
+
+.callout-title {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  color: var(--burgundy);
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--gold);
+}
+
+.callout-title::before {
+  content: "⚄ ";
+  color: var(--gold);
+  margin-right: 6px;
+}
+
+/* Callout Types - D&D Ability Scores Style */
+.callout[data-callout="note"] {
+  border-left-color: #4A5F7A;
+  border-color: #4A5F7A;
+}
+
+.callout[data-callout="note"]::before {
+  content: "📖 LORE";
+  position: absolute;
+  top: -12px;
+  left: 16px;
+  background-color: #4A5F7A;
+  color: var(--parchment-light);
+  padding: 2px 12px;
+  border-radius: 4px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.callout[data-callout="tip"] {
+  border-left-color: var(--gold);
+  border-color: var(--gold);
+}
+
+.callout[data-callout="tip"]::before {
+  content: "💡 WISDOM";
+  position: absolute;
+  top: -12px;
+  left: 16px;
+  background-color: var(--gold);
+  color: var(--text-primary);
+  padding: 2px 12px;
+  border-radius: 4px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.callout[data-callout="warning"] {
+  border-left-color: #C77700;
+  border-color: #C77700;
+}
+
+.callout[data-callout="warning"]::before {
+  content: "⚠️ DANGER";
+  position: absolute;
+  top: -12px;
+  left: 16px;
+  background-color: #C77700;
+  color: var(--parchment-light);
+  padding: 2px 12px;
+  border-radius: 4px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.callout[data-callout="danger"] {
+  border-left-color: var(--burgundy);
+  border-color: var(--burgundy);
+}
+
+.callout[data-callout="danger"]::before {
+  content: "💀 CRITICAL";
+  position: absolute;
+  top: -12px;
+  left: 16px;
+  background-color: var(--burgundy);
+  color: var(--parchment-light);
+  padding: 2px 12px;
+  border-radius: 4px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+/* ===============================================
+   TAGS
+   =============================================== */
+
+.tag {
+  background-color: var(--tag-bg);
+  color: var(--tag-text);
+  border: 1px solid var(--ui-border);
+  border-radius: 12px;
+  padding: 3px 10px;
+  font-size: 0.85em;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.tag:hover {
+  background-color: var(--burgundy);
+  color: var(--parchment-light);
+  border-color: var(--burgundy);
+}
+
+/* ===============================================
+   SIDEBAR - Campaign Folders
+   =============================================== */
+
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split {
+  background-color: var(--parchment-dark);
+  background-image:
+    linear-gradient(rgba(139, 21, 56, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(139, 21, 56, 0.03) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.nav-file-title,
+.nav-folder-title {
+  color: var(--text-primary);
+  border-radius: 4px;
+  padding: 6px 10px;
+  transition: all 0.15s ease;
+  border-left: 3px solid transparent;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover {
+  background-color: var(--ui-hover);
+  color: var(--burgundy);
+  border-left-color: var(--gold);
+  transform: translateX(2px);
+}
+
+.nav-file-title.is-active {
+  background: linear-gradient(to right, var(--burgundy) 0%, #6B1538 100%);
+  color: var(--parchment-light);
+  font-weight: 600;
+  border-left-color: var(--gold);
+  box-shadow: 0 2px 6px rgba(139, 21, 56, 0.3);
+}
+
+/* RPG-themed Folder Icons */
+.nav-folder-title::before {
+  content: "🗺️ ";
+  margin-right: 4px;
+}
+
+.nav-folder.mod-root > .nav-folder-title::before {
+  content: "📖 ";
+}
+
+/* Specific folder icons based on name */
+.nav-folder-title[data-path*="Games"]::before,
+.nav-folder-title:contains("Games")::before {
+  content: "🎲 ";
+}
+
+.nav-folder-title[data-path*="Designers"]::before {
+  content: "✍️ ";
+}
+
+.nav-folder-title[data-path*="Publishers"]::before {
+  content: "🏰 ";
+}
+
+.nav-folder-title[data-path*="Mechanics"]::before {
+  content: "⚙️ ";
+}
+
+.nav-folder-title[data-path*="Actual Play"]::before {
+  content: "🎭 ";
+}
+
+/* ===============================================
+   GRAPH VIEW
+   =============================================== */
+
+.graph-view.color-fill {
+  color: var(--graph-node);
+}
+
+.graph-view.color-line {
+  color: var(--graph-link);
+}
+
+.graph-view.color-text {
+  color: var(--text-primary);
+}
+
+.graph-view.color-fill-tag {
+  color: var(--graph-tag);
+}
+
+.graph-view.color-fill-attachment {
+  color: var(--link-external);
+}
+
+/* ===============================================
+   SEARCH
+   =============================================== */
+
+.search-result-file-title {
+  color: var(--burgundy);
+  font-weight: 600;
+}
+
+.search-result-file-match {
+  background-color: var(--parchment-light);
+  border-left: 3px solid var(--gold);
+  padding: 8px;
+  margin: 4px 0;
+}
+
+.search-result-file-matched-text {
+  background-color: var(--gold);
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* ===============================================
+   STATUS BAR - RPG Manual Footer
+   =============================================== */
+
+.status-bar {
+  background: linear-gradient(to right, var(--burgundy) 0%, #6B1538 50%, var(--burgundy) 100%);
+  color: var(--parchment-light);
+  border-top: 3px double var(--gold);
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 0.85em;
+  padding: 6px 12px;
+  box-shadow: 0 -2px 8px rgba(139, 21, 56, 0.3);
+}
+
+.status-bar::before {
+  content: "📖 TTRPG HISTORY VAULT";
+  color: var(--gold);
+  font-weight: 700;
+  font-family: 'Cinzel', serif;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  margin-right: 20px;
+}
+
+.status-bar-item {
+  color: var(--parchment-light);
+  border-left: 1px solid var(--gold);
+  padding-left: 12px;
+  margin-left: 8px;
+}
+
+.status-bar-item:first-child {
+  border-left: none;
+}
+
+.status-bar-item::before {
+  content: "⚄ ";
+  color: var(--gold);
+  margin-right: 4px;
+}
+
+/* ===============================================
+   MODALS & PROMPTS
+   =============================================== */
+
+.modal {
+  background-color: var(--parchment-light);
+  border: 3px solid var(--burgundy);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(44, 24, 16, 0.3);
+}
+
+.modal-title {
+  color: var(--burgundy);
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 12px;
+}
+
+.prompt-input {
+  background-color: var(--parchment-bg);
+  border: 2px solid var(--ui-border);
+  color: var(--text-primary);
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+.prompt-input:focus {
+  border-color: var(--burgundy);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139, 21, 56, 0.1);
+}
+
+/* ===============================================
+   BUTTONS
+   =============================================== */
+
+button,
+.clickable-icon {
+  color: var(--text-primary);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+button:hover,
+.clickable-icon:hover {
+  background-color: var(--burgundy);
+  color: var(--parchment-light);
+}
+
+.mod-cta {
+  background-color: var(--burgundy);
+  color: var(--parchment-light);
+  font-weight: 600;
+  border: none;
+}
+
+.mod-cta:hover {
+  background-color: var(--burgundy-hover);
+  box-shadow: 0 2px 8px rgba(139, 21, 56, 0.3);
+}
+
+/* ===============================================
+   HORIZONTAL RULES - D20 Dividers
+   =============================================== */
+
+.markdown-preview-view hr {
+  border: none;
+  border-top: 3px double var(--gold);
+  margin: 32px 0;
+  position: relative;
+}
+
+.markdown-preview-view hr::after {
+  content: "🎲 ⚔️ 🎲";
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--parchment-light);
+  padding: 0 16px;
+  color: var(--burgundy);
+  font-size: 1.1em;
+}
+
+/* ===============================================
+   LISTS - Initiative Tracker Style
+   =============================================== */
+
+.markdown-preview-view ul,
+.markdown-preview-view ol {
+  padding-left: 30px;
+}
+
+.markdown-preview-view li {
+  margin: 8px 0;
+  line-height: 1.7;
+  padding-left: 4px;
+}
+
+/* Dice pip bullets for unordered lists */
+.markdown-preview-view ul > li::marker {
+  content: "⚅ ";
+  color: var(--burgundy);
+  font-size: 1.2em;
+}
+
+/* D20 initiative numbers for ordered lists */
+.markdown-preview-view ol > li::marker {
+  color: var(--burgundy);
+  font-weight: 700;
+  font-family: 'Cinzel', serif;
+}
+
+/* Task Lists */
+.markdown-preview-view .task-list-item-checkbox {
+  margin-right: 8px;
+  border: 2px solid var(--burgundy);
+  border-radius: 3px;
+}
+
+.markdown-preview-view .task-list-item-checkbox:checked {
+  background-color: var(--burgundy);
+}
+
+/* ===============================================
+   BLOCKQUOTES - NPC Dialogue Boxes
+   =============================================== */
+
+.markdown-preview-view blockquote {
+  border: 3px solid var(--gold);
+  border-left-width: 6px;
+  background-color: var(--parchment-dark);
+  padding: 20px 24px;
+  margin: 20px 0;
+  border-radius: 6px;
+  font-style: italic;
+  color: var(--text-secondary);
+  position: relative;
+  box-shadow: 0 2px 8px rgba(44, 24, 16, 0.15);
+}
+
+.markdown-preview-view blockquote::before {
+  content: "💬 QUOTE";
+  position: absolute;
+  top: -12px;
+  left: 16px;
+  background-color: var(--gold);
+  color: var(--text-primary);
+  padding: 2px 12px;
+  border-radius: 4px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.markdown-preview-view blockquote::after {
+  content: "🎲";
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  font-size: 1.2em;
+  opacity: 0.3;
+}
+
+/* ===============================================
+   EMBEDS - Quest Cards
+   =============================================== */
+
+.markdown-embed {
+  border: 3px solid var(--burgundy);
+  border-left-width: 6px;
+  border-left-color: var(--gold);
+  background-color: var(--parchment-light);
+  border-radius: 6px;
+  padding: 18px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(139, 21, 56, 0.2);
+  position: relative;
+}
+
+.markdown-embed::before {
+  content: "📜 LINKED ENTRY";
+  position: absolute;
+  top: -12px;
+  left: 16px;
+  background-color: var(--burgundy);
+  color: var(--gold);
+  padding: 2px 12px;
+  border-radius: 4px;
+  font-family: 'Cinzel', serif;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.markdown-embed-title {
+  color: var(--burgundy);
+  font-weight: 700;
+  font-family: 'Cinzel', serif;
+  margin-bottom: 12px;
+  margin-top: 8px;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ===============================================
+   IMAGES
+   =============================================== */
+
+.markdown-preview-view img {
+  border: 3px solid var(--ui-border);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(44, 24, 16, 0.15);
+  margin: 20px 0;
+}
+
+/* ===============================================
+   SCROLLBARS
+   =============================================== */
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--parchment-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--burgundy);
+  border-radius: 6px;
+  border: 2px solid var(--parchment-dark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--burgundy-hover);
+}
+
+/* ===============================================
+   WORKSPACE TABS
+   =============================================== */
+
+.workspace-tab-header {
+  background-color: var(--parchment-dark);
+  border-bottom: 2px solid var(--ui-border);
+}
+
+.workspace-tab-header-container-inner {
+  background-color: var(--parchment-dark);
+}
+
+.workspace-tab-header.is-active {
+  background-color: var(--burgundy);
+  color: var(--parchment-light);
+  border-bottom-color: var(--gold);
+}
+
+.workspace-tab-header:hover {
+  background-color: var(--ui-hover);
+}
+
+/* ===============================================
+   RIBBON (Left Sidebar Icons) - Quest Bar
+   =============================================== */
+
+.workspace-ribbon {
+  background: linear-gradient(to bottom, var(--burgundy) 0%, #6B1538 50%, var(--burgundy) 100%);
+  border-right: 4px solid var(--gold);
+  box-shadow: 2px 0 8px rgba(139, 21, 56, 0.3);
+}
+
+.workspace-ribbon::before {
+  content: "⚔️";
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 16px 0;
+  border-bottom: 2px solid var(--gold);
+  margin-bottom: 8px;
+}
+
+.workspace-ribbon.mod-left .side-dock-actions,
+.workspace-ribbon.mod-right .side-dock-actions {
+  color: var(--parchment-light);
+}
+
+.side-dock-ribbon-action {
+  transition: all 0.2s ease;
+  border-radius: 6px;
+  margin: 4px;
+}
+
+.side-dock-ribbon-action:hover {
+  background-color: var(--burgundy-hover);
+  color: var(--gold);
+  transform: scale(1.1);
+  box-shadow: 0 0 12px var(--gold);
+}
+
+.side-dock-ribbon-action.is-active {
+  background-color: var(--gold);
+  color: var(--burgundy);
+}
+
+/* ===============================================
+   CUSTOM DECORATIVE ELEMENTS
+   =============================================== */
+
+/* Decorative flourish for main title - D20 dice */
+.markdown-preview-view h1:first-of-type::before {
+  content: "🎲 ";
+  color: var(--gold);
+  font-size: 0.9em;
+  margin-right: 8px;
+}
+
+.markdown-preview-view h1:first-of-type::after {
+  content: " 🎲";
+  color: var(--gold);
+  font-size: 0.9em;
+  margin-left: 8px;
+}
+
+/* D20 decorations for H2 headers */
+.markdown-preview-view h2::before {
+  content: "⚄ ";
+  color: var(--burgundy);
+  font-size: 0.8em;
+  margin-right: 6px;
+  opacity: 0.7;
+}
+
+/* Character sheet style for frontmatter */
+.metadata-container::before {
+  content: "⚔️ CHARACTER SHEET ⚔️";
+  display: block;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  color: var(--burgundy);
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid var(--gold);
+}
+
+/* RPG stat block styling for properties */
+.metadata-property {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 8px;
+  margin: 2px 0;
+  background-color: var(--parchment-bg);
+  border-radius: 3px;
+}
+
+/* Gaming table texture for body */
+.markdown-preview-section,
+.cm-scroller {
+  background-image:
+    linear-gradient(rgba(139, 21, 56, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(139, 21, 56, 0.02) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Critical hit/miss indicators for task lists */
+.markdown-preview-view .task-list-item-checkbox:checked::after {
+  content: "⚄";
+  position: absolute;
+  color: var(--parchment-light);
+  font-size: 0.7em;
+  top: 1px;
+  left: 2px;
+}
+
+/* ===============================================
+   PRINT STYLES
+   =============================================== */
+
+@media print {
+  body {
+    background-color: white;
+  }
+
+  .markdown-preview-view {
+    background-color: white;
+    color: black;
+  }
+
+  .markdown-preview-view h1,
+  .markdown-preview-view h2,
+  .markdown-preview-view h3 {
+    color: #2C1810;
+  }
+
+  .markdown-preview-view a {
+    color: #2C1810;
+    text-decoration: underline;
+  }
+}

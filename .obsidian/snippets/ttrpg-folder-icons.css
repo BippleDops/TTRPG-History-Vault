@@ -1,0 +1,78 @@
+/* TTRPG History Vault - Folder and File Icons */
+
+/* Add spacing for all icons */
+.nav-folder-title-content::before,
+.nav-file-title-content::before {
+    margin-right: 5px;
+}
+
+/* TTRPG-Specific Folder Icons */
+.nav-folder-title[data-path="Games"] .nav-folder-title-content::before {
+    content: '🎲 ';
+}
+
+.nav-folder-title[data-path="Publishers"] .nav-folder-title-content::before {
+    content: '🏢 ';
+}
+
+.nav-folder-title[data-path="Designers"] .nav-folder-title-content::before {
+    content: '👤 ';
+}
+
+.nav-folder-title[data-path="Mechanics"] .nav-folder-title-content::before {
+    content: '⚙️ ';
+}
+
+.nav-folder-title[data-path="Historical Context"] .nav-folder-title-content::before {
+    content: '📰 ';
+}
+
+.nav-folder-title[data-path="Templates"] .nav-folder-title-content::before {
+    content: '📋 ';
+}
+
+.nav-folder-title[data-path="Views"] .nav-folder-title-content::before {
+    content: '👁️ ';
+}
+
+.nav-folder-title[data-path="Research Archive"] .nav-folder-title-content::before {
+    content: '🗄️ ';
+}
+
+.nav-folder-title[data-path="Reviews & Analysis"] .nav-folder-title-content::before {
+    content: '📝 ';
+}
+
+.nav-folder-title[data-path="Attachments"] .nav-folder-title-content::before {
+    content: '📎 ';
+}
+
+/* File-specific icons */
+.nav-file-title[data-path*="Dashboard"] .nav-file-title-content::before {
+    content: '📊 ';
+}
+
+.nav-file-title[data-path*="MOC"] .nav-file-title-content::before {
+    content: '🗺️ ';
+}
+
+.nav-file-title[data-path*="Template"] .nav-file-title-content::before {
+    content: '📄 ';
+}
+
+.nav-file-title[data-path$=".base"] .nav-file-title-content::before {
+    content: '📚 ';
+}
+
+/* README and documentation files */
+.nav-file-title[data-path*="README"] .nav-file-title-content::before {
+    content: '📖 ';
+}
+
+.nav-file-title[data-path*="GETTING-STARTED"] .nav-file-title-content::before {
+    content: '🚀 ';
+}
+
+.nav-file-title[data-path*="Schema"] .nav-file-title-content::before {
+    content: '🔧 ';
+}

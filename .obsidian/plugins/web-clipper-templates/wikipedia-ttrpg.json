@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "TTRPG Wikipedia Article",
+  "behavior": "create",
+  "noteContentFormat": "---\nsource-type: wikipedia\nurl: {{url}}\narchived-date: {{date:YYYY-MM-DD}}\ntitle: {{title}}\ntags:\n  - research\n  - wikipedia\n  - web-archive\n---\n\n# {{title}}\n\n## Source Information\n- **URL**: {{url}}\n- **Archived**: {{date:YYYY-MM-DD}}\n- **Type**: Wikipedia Article\n\n## Content\n\n{{selectorHtml:#mw-content-text|remove_html:(\".navbox,.printfooter,.side-box,.mw-editsection\")|markdown|slice:0,15000|trim}}\n\n## Research Notes\n\n*Add connections to vault entries:*\n- Related Game: \n- Related Publisher: \n- Related Designer: \n- Related Era: \n\n## References\n\nSee original article for full citations: {{url}}",
+  "path": "Research Archive",
+  "noteNameFormat": "WEB {{date:YYYY-MM-DD}} - {{title|safe_name}}",
+  "triggers": [
+    "/^https:\\/\\/[a-z-.]+\\.wikipedia\\.org\\/wiki\\/.*$/"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "TTRPG Blog/Article",
+  "behavior": "create",
+  "noteContentFormat": "---\nsource-type: article\nurl: {{url}}\nauthor: {{schema:@Article:author}}\npublished: {{published|date:YYYY-MM-DD}}\narchived-date: {{date:YYYY-MM-DD}}\nsite: {{site_name}}\ntags:\n  - research\n  - article\n  - web-archive\n---\n\n# {{title}}\n\n## Metadata\n- **Author**: {{schema:@Article:author}}\n- **Published**: {{published|date:YYYY-MM-DD}}\n- **Source**: {{site_name}}\n- **URL**: {{url}}\n\n## Summary\n{{description}}\n\n## Full Article\n\n{{selectorHtml:article|markdown|slice:0,20000|trim}}\n\n---\n\n## Research Analysis\n\n### Key Takeaways\n-\n\n### TTRPG History Connections\n-\n\n### Vault Integration\n- Related Game: \n- Related Designer: \n- Related Publisher: \n- Related Era: \n- Related Mechanic: \n\n---\n\n*Archived for TTRPG History Vault research purposes.*",
+  "path": "Research Archive",
+  "noteNameFormat": "WEB {{published|date:YYYY-MM-DD}} - {{title|safe_name}}",
+  "triggers": [
+    "schema:@Article"
+  ]
+}

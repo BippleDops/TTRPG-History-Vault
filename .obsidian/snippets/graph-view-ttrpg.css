@@ -1,0 +1,51 @@
+/* TTRPG History Vault - Graph View Customization */
+
+/* Color nodes by folder type */
+.graph-view.color-fill-tag[data-path^="Games/"] {
+    color: #4CAF50 !important;
+}
+
+.graph-view.color-fill-tag[data-path^="Publishers/"] {
+    color: #2196F3 !important;
+}
+
+.graph-view.color-fill-tag[data-path^="Designers/"] {
+    color: #9C27B0 !important;
+}
+
+.graph-view.color-fill-tag[data-path^="Mechanics/"] {
+    color: #FF9800 !important;
+}
+
+.graph-view.color-fill-tag[data-path^="Historical Context/"] {
+    color: #F44336 !important;
+}
+
+.graph-view.color-fill-tag[data-path^="Views/"] {
+    color: #00BCD4 !important;
+}
+
+/* Make MOCs and Dashboard larger and more prominent */
+.graph-view.color-fill-tag[data-path*="MOC"] {
+    font-size: 1.5em !important;
+}
+
+.graph-view.color-fill-tag[data-path*="Dashboard"] {
+    font-size: 1.8em !important;
+}
+
+/* Increase link opacity for better visibility */
+.graph-view .link {
+    stroke-opacity: 0.6;
+}
+
+.graph-view .link:hover {
+    stroke-opacity: 1;
+    stroke-width: 2px;
+}
+
+/* Node hover effects */
+.graph-view .node-circle:hover {
+    r: 8;
+    stroke-width: 3px;
+}

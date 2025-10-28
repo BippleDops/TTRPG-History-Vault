@@ -1,0 +1,87 @@
+/* TTRPG History Vault - Custom Callouts */
+
+/* Game Stats Callout */
+.callout[data-callout="game-stats"] {
+    --callout-color: 46, 125, 50;
+    --callout-icon: lucide-dice-6;
+}
+
+/* Designer Bio Callout */
+.callout[data-callout="designer"] {
+    --callout-color: 25, 118, 210;
+    --callout-icon: lucide-user;
+}
+
+/* Historical Context Callout */
+.callout[data-callout="history"] {
+    --callout-color: 156, 39, 176;
+    --callout-icon: lucide-calendar;
+}
+
+/* Mechanics Explanation Callout */
+.callout[data-callout="mechanics"] {
+    --callout-color: 255, 152, 0;
+    --callout-icon: lucide-settings;
+}
+
+/* Publisher Info Callout */
+.callout[data-callout="publisher"] {
+    --callout-color: 0, 150, 136;
+    --callout-icon: lucide-building;
+}
+
+/* Significance/Impact Callout */
+.callout[data-callout="impact"] {
+    --callout-color: 244, 67, 54;
+    --callout-icon: lucide-zap;
+}
+
+/* Research Source Callout */
+.callout[data-callout="source"] {
+    --callout-color: 96, 125, 139;
+    --callout-icon: lucide-link;
+}
+
+/* Timeline Event Callout */
+.callout[data-callout="timeline"] {
+    --callout-color: 233, 30, 99;
+    --callout-icon: lucide-git-commit-horizontal;
+}
+
+/* Era-specific callouts */
+.callout[data-callout="early-era"] {
+    --callout-color: 121, 85, 72;
+    --callout-icon: lucide-scroll;
+}
+
+.callout[data-callout="golden-age"] {
+    --callout-color: 255, 193, 7;
+    --callout-icon: lucide-crown;
+}
+
+.callout[data-callout="modern-era"] {
+    --callout-color: 33, 150, 243;
+    --callout-icon: lucide-sparkles;
+}
+
+/* Enhanced callout styling */
+.callout {
+    border-width: var(--callout-border-width, 2px);
+    border-color: rgba(var(--callout-color), var(--callout-border-opacity, 1));
+}
+
+body {
+    --callout-border-width: 2px;
+    --callout-border-opacity: 0.8;
+}
+
+/* Callout titles bold and colored */
+.callout-title {
+    font-weight: 600;
+    color: rgb(var(--callout-color));
+}
+
+/* Callout content spacing */
+.callout-content {
+    padding: 0.5rem;
+}

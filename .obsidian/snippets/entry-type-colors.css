@@ -1,0 +1,82 @@
+/* Entry Type Colors - Color-code entry types in properties panel */
+/* Part of TTRPG History Vault CSS Enhancement Suite */
+
+/* Game entries - Blue */
+.metadata-property[data-property="type"][data-property-value="game"] {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Designer entries - Purple */
+.metadata-property[data-property="type"][data-property-value="designer"] {
+  background-color: #a855f7;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Publisher entries - Red */
+.metadata-property[data-property="type"][data-property-value="publisher"] {
+  background-color: #ef4444;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Mechanic entries - Green */
+.metadata-property[data-property="type"][data-property-value="mechanic"] {
+  background-color: #10b981;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Historical Event entries - Orange */
+.metadata-property[data-property="type"][data-property-value="historical-event"] {
+  background-color: #f97316;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Supplement entries - Teal */
+.metadata-property[data-property="type"][data-property-value="supplement"] {
+  background-color: #14b8a6;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Actual Play entries - Pink */
+.metadata-property[data-property="type"][data-property-value="actual-play"] {
+  background-color: #ec4899;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Era MOC entries - Indigo */
+.metadata-property[data-property="type"][data-property-value="era-moc"] {
+  background-color: #6366f1;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Publisher MOC entries - Rose */
+.metadata-property[data-property="type"][data-property-value="publisher-moc"] {
+  background-color: #f43f5e;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* System Family entries - Amber */
+.metadata-property[data-property="type"][data-property-value="system-family"] {
+  background-color: #f59e0b;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}

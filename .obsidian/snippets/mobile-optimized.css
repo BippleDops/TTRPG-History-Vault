@@ -1,0 +1,192 @@
+/* Mobile Optimized - Better mobile experience */
+/* Part of TTRPG History Vault CSS Enhancement Suite */
+
+@media (max-width: 768px) {
+  /* Larger touch targets for links */
+  .internal-link,
+  .external-link {
+    padding: 8px 4px;
+    font-size: 16px;
+    line-height: 1.6;
+    min-height: 44px;
+    display: inline-block;
+  }
+
+  /* Increase base font size for readability */
+  .markdown-preview-view {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 12px;
+  }
+
+  /* Collapsible sections for headings */
+  .markdown-preview-view h2 {
+    cursor: pointer;
+    padding: 10px;
+    background: var(--background-secondary);
+    border-radius: 4px;
+    margin: 8px 0;
+    user-select: none;
+  }
+
+  .markdown-preview-view h2:active {
+    background: var(--background-modifier-border);
+  }
+
+  /* Simplified Datacore tables - horizontal scroll */
+  .block-language-datacore table {
+    font-size: 14px;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+
+  .block-language-datacore table td,
+  .block-language-datacore table th {
+    padding: 8px;
+    min-width: 100px;
+  }
+
+  /* Stack property lists vertically */
+  .metadata-property {
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    background: var(--background-secondary);
+    border-radius: 4px;
+  }
+
+  /* Make property labels clearer */
+  .metadata-property-key {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+
+  /* Larger tap targets for property values */
+  .metadata-property-value {
+    font-size: 16px;
+    padding: 4px 0;
+  }
+
+  /* Better spacing for lists */
+  ul, ol {
+    padding-left: 24px;
+  }
+
+  li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+  }
+
+  /* Optimize images for mobile */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 12px auto;
+  }
+
+  /* Callouts - full width with better spacing */
+  .callout {
+    margin: 12px 0;
+    padding: 12px;
+    border-radius: 6px;
+  }
+
+  .callout-title {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+
+  /* Tags - larger touch targets */
+  .tag {
+    font-size: 14px;
+    padding: 6px 10px;
+    margin: 4px;
+    display: inline-block;
+    min-height: 32px;
+  }
+
+  /* File explorer - larger items */
+  .nav-file-title,
+  .nav-folder-title {
+    padding: 8px;
+    font-size: 15px;
+    min-height: 40px;
+  }
+
+  /* Search results */
+  .search-result-file-title {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  /* Buttons - larger touch targets */
+  button {
+    min-height: 44px;
+    padding: 10px 16px;
+    font-size: 16px;
+  }
+
+  /* Graph view controls */
+  .graph-controls {
+    font-size: 16px;
+  }
+
+  .graph-control-button {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  /* Reduce margins in preview */
+  .markdown-preview-view h1 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 24px;
+  }
+
+  .markdown-preview-view h2 {
+    font-size: 20px;
+  }
+
+  .markdown-preview-view h3 {
+    font-size: 18px;
+  }
+
+  /* Code blocks - horizontal scroll */
+  pre {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  /* Backlinks - better spacing */
+  .backlink-pane {
+    font-size: 15px;
+  }
+
+  .tree-item-self {
+    padding: 8px;
+    min-height: 40px;
+  }
+}
+
+/* Extra small devices (phones in portrait) */
+@media (max-width: 480px) {
+  .markdown-preview-view {
+    font-size: 15px;
+    padding: 8px;
+  }
+
+  .block-language-datacore table {
+    font-size: 13px;
+  }
+
+  .metadata-property {
+    padding: 6px;
+  }
+}

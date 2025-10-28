@@ -1,0 +1,16 @@
+{
+  "cssTheme": "TTRPG Historian",
+  "baseFontSize": 17,
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "ttrpg-folder-icons",
+    "ttrpg-callouts",
+    "property-display-formatting",
+    "print-ready",
+    "mobile-optimized",
+    "graph-view-ttrpg",
+    "era-themes",
+    "entry-type-colors",
+    "dashboard-layout"
+  ]
+}

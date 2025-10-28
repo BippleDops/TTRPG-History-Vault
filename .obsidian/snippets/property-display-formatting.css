@@ -1,0 +1,189 @@
+/* Property Display Formatting - Enhanced property visualization */
+/* Part of TTRPG History Vault CSS Enhancement Suite */
+
+/* Format WikiLinks in properties with icons */
+.metadata-property[data-property="publisher"] .internal-link::before {
+  content: "🏢 ";
+}
+
+.metadata-property[data-property="designer"] .internal-link::before {
+  content: "👤 ";
+}
+
+.metadata-property[data-property="parent-game"] .internal-link::before {
+  content: "🎲 ";
+}
+
+.metadata-property[data-property="era"] .internal-link::before {
+  content: "📅 ";
+}
+
+.metadata-property[data-property="genre"] .internal-link::before {
+  content: "🎭 ";
+}
+
+.metadata-property[data-property="system-family"] .internal-link::before {
+  content: "🎯 ";
+}
+
+.metadata-property[data-property="influences"] .internal-link::before,
+.metadata-property[data-property="influenced-by"] .internal-link::before {
+  content: "➡️ ";
+}
+
+.metadata-property[data-property="key-mechanics"] .internal-link::before {
+  content: "⚙️ ";
+}
+
+/* Highlight significance scores - 5/5 ratings */
+.metadata-property[data-property="historical-significance"][data-property-value="5"],
+.metadata-property[data-property="innovation-score"][data-property-value="5"],
+.metadata-property[data-property="significance"][data-property-value="5"] {
+  background: linear-gradient(90deg, gold, orange);
+  color: black;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* 4/5 ratings */
+.metadata-property[data-property="historical-significance"][data-property-value="4"],
+.metadata-property[data-property="innovation-score"][data-property-value="4"],
+.metadata-property[data-property="significance"][data-property-value="4"] {
+  background: linear-gradient(90deg, #90ee90, #32cd32);
+  color: black;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* 3/5 ratings */
+.metadata-property[data-property="historical-significance"][data-property-value="3"],
+.metadata-property[data-property="innovation-score"][data-property-value="3"],
+.metadata-property[data-property="significance"][data-property-value="3"] {
+  background: linear-gradient(90deg, #87ceeb, #4682b4);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Format date properties */
+.metadata-property[data-property="year-published"],
+.metadata-property[data-property="founded"],
+.metadata-property[data-property="year"],
+.metadata-property[data-property="publication-date"] {
+  font-family: 'Courier New', monospace;
+  background: var(--background-secondary);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* List items with bullets - tags/pills style */
+.metadata-property[data-property-type="list"] .multi-select-pill {
+  background: var(--background-modifier-border);
+  border-radius: 12px;
+  padding: 2px 8px;
+  margin: 2px;
+  font-size: 0.9em;
+}
+
+/* Status indicators */
+.metadata-property[data-property="status"][data-property-value="active"] {
+  background-color: #10b981;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.metadata-property[data-property="status"][data-property-value="defunct"],
+.metadata-property[data-property="status"][data-property-value="inactive"] {
+  background-color: #6b7280;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.metadata-property[data-property="status"][data-property-value="acquired"] {
+  background-color: #f59e0b;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Format complexity ratings */
+.metadata-property[data-property="complexity"][data-property-value="Light"],
+.metadata-property[data-property="complexity"][data-property-value="low"] {
+  background-color: #86efac;
+  color: black;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.metadata-property[data-property="complexity"][data-property-value="Medium"],
+.metadata-property[data-property="complexity"][data-property-value="moderate"] {
+  background-color: #fbbf24;
+  color: black;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.metadata-property[data-property="complexity"][data-property-value="Heavy"],
+.metadata-property[data-property="complexity"][data-property-value="high"] {
+  background-color: #f87171;
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Boolean properties - checkmarks */
+.metadata-property[data-property-type="checkbox"] .metadata-property-value::before {
+  content: "✓ ";
+  color: #10b981;
+  font-weight: bold;
+}
+
+.metadata-property[data-property="core-mechanic-innovation"][data-property-value="true"],
+.metadata-property[data-property="genre-defining"][data-property-value="true"] {
+  background-color: #dbeafe;
+  border-left: 4px solid #3b82f6;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* URL/External links formatting */
+.metadata-property[data-property="url"] .external-link::before,
+.metadata-property[data-property="website"] .external-link::before {
+  content: "🔗 ";
+}
+
+/* ISBN/Product codes */
+.metadata-property[data-property="isbn"],
+.metadata-property[data-property="product-code"] {
+  font-family: 'Courier New', monospace;
+  background: var(--background-secondary);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  color: var(--text-muted);
+}
+
+/* Price formatting */
+.metadata-property[data-property="original-price"],
+.metadata-property[data-property="price"] {
+  font-family: 'Courier New', monospace;
+  background: #fef3c7;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* Player count */
+.metadata-property[data-property="player-count"]::before {
+  content: "👥 ";
+}
+
+/* Page count for books/supplements */
+.metadata-property[data-property="page-count"]::before {
+  content: "📄 ";
+}

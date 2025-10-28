@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "name": "Design Innovations Timeline",
+  "type": "base",
+  "source": {
+    "type": "folder",
+    "path": "Mechanics"
+  },
+  "columns": [
+    {
+      "id": "mechanic-name",
+      "name": "Mechanic",
+      "type": "text",
+      "property": "mechanic-name",
+      "width": 200
+    },
+    {
+      "id": "year-introduced",
+      "name": "Year",
+      "type": "number",
+      "property": "year-introduced",
+      "width": 80
+    },
+    {
+      "id": "first-appearance",
+      "name": "First Game",
+      "type": "link",
+      "property": "first-appearance",
+      "width": 180
+    },
+    {
+      "id": "complexity",
+      "name": "Complexity",
+      "type": "number",
+      "property": "complexity",
+      "width": 100
+    },
+    {
+      "id": "popularity",
+      "name": "Popularity",
+      "type": "number",
+      "property": "popularity",
+      "width": 100
+    }
+  ],
+  "sort": [
+    {
+      "column": "year-introduced",
+      "direction": "asc"
+    }
+  ],
+  "groupBy": {
+    "column": "year-introduced",
+    "formula": "floor(year-introduced / 10) * 10"
+  },
+  "filters": []
+}

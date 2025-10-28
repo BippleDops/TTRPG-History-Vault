@@ -1,0 +1,81 @@
+/* Era Themes - Era-specific visual themes when viewing era MOCs */
+/* Part of TTRPG History Vault CSS Enhancement Suite */
+
+/* Early Era (1970s-1979): Brown/beige 70s aesthetic */
+.markdown-preview-view[data-note-title*="Early Era"] {
+  --background-primary: #f5f5dc;
+  --text-normal: #3e2723;
+  --text-accent: #8b4513;
+}
+
+.markdown-preview-view[data-note-title*="Early Era"] h1,
+.markdown-preview-view[data-note-title*="Early Era"] h2 {
+  color: #5d4037;
+  border-bottom: 2px solid #8b4513;
+}
+
+/* Golden Age (1980s-1989): Purple/gold 80s aesthetic */
+.markdown-preview-view[data-note-title*="Golden Age"] {
+  --background-primary: #fff8e1;
+  --text-normal: #4a148c;
+  --text-accent: #9c27b0;
+}
+
+.markdown-preview-view[data-note-title*="Golden Age"] h1,
+.markdown-preview-view[data-note-title*="Golden Age"] h2 {
+  color: #6a1b9a;
+  border-bottom: 2px solid #ffd700;
+}
+
+/* d20 Era (2000s): Blue/silver 2000s aesthetic */
+.markdown-preview-view[data-note-title*="d20 Era"] {
+  --background-primary: #e3f2fd;
+  --text-normal: #01579b;
+  --text-accent: #1976d2;
+}
+
+.markdown-preview-view[data-note-title*="d20 Era"] h1,
+.markdown-preview-view[data-note-title*="d20 Era"] h2 {
+  color: #0277bd;
+  border-bottom: 2px solid #64b5f6;
+}
+
+/* OSR Revival (2008-2012): Sepia/parchment */
+.markdown-preview-view[data-note-title*="OSR Revival"] {
+  --background-primary: #fef5e7;
+  --text-normal: #5d4037;
+  --text-accent: #8d6e63;
+}
+
+.markdown-preview-view[data-note-title*="OSR Revival"] h1,
+.markdown-preview-view[data-note-title*="OSR Revival"] h2 {
+  color: #6d4c41;
+  border-bottom: 2px solid #a1887f;
+  font-family: serif;
+}
+
+/* Modern Era (2013-Present): Vibrant/clean */
+.markdown-preview-view[data-note-title*="Modern Era"] {
+  --background-primary: #fafafa;
+  --text-normal: #212121;
+  --text-accent: #00bcd4;
+}
+
+.markdown-preview-view[data-note-title*="Modern Era"] h1,
+.markdown-preview-view[data-note-title*="Modern Era"] h2 {
+  color: #00838f;
+  border-bottom: 2px solid #26c6da;
+}
+
+/* 1990s Era: Grunge/dark aesthetic */
+.markdown-preview-view[data-note-title*="1990s"] {
+  --background-primary: #f0f0f0;
+  --text-normal: #263238;
+  --text-accent: #546e7a;
+}
+
+.markdown-preview-view[data-note-title*="1990s"] h1,
+.markdown-preview-view[data-note-title*="1990s"] h2 {
+  color: #37474f;
+  border-bottom: 2px solid #78909c;
+}

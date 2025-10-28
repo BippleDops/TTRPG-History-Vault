@@ -1,0 +1,112 @@
+# .gitattributes for TTRPG History Vault
+# Ensures consistent line endings and Git handling across platforms
+
+# Auto-detect text files and normalize line endings to LF
+* text=auto
+
+# Markdown files
+*.md text eol=lf
+
+# YAML and JSON files (Obsidian configuration)
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+
+# Template files
+*.md.template text eol=lf
+
+# Python scripts
+*.py text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# CSS files
+*.css text eol=lf
+
+# JavaScript files
+*.js text eol=lf
+
+# Configuration files
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Obsidian-specific files
+.obsidian/**/*.json text eol=lf
+.obsidian/workspace text eol=lf
+.obsidian/workspace.json text eol=lf
+
+# Images (binary, no line ending conversion)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+*.ico binary
+*.webp binary
+
+# PDFs and documents (binary)
+*.pdf binary
+*.doc binary
+*.docx binary
+
+# Archives (binary)
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+
+# Fonts (binary)
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+
+# Git LFS (Large File Storage) - if enabled
+# *.pdf filter=lfs diff=lfs merge=lfs -text
+# *.png filter=lfs diff=lfs merge=lfs -text
+# *.jpg filter=lfs diff=lfs merge=lfs -text
+
+# Linguist overrides (for GitHub language statistics)
+# Ignore Obsidian config in language stats
+.obsidian/** linguist-vendored
+
+# Mark documentation as documentation
+*.md linguist-documentation
+
+# Mark CSS snippets as CSS (not vendored)
+.obsidian/snippets/*.css linguist-vendored=false
+
+# Python scripts should be recognized
+Scripts/*.py linguist-language=Python
+
+# Git diff settings
+# Use word-diff for markdown files
+*.md diff=markdown
+
+# Custom diff patterns for frontmatter
+*.md diff=markdown-frontmatter
+
+# Merge strategies
+# For Obsidian workspace files, prefer ours on conflict
+.obsidian/workspace.json merge=ours
+.obsidian/workspace merge=ours
+
+# For content files, manual merge required
+Games/*.md merge=union
+Publishers/*.md merge=union
+Designers/*.md merge=union
+Mechanics/*.md merge=union
+Historical\ Context/*.md merge=union
+
+# Export settings
+# Normalize line endings on export
+* text export-ignore
+
+# Files to exclude from archives/exports
+.git* export-ignore
+.obsidian/workspace* export-ignore
+.obsidian/cache/ export-ignore
+.trash/ export-ignore
+node_modules/ export-ignore
+*.log export-ignore

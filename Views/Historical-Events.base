@@ -1,0 +1,50 @@
+{
+  "version": "1.0.0",
+  "name": "Historical Events",
+  "type": "base",
+  "source": {
+    "type": "folder",
+    "path": "Historical Context"
+  },
+  "columns": [
+    {
+      "id": "event-name",
+      "name": "Event",
+      "type": "text",
+      "property": "event-name",
+      "width": 250
+    },
+    {
+      "id": "year",
+      "name": "Year",
+      "type": "number",
+      "property": "year",
+      "width": 80
+    },
+    {
+      "id": "date",
+      "name": "Date",
+      "type": "text",
+      "property": "date",
+      "width": 120
+    },
+    {
+      "id": "significance",
+      "name": "Significance",
+      "type": "number",
+      "property": "significance",
+      "width": 100
+    }
+  ],
+  "sort": [
+    {
+      "column": "year",
+      "direction": "asc"
+    }
+  ],
+  "groupBy": {
+    "column": "year",
+    "formula": "floor(year / 10) * 10"
+  },
+  "filters": []
+}

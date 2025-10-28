@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "name": "Games by Decade",
+  "type": "base",
+  "source": {
+    "type": "folder",
+    "path": "Games"
+  },
+  "columns": [
+    {
+      "id": "title",
+      "name": "Game",
+      "type": "text",
+      "property": "title",
+      "width": 200
+    },
+    {
+      "id": "year-published",
+      "name": "Year",
+      "type": "number",
+      "property": "year-published",
+      "width": 80
+    },
+    {
+      "id": "designer",
+      "name": "Designer",
+      "type": "link",
+      "property": "designer",
+      "width": 150
+    },
+    {
+      "id": "genre",
+      "name": "Genre",
+      "type": "list",
+      "property": "genre",
+      "width": 120
+    },
+    {
+      "id": "innovation-score",
+      "name": "Innovation",
+      "type": "number",
+      "property": "innovation-score",
+      "width": 100
+    },
+    {
+      "id": "historical-significance",
+      "name": "Significance",
+      "type": "number",
+      "property": "historical-significance",
+      "width": 100
+    }
+  ],
+  "sort": [
+    {
+      "column": "year-published",
+      "direction": "asc"
+    }
+  ],
+  "groupBy": {
+    "column": "year-published",
+    "formula": "floor(year-published / 10) * 10 + 's'"
+  },
+  "filters": []
+}

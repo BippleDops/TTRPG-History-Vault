@@ -1,0 +1,85 @@
+{
+  "version": "1.0.0",
+  "name": "All Games Database",
+  "type": "base",
+  "source": {
+    "type": "folder",
+    "path": "Games"
+  },
+  "columns": [
+    {
+      "id": "title",
+      "name": "Title",
+      "type": "text",
+      "property": "title",
+      "width": 200
+    },
+    {
+      "id": "year-published",
+      "name": "Year",
+      "type": "number",
+      "property": "year-published",
+      "width": 80
+    },
+    {
+      "id": "publisher",
+      "name": "Publisher",
+      "type": "link",
+      "property": "publisher",
+      "width": 150
+    },
+    {
+      "id": "designer",
+      "name": "Designer",
+      "type": "link",
+      "property": "designer",
+      "width": 150
+    },
+    {
+      "id": "system",
+      "name": "System",
+      "type": "text",
+      "property": "system",
+      "width": 100
+    },
+    {
+      "id": "genre",
+      "name": "Genre",
+      "type": "list",
+      "property": "genre",
+      "width": 120
+    },
+    {
+      "id": "historical-significance",
+      "name": "Significance",
+      "type": "number",
+      "property": "historical-significance",
+      "width": 100
+    },
+    {
+      "id": "innovation-score",
+      "name": "Innovation",
+      "type": "number",
+      "property": "innovation-score",
+      "width": 100
+    },
+    {
+      "id": "status",
+      "name": "Status",
+      "type": "text",
+      "property": "status",
+      "width": 120
+    }
+  ],
+  "sort": [
+    {
+      "column": "year-published",
+      "direction": "asc"
+    }
+  ],
+  "groupBy": {
+    "column": "year-published",
+    "formula": "floor(year-published / 10) * 10"
+  },
+  "filters": []
+}

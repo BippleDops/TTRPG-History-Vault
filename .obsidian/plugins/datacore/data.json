@@ -1,0 +1,8 @@
+{
+  "codeblockDataviews": true,
+  "inlineDataviews": true,
+  "inlineDataviewPrefix": "=",
+  "recursiveSubFolderFiles": true,
+  "refreshEnabled": true,
+  "refreshInterval": 2000
+}

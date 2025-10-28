@@ -1,0 +1,67 @@
+{
+  "version": "1.0.0",
+  "name": "Publishers Analysis",
+  "type": "base",
+  "source": {
+    "type": "folder",
+    "path": "Publishers"
+  },
+  "columns": [
+    {
+      "id": "publisher-name",
+      "name": "Publisher",
+      "type": "text",
+      "property": "publisher-name",
+      "width": 200
+    },
+    {
+      "id": "founded",
+      "name": "Founded",
+      "type": "number",
+      "property": "founded",
+      "width": 80
+    },
+    {
+      "id": "defunct",
+      "name": "Defunct",
+      "type": "number",
+      "property": "defunct",
+      "width": 80
+    },
+    {
+      "id": "era-active",
+      "name": "Era",
+      "type": "text",
+      "property": "era-active",
+      "width": 150
+    },
+    {
+      "id": "significance",
+      "name": "Significance",
+      "type": "number",
+      "property": "significance",
+      "width": 100
+    },
+    {
+      "id": "headquarters",
+      "name": "Location",
+      "type": "text",
+      "property": "headquarters",
+      "width": 150
+    }
+  ],
+  "sort": [
+    {
+      "column": "significance",
+      "direction": "desc"
+    },
+    {
+      "column": "founded",
+      "direction": "asc"
+    }
+  ],
+  "groupBy": {
+    "column": "era-active"
+  },
+  "filters": []
+}
