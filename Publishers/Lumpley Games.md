@@ -1,165 +1,79 @@
 ---
+title: Lumpley Games
 type: publisher
-publisher-name: Lumpley Games
-founded: 2001
-defunct:
-headquarters: Raleigh, North Carolina
-key-releases:
-  - "[[Apocalypse World (2010)]]"
-notable-designers:
+founded: 1999
+headquarters: United States
+founders:
   - "[[D. Vincent Baker]]"
   - "[[Meguey Baker]]"
-era-active: osr-revival
-significance: 4
+key-releases:
+  - "[[Apocalypse World]] (2010)"
+  - "[[Dogs in the Vineyard]] (2004)"
+  - "[[Murderous Ghosts]] (2011)"
+significance: Major indie publisher of foundational narrativist games
+business-model: Direct sales, PDF/print-on-demand, small print runs
+historical-significance: 5
 tags:
   - publisher
-  - osr-revival
-  - modern-era
-  - indie
-  - story-games
+  - indie-publisher
+  - narrativist
+  - PbtA
+  - Lumpley-Games
+  - Vincent-Baker
+status: active
 ---
 
 # Lumpley Games
 
-**Founded**: 2001
-**Active Era**: osr-revival (still active)
-**Historical Significance**: ⭐ 4/5
-**Headquarters**: Raleigh, North Carolina
+**Founded**: 1999
+**Headquarters**: United States
+**Founders**: [[D. Vincent Baker]], [[Meguey Baker]]
 
-## History
+## Overview
 
-Lumpley Games is the independent publishing imprint of D. Vincent Baker and Meguey Baker, founded in 2001 to publish their creator-owned roleplaying games. The company name derives from Vincent's online nickname "lumpley" used in indie RPG community forums.
+Lumpley Games, founded by Vincent and Meguey Baker in 1999, published foundational indie narrativist RPGs including Apocalypse World (2010—creating Powered by the Apocalypse movement), Dogs in the Vineyard (2004—escalation mechanics masterpiece), and Murderous Ghosts (2011—two-player procedural horror), demonstrating indie designer-publishers could achieve critical and commercial success through direct sales, PDF distribution, and design excellence, influencing indie publishing models and establishing Bakers as among genre's most important designers.
 
-The Bakers emerged from the indie RPG design community centered around The Forge, an influential online forum where designers like Ron Edwards, Paul Czege, Clinton R. Nixon, and others experimented with alternatives to traditional RPG structures. This community emphasized creator ownership, direct sales, and innovative mechanical designs.
+**Key Releases**:
+- **Dogs in the Vineyard** (2004): Moral authority escalation mechanics
+- **Apocalypse World** (2010): Created PbtA movement
+- **Murderous Ghosts** (2011): Two-player procedural horror
+- **In a Wicked Age** (2007): Oracle-based sword & sorcery
 
-Lumpley Games' early releases included kill puppies for satan (2001) and The Princes' Kingdom (2004), small-press games exploring specific themes through focused mechanical design. These established the Bakers' reputation for thoughtful, innovative design.
+**Significance**: Published games that shaped contemporary indie gaming
 
-In 2004, Lumpley Games released Dogs in the Vineyard, designed by Vincent Baker. This game about moral authority in a fantasy Mormon-inspired frontier setting received critical acclaim and demonstrated that focused, thematically-driven design could create compelling play experiences. Dogs pioneered several mechanics later refined in Apocalypse World.
+**Business Model**: Designer-direct sales, PDF primary, small print runs, later partnerships (Evil Hat for AW 2E)
 
-The company's breakout success came with Apocalypse World (2010), which codified indie design principles into a systematic framework. The game's Creative Commons licensed "Powered by the Apocalypse" engine spawned hundreds of derivative games, making Lumpley Games one of the most influential indie publishers in RPG history.
+## Publishing Philosophy
 
-Subsequent releases included Murderous Ghosts (2011), a two-player horror game, and various supplements and expansions. In 2016, Apocalypse World Second Edition refined the original design based on six years of play experience.
+**Designer Control**: Bakers maintain creative authority
 
-Under the Lamplight (2024) represents their most recent major release, continuing their tradition of innovative, focused design.
+**Direct Sales**: PDF and print-on-demand reducing overhead
 
-## Key Releases
+**Small Operation**: Sustainable small-scale publishing
 
-```datacore
-TABLE file.link AS "Game", year-published AS "Year", genre AS "Genre", historical-significance AS "Impact"
-FROM "Games"
-WHERE contains(publisher, this.file.link)
-SORT year-published ASC
-```
+**Design Excellence**: Quality over quantity
 
-## Notable Designers
-
-```datacore
-TABLE file.link AS "Designer", active-years AS "Active Years"
-FROM "Designers"
-WHERE contains(publishers-worked-with, this.file.link)
-```
-
-## Business Model and Distribution
-
-Lumpley Games operates as an archetypal indie RPG publisher:
-
-**Direct Sales**: Sells primarily through their website and indie-friendly retailers (IPR, Indie Press Revolution), bypassing traditional distribution.
-
-**Digital-First**: Offers PDF versions alongside or before print products, reducing production costs and increasing accessibility.
-
-**Print-on-Demand**: Utilizes POD services for physical books, eliminating inventory costs and enabling long-tail availability.
-
-**Creator Ownership**: Maintains complete control over intellectual property, pricing, and creative direction.
-
-**Crowdfunding**: Uses Kickstarter and similar platforms for larger projects, building community while funding development.
-
-**Open Licensing**: Released Apocalypse World under Creative Commons, encouraging derivative works and building ecosystem.
-
-**Community Engagement**: Active participation in online communities, conventions, and design forums building relationships with players.
-
-**Transparent Development**: Shares design processes, playtest documents, and design thinking publicly.
-
-This model enables sustainable indie publishing without corporate infrastructure or investor funding, demonstrating viability of creator-owned game publishing.
-
-## Innovation and Design Philosophy
-
-The Bakers' design philosophy emphasizes several core principles:
-
-**Fiction First**: Mechanics emerge from fictional circumstances rather than player intent to use specific mechanics. What matters is what characters do in the imagined space.
-
-**Focused Design**: Each game addresses specific creative agenda rather than attempting universal applicability. Rules serve narrow, intentional purposes.
-
-**Say Yes or Roll**: If success is dramatically interesting and failure isn't, say yes. Roll only when both success and failure create compelling situations.
-
-**Player Agency**: Distribute narrative authority among all participants rather than concentrating it in the GM. Players contribute to world-building and situation development.
-
-**Explicit Facilitation**: Clearly articulate how to run the game through principles, agendas, and structured guidance rather than assuming GM knowledge.
-
-**Conversation Structure**: Design mechanics that structure conversation and improvisation rather than simulating fictional reality.
-
-**Meaningful Choices**: Present players with interesting dilemmas without obvious correct answers, creating dramatic tension through decision-making.
-
-**Emergent Story**: Don't predetermine narrative outcomes. Play to find out what happens.
-
-**Consent and Safety**: Build safety tools and consent mechanisms into design, treating participant well-being as fundamental.
-
-These principles influenced indie design broadly and increasingly impacted mainstream games.
-
-## Legacy and Influence
-
-Lumpley Games' impact on RPG design far exceeds its size:
-
-**PbtA Framework**: Apocalypse World created the most influential indie RPG framework since D&D, spawning hundreds of derivative games across every genre.
-
-**Design Accessibility**: By codifying indie principles systematically, the Bakers made sophisticated design approaches accessible to new creators.
-
-**Conversation-Based Mechanics**: Demonstrated that mechanics could structure improvised conversation as effectively as they simulate fictional physics.
-
-**GM Guidance**: Explicit GM sections teaching philosophy and approach influenced how games teach facilitation.
-
-**Safety Tools**: Early adoption and normalization of safety mechanics influenced industry-wide practices.
-
-**Creative Commons Licensing**: Demonstrated that open licensing could build creative communities rather than protect market share.
-
-**Indie Viability**: Proved creator-owned indie publishing could sustain careers and influence mainstream design.
-
-**Mechanical Innovation**: Specific innovations (Moves, Fail Forward, Player-Facing Rolls) appear across indie and mainstream games.
-
-Games as diverse as Dungeon World, Monsterhearts, The Sprawl, Urban Shadows, Masks, and Blades in the Dark descend directly from Apocalypse World's framework, extending Lumpley Games' influence across the industry.
-
-## Timeline of Major Releases
-
-- 2001: kill puppies for satan
-- 2004: Dogs in the Vineyard
-- 2004: The Princes' Kingdom
-- 2010: Apocalypse World
-- 2011: Murderous Ghosts
-- 2016: Apocalypse World Second Edition
-- 2024: Under the Lamplight
+**Community Engagement**: Active in design discussions
 
 ## Cultural Impact
 
-Lumpley Games impacted RPG culture in several ways:
+**Apocalypse World**: Created most influential indie game of 2010s
 
-**Design Discourse**: The Bakers' active participation in design discussions elevated conversation about what games can do and how they work.
+**PbtA Movement**: Hundreds of games descended from AW
 
-**Creator Empowerment**: Demonstrated that small indie publishers could influence industry direction without traditional publishing infrastructure.
+**Indie Publishing Model**: Template for designer-publishers
 
-**Community Standards**: Helped establish modern community standards around consent, safety, and inclusive play.
+**Dogs Discontinuation**: Baker's 2019 decision demonstrated designer responsibility discussions
 
-**Open Development**: Normalized public playtesting, design blogging, and transparent development processes.
+**Design Leadership**: Vincent Baker as major theorist and designer
 
-**Educational Resource**: Apocalypse World and the Bakers' writing serve as design education, teaching new creators how to think about game design.
+## Legacy
 
-**Cross-Pollination**: PbtA's proliferation created cross-fertilization between indie and mainstream design communities.
+Lumpley Games represents successful indie publisher model. Apocalypse World's influence immeasurable. Demonstrated designer-publishers could shape industry through excellent design and direct relationships with audiences.
 
-**Alternative Success Models**: Showed success could mean cultural influence and sustainable creative practice rather than solely commercial dominance.
+## Notes
 
-The company exemplifies how focused vision, consistent quality, and community engagement can create disproportionate influence regardless of company size.
-
-## References and Resources
-
-- Baker, D. Vincent. Apocalypse World. Lumpley Games, 2010.
-- Baker, D. Vincent. Dogs in the Vineyard. Lumpley Games, 2004.
-- Baker, D. Vincent and Meguey Baker. Apocalypse World Second Edition. Lumpley Games, 2016.
-- Baker, D. Vincent. "Powered by the Apocalypse." lumpley.com
+- Baker, D. Vincent, and Meguey Baker. Lumpley Games, 1999-present.
+- Multiple groundbreaking releases
+- PbtA foundation
+- Indie publishing template

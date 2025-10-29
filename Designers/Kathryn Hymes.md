@@ -1,19 +1,20 @@
 ---
 title: Kathryn Hymes
 type: designer
-birth-year: 1985
+birth-year: 1988
 death-year: ""
 nationality: United States
 active-years: 2016-present
 notable-works:
   - "Dialect (2018)"
   - "Sign (2020)"
+  - "Charcuterie (2023)"
 publishers-worked-with:
   - "Thorny Games"
-design-philosophy: "Language creation games. Community worldbuilding through linguistic development. Isolation and connection narratives."
+design-philosophy: "Language creation gaming. Collaborative world-building through linguistic development. Community and communication exploration."
 awards:
-  - ENnie Award nominations
-  - Critical acclaim
+  - ENnie Awards
+  - Indie RPG recognition
 tags:
   - designer
   - game-designer
@@ -27,102 +28,106 @@ status: active
 # Kathryn Hymes
 
 **Active Years**: 2016-present
-**Birth Year**: ~1985
+**Birth Year**: ~1988
 **Nationality**: United States
 
-Kathryn Hymes co-designed (with Hakan Seyalıoğlu) Dialect (2018) and Sign (2020), creating language-creation games where players collaboratively invent unique languages (spoken in Dialect, sign language in Sign) as isolated communities develop, then chronicle community's dissolution as language dies—using linguistic creation as worldbuilding and character development tool while examining how language shapes identity, community, and meaning, demonstrating games could explore linguistic anthropology through collaborative mechanics.
+Kathryn Hymes (with Hakan Seyalıoğlu) created Dialect (2018)—language creation game where isolated community develops unique language that dies when community ends—and Sign (2020)—Deaf community creating sign language—demonstrating how games could explore linguistics, communication, and community through collaborative language-building mechanics, winning ENnie Awards and establishing language creation as recognized gaming genre.
 
 ## Major Works
 
 ### Dialect (2018, with Hakan Seyalıoğlu)
 
-Language-creation game where isolated community develops unique dialect that eventually dies:
+Collaborative language creation game:
 
-**Language Creation**: Players invent words/phrases for concepts unique to community
+**Community Creation**: Isolated group developing shared language
 
-**Community Isolation**: Group is isolated (moon colony, religious sect, isolated village)
+**Word Creation**: Establishing vocabulary through play
 
-**Three Acts**: Language develops → Thrives → Dies as isolation ends
+**Language Death**: Community ends, language dies—poignant inevitability
 
-**Linguistic Worldbuilding**: Creating language simultaneously creates culture
+**Three Acts**: Language birth, development, death
 
-**Emotional Arc**: Language death mirrors community dissolution—poignant and inevitable
+**No Traditional RPG Elements**: Pure collaborative storytelling through linguistic development
 
-**Innovation**: Using language creation as primary gameplay mechanic
+**ENnie Gold 2019**: Won Best Writing
 
-**Impact**: Demonstrated linguistic gaming viability. Showed how constraints (inventing language) enable creative worldbuilding.
-
-**Critical Acclaim**: ENnie nominations, widespread praise for innovative concept
+**Impact**: Established language creation as gaming genre. Demonstrated games could be about communication itself.
 
 ### Sign (2020, with Hakan Seyalıoğlu)
 
-Follow-up exploring sign language creation in communities developing visual communication:
+Deaf community creating sign language:
 
-**Sign Language Focus**: Creating gestural communication systems
+**Deaf Perspective**: Centering Deaf experiences and culture
 
-**Similar Arc**: Community development and eventual dissolution
+**Sign Language Creation**: Developing visual communication system
 
-**Accessibility Considerations**: Thoughtful about actual sign languages and Deaf culture
+**Community Focus**: Collective linguistic development
 
-**Innovation**: Expanding language-game concept to gestural communication
+**Educational**: Teaching about Deaf culture and sign language
+
+**Respectful**: Designed with Deaf community input
+
+### Charcuterie (2023)
+
+Recent design exploring food and community through gaming.
 
 ## Design Philosophy
 
 Hymes emphasizes:
 
-**Language as Worldbuilding**: Creating languages creates cultures
+**Language as Gameplay**: Linguistics and communication as core mechanics
 
-**Community Focus**: Collective identity through shared communication
+**Collaborative Creation**: Communities building languages together
 
-**Isolation Narratives**: Small groups developing unique cultures
+**Poignant Inevitability**: Language death creating bittersweet tragedy
 
-**Inevitable Endings**: Communities dissolve, languages die—tragedy built in
+**Cultural Respect**: Researching and honoring (Deaf culture in Sign)
 
-**Collaborative Creation**: Group inventing together
+**Non-Traditional Gaming**: Games beyond combat/adventure
 
-**Linguistic Anthropology**: Games exploring language's social function
+**Communication Focus**: How we connect through language
 
-## Innovations
+## Innovation
 
-**Language Creation Gameplay**: Making linguistic invention central mechanic
+**Language Creation Mechanics**: Collaborative linguistic development systems
 
-**Dialect Development**: Tracking language evolution through community life
+**Dialect Death**: Languages dying with communities—poignant mechanic
 
-**Language Death**: Mechanically representing language loss
+**Sign Language Gaming**: First major sign language creation game
 
-**Wordbuilding**: Creating terms defining culture
+**Collaborative Linguistics**: Using games for language-building
 
 ## Awards
 
-- **ENnie Nominations**: Dialect
-- **Critical Acclaim**: Praised for unique concept
-- **Community Recognition**: Respected for innovation
+- **ENnie Gold 2019**: Best Writing (Dialect)
+- **ENnie Nominations**: Multiple categories
+- **Critical Acclaim**: Praised for innovation
+- **Educational Recognition**: Dialect used in some linguistic/anthropology contexts
 
 ## Cultural Impact
 
-**Linguistic Gaming**: Established language-creation as viable game genre
+**Language Gaming Genre**: Practically created language creation as genre
 
-**Dialect Success**: Kickstarter and retail success
+**Dialect Success**: Demonstrated linguistic gaming viability
 
-**Academic Interest**: Linguists and anthropologists discussed games
+**Deaf Representation**: Sign brought Deaf culture respectfully to gaming
 
-**Educational Potential**: Some used in language/culture education
+**Educational Use**: Some educators use Dialect for linguistic/community studies
 
-**Designer Partnership**: Hymes/Seyalıoğlu collaboration produced distinctive games
+**Poetic Gaming**: Beautiful meditation on language and community
 
 ## Reception
 
-Praised for brilliant language-creation concept, poignant community narratives, innovative gameplay. Some struggled with linguistic creativity requirement. Enthusiastic niche following. Academic attention for linguistic mechanics.
+Praised for linguistic innovation, poignant inevitable language death, beautiful concept, respectful cultural handling (Sign). Some find it experimental/art-game rather than traditional RPG—accurate description that doesn't diminish value.
 
 ## Legacy
 
-Established language-creation games as recognized format. Influenced collaborative worldbuilding through constraints. Demonstrated games could explore anthropological concepts. Created template for linguistic gaming.
+Established language creation gaming. Dialect won awards and critical acclaim. Sign demonstrated respectful cultural gaming. Influenced how designers think about communication and community in games.
 
 ## Notes
 
 - Hymes, Kathryn, and Hakan Seyalıoğlu. *Dialect*. Thorny Games, 2018.
 - Hymes, Kathryn, and Hakan Seyalıoğlu. *Sign*. Thorny Games, 2020.
-- ENnie nominations
-- Academic discussions of linguistic gaming
-- Continuing language-game development
-
+- Hymes, Kathryn. *Charcuterie*. Thorny Games, 2023.
+- ENnie Gold 2019
+- Language creation gaming pioneer
