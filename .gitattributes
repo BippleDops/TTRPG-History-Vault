@@ -92,18 +92,11 @@ Scripts/*.py linguist-language=Python
 .obsidian/workspace.json merge=ours
 .obsidian/workspace merge=ours
 
-# For content files, manual merge required
-Games/*.md merge=union
-Publishers/*.md merge=union
-Designers/*.md merge=union
-Mechanics/*.md merge=union
-Historical\ Context/*.md merge=union
+# Content files (Games/, Publishers/, Designers/, Mechanics/, "Historical Context/")
+# deliberately use Git's default merge driver so conflicts surface for manual
+# review instead of being silently concatenated by merge=union.
 
-# Export settings
-# Normalize line endings on export
-* text export-ignore
-
-# Files to exclude from archives/exports
+# Files to exclude from archives/exports (git archive, GitHub "Download ZIP")
 .git* export-ignore
 .obsidian/workspace* export-ignore
 .obsidian/cache/ export-ignore
