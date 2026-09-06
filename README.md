@@ -1,5 +1,13 @@
 # TTRPG History Tracking Vault
 
+> [!warning] AI-drafted content under verification
+> This vault was drafted with the help of AI tools in October 2025 and is still being verified.
+> Entries can contain errors, anachronisms, and unsupported claims. Check facts against the
+> cited sources (and the primary literature, e.g. Peterson's *Playing at the World*,
+> Appelcline's *Designers & Dragons*) before reusing anything here. The `Research Archive/`
+> notes are AI syntheses, not archived web pages, and their "quotes" are illustrative rather
+> than real quotations. Corrections are welcome — see [Contributing](#contributing).
+
 > **🚀 NEW USER? Start here:** [[START-HERE|Quick Start Guide]] - Your complete 5-minute introduction
 
 A comprehensive Obsidian vault documenting 50+ years of tabletop roleplaying game history (1974-present). This vault contains **309+ entries** covering games, designers, publishers, mechanics, controversies, and cultural movements, plus **18 Python scripts** for analytics and export.
@@ -450,7 +458,14 @@ git push
 
 ## License and Attribution
 
-This vault structure and templates are available for personal and educational use. Specific game content should respect copyright and intellectual property rights of game publishers and designers.
+- **Vault content** (all Markdown notes, templates, views, documentation, theme and CSS snippets) is
+  licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)
+  licence. See [`LICENSE`](LICENSE). Attribute as "TTRPG History Vault contributors" and share
+  adaptations under the same licence.
+- **Scripts** (everything under `Scripts/`) are licensed under the MIT licence. See
+  [`Scripts/LICENSE`](Scripts/LICENSE).
+- Game titles, logos, and rules text belong to their respective publishers and designers. This vault
+  documents and analyses them under fair-use / fair-dealing principles and does not reproduce rules text.
 
 When documenting games, publishers, and designers, always:
 - Respect copyright and trademarks

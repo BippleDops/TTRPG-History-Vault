@@ -181,6 +181,24 @@ Then create Pull Request on GitHub with:
 3. **Revisions**: Address any requested changes
 4. **Approval**: Once approved, merged to main branch
 
+## Licensing of Contributions
+
+By submitting a pull request you agree that:
+
+- Content contributions (Markdown notes, templates, views, documentation, CSS) are licensed under
+  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (see `LICENSE`).
+- Code contributions (anything under `Scripts/`) are licensed under the MIT licence
+  (see `Scripts/LICENSE`).
+- You have the right to license the material you contribute. Do not paste in copyrighted rules
+  text, and quote sources only briefly with attribution.
+
+### A note on provenance
+
+Much of this vault was AI-drafted in October 2025 and is still being verified. When you touch an
+entry, prefer replacing unsupported claims with sourced ones over adding more unsourced prose.
+Never invent quotations; if you cannot cite where a quote comes from, paraphrase and attribute
+the idea instead.
+
 ## Code of Conduct
 
 - **Be Respectful**: Treat all contributors with respect
