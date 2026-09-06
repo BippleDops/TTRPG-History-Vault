@@ -8,10 +8,12 @@ aliases:
 title: Dungeons & Dragons (Original)
 type: game
 publisher: [[TSR]]
-designer: [[Gary Gygax]]
+designer:
+  - "[[Gary Gygax]]"
+  - "[[Dave Arneson]]"
 year-published: 1974
 edition: Original (White Box)
-system: d20
+system: Original D&D
 genre:
   - fantasy
 complexity: 3
@@ -38,7 +40,7 @@ play-experience: true
 **Publisher**: [[TSR]]
 **Designer**: [[Gary Gygax]] & [[Dave Arneson]]
 **Year**: 1974
-**System**: d20
+**System**: Original D&D (Chainmail-derived rules using the full range of polyhedral dice; the branded "d20 System" dates from 2000)
 **Genre**: fantasy
 **Status**: out-of-print
 
@@ -110,7 +112,7 @@ The game assumed an underground dungeon-delving focus, with wilderness and urban
 
 ## Reception and Legacy
 
-Initial reception was limited to wargaming circles, but word-of-mouth spread rapidly. Within two years, D&D had sold tens of thousands of copies, far exceeding TSR's expectations. The game's success led to:
+Initial reception was limited to wargaming circles, but word-of-mouth spread steadily. The hand-assembled first printing of 1,000 copies took most of 1974 to sell out; by the end of 1975 several thousand copies had been sold in total (Peterson, *Playing at the World*), modest numbers that nonetheless far exceeded TSR's expectations. The game's success led to:
 
 - Establishment of TSR as a major game publisher
 - Creation of the adventure gaming industry

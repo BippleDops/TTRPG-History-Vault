@@ -14,8 +14,7 @@ innovations:
   - Established dungeon master role
   - Created Vancian magic system
 awards:
-  - Origins Hall of Fame (1980)
-  - Inducted into Adventure Gaming Hall of Fame (1999)
+  - Origins Awards (Adventure Gaming) Hall of Fame (1980)
   - Multiple Origins Awards
 active-years: 1971-2008
 tags:
@@ -102,8 +101,7 @@ SORT year-published ASC
 
 ## Awards and Recognition
 
-- Origins Hall of Fame (1980) - First year inducted
-- Adventure Gaming Hall of Fame (1999)
+- Origins Awards Hall of Fame (1980) — the Academy of Adventure Gaming Arts and Design's hall of fame, later renamed the Adventure Gaming Hall of Fame; it is one honour, not two
 - Multiple Origins Awards for various D&D products
 - Posthumous recognition as "Father of Roleplaying Games"
 - Featured in documentaries, books, and tributes

@@ -118,7 +118,7 @@ Call of Cthulhu received immediate acclaim and has maintained popularity for ove
 - Won the Origins Award for Best Roleplaying Rules of 1981
 - Has been translated into dozens of languages
 - Spawned numerous supplements covering different eras and locations
-- Created successful spinoffs (Cthulhu Dark Ages, Cthulhu Now, Delta Green)
+- Spawned Chaosium's own variant settings (Cthulhu Now, Cthulhu Dark Ages) and, under licence, third-party lines such as Pagan Publishing's Delta Green (1997; continued since 2016 by Arc Dream Publishing)
 - Maintained continuous publication through seven editions
 - Established Chaosium as a major RPG publisher
 

@@ -4,7 +4,10 @@ aliases:
 title: Shadowrun
 type: game
 publisher: [[FASA Corporation]]
-designer: [[Bob Charrette]], [[Paul Hume]], [[Tom Dowd]]
+designer:
+  - "[[Bob Charrette]]"
+  - "[[Paul Hume]]"
+  - "[[Tom Dowd]]"
 year-published: 1989
 edition: First Edition
 system: custom (d6 pool)

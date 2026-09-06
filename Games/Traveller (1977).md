@@ -14,7 +14,7 @@ complexity: 4
 historical-significance: 5
 innovation-score: 5
 player-count: 3-6
-setting: Third Imperium
+setting: Setting-neutral core rules; the Third Imperium was introduced in later supplements
 influence-on:
   - "[[MegaTraveller (1987)]]"
   - "[[Traveller: The New Era (1993)]]"
@@ -46,7 +46,7 @@ Marc Miller, a military veteran and wargamer, designed Traveller to support hard
 
 Published in the iconic "little black books" format—three pocket-sized rulebooks in a box—Traveller's presentation influenced RPG publishing aesthetics. The modular design, with core rules supplemented by specialized books covering starship design, world generation, and alien races, created an expandable system architecture.
 
-Traveller's longevity is remarkable: continuously published since 1977 through multiple editions and publishers (GDW, Imperium Games, QuickLink Interactive, Mongoose Publishing, Far Future Enterprises), the game maintains active communities and regular new releases nearly 50 years later.
+Traveller's longevity is remarkable, though not unbroken. GDW published the line until the company closed in 1996; Imperium Games issued *Marc Miller's Traveller* (T4) in 1996–98, after which the game survived mainly through licensed adaptations of other systems (GURPS Traveller, 1998; Traveller20, 2002; Traveller Hero, 2006) until Mongoose Publishing's 2008 edition re-established a standalone Traveller core game. With Marc Miller's Far Future Enterprises holding the rights and Mongoose's second edition (2016) in print, the game maintains active communities and regular new releases nearly 50 years after its debut.
 
 ## Mechanical Innovations
 
@@ -80,7 +80,7 @@ Traveller's cultural impact includes:
 
 **Hard SF Aesthetic**: Established realistic, physics-respecting space opera as gaming genre, influencing The Expanse-style grounded SF.
 
-**Third Imperium**: The default setting became one of gaming's most detailed SF universes, with thousands of worlds, centuries of history, and extensive published materials.
+**Third Imperium**: Absent from the setting-neutral 1977 boxed set, the Third Imperium was introduced through supplements and the *Journal of the Travellers' Aid Society* from 1979 onward and became one of gaming's most detailed SF universes, with thousands of worlds, centuries of history, and extensive published materials.
 
 **Community Creativity**: The game's openness to fan creation fostered extensive third-party materials, fanzines, and supplements.
 
@@ -110,7 +110,7 @@ Miller's design philosophy emphasized:
 
 ## Setting and Themes
 
-The Third Imperium, Traveller's default setting:
+The Third Imperium, which became Traveller's default setting through later supplements (the 1977 core rules provided tools for building any interstellar setting rather than a fixed universe):
 
 **Interstellar Empire**: The Third Imperium spans thousands of worlds across charted space, maintaining order through noble houses, megacorporations, and Imperial bureaucracy.
 
@@ -134,7 +134,7 @@ Traveller's reception established it as a classic:
 
 **Critical Acclaim**: Praised for innovative mechanics, detailed setting, and realistic approach to SF gaming.
 
-**Commercial Success**: Sold hundreds of thousands of copies, sustaining continuous publication for nearly 50 years.
+**Commercial Success**: Sold hundreds of thousands of copies, and has been in print in one edition or another for most of the nearly 50 years since 1977.
 
 **Multiple Editions**: MegaTraveller (1987), Traveller: The New Era (1993), Marc Miller's Traveller (1996), GURPS Traveller (1998), Traveller20 (2002), Mongoose Traveller (2008), Traveller5 (2013), and Mongoose Traveller 2nd Edition (2016) demonstrate enduring appeal.
 
