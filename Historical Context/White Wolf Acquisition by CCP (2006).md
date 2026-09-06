@@ -627,14 +627,14 @@ The CCP period's relevance today:
 - Academic and critical analysis of World of Darkness
 - Rein-Hagen, Mark. Vampire: The Masquerade. White Wolf, 1991.
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(file.content, "World of Darkness") OR contains(file.content, "White Wolf") OR contains(file.content, "Vampire")
 SORT year-published ASC
 ```
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded"
 FROM "Publishers"
 WHERE file.link = "[[White Wolf Publishing]]" OR file.link = "[[CCP Games]]" OR file.link = "[[Onyx Path Publishing]]" OR file.link = "[[Paradox Interactive]]"

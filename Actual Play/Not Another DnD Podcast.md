@@ -266,7 +266,7 @@ NADDPOD exists within a network of actual play shows with various connections:
 - Guest stars from other shows have appeared in NADDPOD Mixed Bags
 - Cross-promotional relationships with other HeadGum podcasts
 
-```datacore
+```dataview
 TABLE
   file.link AS "Show",
   game-system AS "System",

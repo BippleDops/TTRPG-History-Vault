@@ -213,7 +213,7 @@ Advancement systems reveal design priorities:
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", first-appeared AS "Origin", category AS "Category"
 FROM "Mechanics"
 WHERE contains(tags, "advancement") OR contains(tags, "progression")

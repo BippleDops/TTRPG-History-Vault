@@ -260,7 +260,7 @@ Position and Effect established as fundamental innovation comparable to PbtA Mov
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", first-appeared AS "Origin", category AS "Category"
 FROM "Mechanics"
 WHERE contains(tags, "Forged-in-the-Dark") OR contains(tags, "risk-reward")

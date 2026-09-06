@@ -939,7 +939,7 @@ The Unearthed Arcana concept persisted:
 
 ### Related Supplements
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

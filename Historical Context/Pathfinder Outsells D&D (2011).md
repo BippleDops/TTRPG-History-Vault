@@ -619,14 +619,14 @@ The 2011 market shift's legacy isn't that Pathfinder permanently dethroned D&Dâ€
 - Third-party publisher announcements and product releases
 - Dancey, Ryan. Various blog posts and interviews on OGL and market dynamics
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(publisher, "[[Paizo Publishing]]") OR contains(file.content, "Pathfinder") OR (year-published >= 2008 AND year-published <= 2012)
 SORT year-published ASC
 ```
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Impact"
 FROM "Publishers"
 WHERE contains(file.content, "Pathfinder") OR contains(file.content, "OGL") OR file.link = "[[Paizo Publishing]]"

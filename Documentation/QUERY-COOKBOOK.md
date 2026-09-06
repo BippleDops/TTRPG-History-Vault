@@ -2,13 +2,13 @@
 tags:
   - reference
   - queries
-  - datacore
+  - dataview
   - examples
 ---
 
-# Datacore Query Cookbook
+# Dataview Query Cookbook
 
-Practical, copy-paste-ready Datacore queries for common research tasks in the TTRPG History Vault. All queries use Datacore syntax (NOT Dataview) with explicit column aliases.
+Practical, copy-paste-ready Dataview queries for common research tasks in the TTRPG History Vault. All queries use Dataview Query Language (DQL) inside ```` ```dataview ```` fences, with explicit column aliases.
 
 ---
 
@@ -29,7 +29,7 @@ Practical, copy-paste-ready Datacore queries for common research tasks in the TT
 
 ### All Games by Year
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -41,7 +41,7 @@ SORT year-published ASC
 
 ### Highly Significant Games
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -54,7 +54,7 @@ SORT historical-significance DESC, year-published ASC
 
 ### Games by Genre
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -69,7 +69,7 @@ SORT year-published ASC
 
 ### Games by System Type
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -84,7 +84,7 @@ SORT year-published ASC
 
 ### Games by Decade
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -99,7 +99,7 @@ SORT year-published ASC
 
 ### Currently In-Print Games
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -112,7 +112,7 @@ SORT year-published DESC
 
 ### Most Innovative Games
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -125,7 +125,7 @@ SORT innovation-score DESC, year-published ASC
 
 ### Low Complexity Games
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -140,7 +140,7 @@ SORT year-published ASC
 
 ### Games I've Played
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -159,7 +159,7 @@ SORT personal-rating DESC
 
 ### All Publishers by Founding Year
 
-```datacore
+```dataview
 TABLE
   file.link AS "Publisher",
   founded AS "Founded",
@@ -171,7 +171,7 @@ SORT founded ASC
 
 ### Active Publishers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Publisher",
   founded AS "Founded",
@@ -184,7 +184,7 @@ SORT founded ASC
 
 ### Most Significant Publishers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Publisher",
   founded AS "Founded",
@@ -197,7 +197,7 @@ SORT significance DESC, founded ASC
 
 ### Publishers by Era
 
-```datacore
+```dataview
 TABLE
   file.link AS "Publisher",
   founded AS "Founded",
@@ -212,7 +212,7 @@ SORT founded ASC
 
 ### Most Prolific Publishers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Publisher",
   length(key-releases) AS "Games Published",
@@ -226,7 +226,7 @@ LIMIT 10
 
 ### Defunct Publishers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Publisher",
   founded AS "Founded",
@@ -243,7 +243,7 @@ SORT defunct DESC
 
 ### All Designers Alphabetically
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   active-years AS "Active",
@@ -254,7 +254,7 @@ SORT file.name ASC
 
 ### Most Prolific Designers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   length(notable-works) AS "Games Designed",
@@ -266,7 +266,7 @@ SORT length(notable-works) DESC
 
 ### Designers by Era
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   active-years AS "Active",
@@ -280,7 +280,7 @@ SORT file.name ASC
 
 ### Award-Winning Designers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   length(notable-works) AS "Games",
@@ -298,7 +298,7 @@ SORT length(awards) DESC
 
 Embed in a game entry to show its influences:
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -312,7 +312,7 @@ SORT year-published ASC
 
 Embed in a game entry to show what it influenced:
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -326,7 +326,7 @@ SORT year-published ASC
 
 Embed in a publisher entry:
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -341,7 +341,7 @@ SORT year-published ASC
 
 Embed in a designer entry:
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -356,7 +356,7 @@ SORT year-published ASC
 
 Embed in a mechanic entry:
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -371,7 +371,7 @@ SORT year-published ASC
 
 Embed in a game entry to find similar games:
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -389,7 +389,7 @@ LIMIT 10
 
 ### Games by Decade with Stats
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   floor(year-published / 10) * 10 + "s" AS "Decade",
   length(rows) AS "Games Published",
@@ -404,7 +404,7 @@ SORT "Decade" ASC
 
 ### Publishers Founded by Decade
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   floor(founded / 10) * 10 + "s" AS "Decade",
   length(rows) AS "Publishers Founded"
@@ -416,7 +416,7 @@ SORT "Decade" ASC
 
 ### Most Influential Year
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   year-published AS "Year",
   length(rows) AS "Games Released",
@@ -430,7 +430,7 @@ LIMIT 10
 
 ### Genre Distribution Over Time
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -448,7 +448,7 @@ SORT year-published ASC
 
 ### Average Significance by System
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   system AS "System",
   length(rows) AS "Games",
@@ -462,7 +462,7 @@ SORT "Avg Significance" DESC
 
 ### Complexity Distribution
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   complexity AS "Complexity",
   length(rows) AS "Count"
@@ -474,7 +474,7 @@ SORT complexity ASC
 
 ### Publisher Impact Score
 
-```datacore
+```dataview
 TABLE
   file.link AS "Publisher",
   length(key-releases) AS "Games",
@@ -488,7 +488,7 @@ LIMIT 10
 
 ### Designer Impact Score
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   length(notable-works) AS "Games",
@@ -507,7 +507,7 @@ LIMIT 10
 
 ### Games Missing Required Properties
 
-```datacore
+```dataview
 TABLE file.link AS "Game"
 FROM "Games"
 WHERE !title OR !type OR !publisher OR !designer OR !year-published
@@ -515,7 +515,7 @@ WHERE !title OR !type OR !publisher OR !designer OR !year-published
 
 ### Publishers Without Key Releases
 
-```datacore
+```dataview
 TABLE
   file.link AS "Publisher",
   founded AS "Founded"
@@ -525,7 +525,7 @@ WHERE !key-releases OR length(key-releases) = 0
 
 ### Designers Without Notable Works
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   active-years AS "Active"
@@ -535,7 +535,7 @@ WHERE !notable-works OR length(notable-works) = 0
 
 ### Orphan Games (No Influences)
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -551,7 +551,7 @@ SORT year-published ASC
 
 ### Incomplete Entries (Low Property Count)
 
-```datacore
+```dataview
 TABLE
   file.link AS "Entry",
   type AS "Type",
@@ -567,7 +567,7 @@ SORT length(keys(this.file.frontmatter)) ASC
 
 ### Recent Additions
 
-```datacore
+```dataview
 TABLE
   file.link AS "Entry",
   type AS "Type",
@@ -581,7 +581,7 @@ LIMIT 10
 
 ### Entry Count by Type
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   type AS "Type",
   length(rows) AS "Count"
@@ -592,7 +592,7 @@ SORT "Count" DESC
 
 ### Vault Statistics Summary
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   "Total Entries" AS "Metric",
   length(rows) AS "Value"
@@ -601,7 +601,7 @@ FROM "Games" OR "Publishers" OR "Designers" OR "Mechanics" OR "Historical Contex
 
 ### Top 10 Most-Linked Entries
 
-```datacore
+```dataview
 TABLE
   file.link AS "Entry",
   type AS "Type",
@@ -627,7 +627,7 @@ LIMIT 10
 
 Use `OR` to query multiple folders:
 
-```datacore
+```dataview
 TABLE file.link AS "Entry", type AS "Type"
 FROM "Games" OR "Publishers" OR "Designers"
 WHERE year-published >= 2000 OR founded >= 2000
@@ -655,7 +655,7 @@ Place queries in:
 
 ### Pattern: "Show me X related to current note"
 
-```datacore
+```dataview
 TABLE file.link AS "Title"
 FROM "Folder"
 WHERE contains(property-name, this.file.link)
@@ -664,7 +664,7 @@ SORT criteria ASC
 
 ### Pattern: "Top N by criteria"
 
-```datacore
+```dataview
 TABLE file.link AS "Title", property AS "Property"
 FROM "Folder"
 WHERE condition
@@ -674,7 +674,7 @@ LIMIT N
 
 ### Pattern: "Grouped statistics"
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   grouping-field AS "Category",
   length(rows) AS "Count",
@@ -687,7 +687,7 @@ SORT "Count" DESC
 
 ### Pattern: "Missing or incomplete data"
 
-```datacore
+```dataview
 TABLE file.link AS "Entry"
 FROM "Folder"
 WHERE !required-property OR required-property = ""
@@ -700,7 +700,7 @@ WHERE !required-property OR required-property = ""
 **Query shows "No results"**
 - Check folder path matches exactly (case-sensitive)
 - Verify property names in WHERE/SORT clauses
-- Ensure Datacore plugin is enabled
+- Ensure Dataview plugin is enabled
 
 **Syntax error messages**
 - Always use `AS "Alias"` for column names (quotation marks required)
@@ -722,10 +722,10 @@ WHERE !required-property OR required-property = ""
 ## Further Resources
 
 - **[[Query-Library]]**: 30+ advanced query patterns with explanations
-- **[[ADVANCED-FEATURES]]**: Deep dive into Datacore capabilities
+- **[[ADVANCED-FEATURES]]**: Deep dive into Dataview capabilities
 - **[[Property-Schema]]**: Complete property reference
-- **[Datacore Documentation](https://github.com/blacksmithgu/datacore)**: Official plugin docs
+- **[Dataview Documentation](https://blacksmithgu.github.io/obsidian-dataview/)**: Official plugin docs
 
 ---
 
-*Copy these queries into your notes and modify them for your research needs. Remember to use Datacore syntax (NOT Dataview) with explicit column aliases.*
+*Copy these queries into your notes and modify them for your research needs. Remember to use Dataview (DQL) syntax with explicit column aliases.*

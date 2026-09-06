@@ -6,7 +6,7 @@
 
 ## 📊 Vault Statistics
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   "**Category**" AS "",
   "**Count**" AS "Entries"
@@ -28,7 +28,7 @@ FLATTEN COUNT(file.link) AS count
 
 ### Core Content
 
-```datacore
+```dataview
 TABLE
   "📁 " + file.folder AS "Category",
   length(rows.file.link) AS "# Entries",
@@ -40,7 +40,7 @@ SORT length(rows.file.link) DESC
 
 ### Historical & Cultural
 
-```datacore
+```dataview
 TABLE
   "📁 " + file.folder AS "Category",
   length(rows.file.link) AS "# Entries",
@@ -52,7 +52,7 @@ SORT length(rows.file.link) DESC
 
 ### Products & Systems
 
-```datacore
+```dataview
 TABLE
   "📁 " + file.folder AS "Category",
   length(rows.file.link) AS "# Entries",
@@ -86,7 +86,7 @@ SORT length(rows.file.link) DESC
 
 ### Most Historically Significant Games (5/5 rating)
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", designer AS "Designer", innovation-score AS "Innovation"
 FROM "Games"
 WHERE historical-significance = 5
@@ -96,7 +96,7 @@ LIMIT 15
 
 ### Most Innovative Mechanics (5/5 rating)
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", introduced-in AS "First Appeared In", popularized-by AS "Popularized By"
 FROM "Mechanics"
 WHERE innovation-score = 5
@@ -105,7 +105,7 @@ SORT file.name ASC
 
 ### Most Influential Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", influence-score AS "Influence", LIST(notable-works, 3) AS "Key Works", active-years AS "Active"
 FROM "Designers"
 WHERE influence-score >= 4
@@ -119,7 +119,7 @@ LIMIT 12
 
 ### Games by Decade
 
-```datacore
+```dataview
 TABLE
   "**" + decade + "s**" AS "Decade",
   length(rows.file.link) AS "Games Published",
@@ -137,7 +137,7 @@ SORT decade ASC
 
 ### Recent Additions
 
-```datacore
+```dataview
 TABLE file.mtime AS "Added", file.link AS "Entry", type AS "Type"
 FROM "Games" OR FROM "Designers" OR FROM "Publishers"
 SORT file.mtime DESC
@@ -146,7 +146,7 @@ LIMIT 10
 
 ### By Game System
 
-```datacore
+```dataview
 TABLE system AS "System Family", COUNT(file.link) AS "# Games"
 FROM "Games"
 WHERE system != null AND system != ""
@@ -202,7 +202,7 @@ Generate distribution-ready formats:
 ### Study Aids
 
 - Anki flashcards (generate with `anki_flashcards.py`)
-- Datacore queries for filtered study lists
+- Dataview queries for filtered study lists
 - Timeline visualizations
 
 ---
@@ -211,7 +211,7 @@ Generate distribution-ready formats:
 
 ### By Historical Significance
 
-```datacore
+```dataview
 TABLE historical-significance AS "Significance", file.link AS "Game", year-published AS "Year"
 FROM "Games"
 WHERE historical-significance >= 4
@@ -221,7 +221,7 @@ LIMIT 20
 
 ### By Innovation Score
 
-```datacore
+```dataview
 TABLE innovation-score AS "Innovation", file.link AS "Game/Mechanic", year-published AS "Year", designer AS "Designer"
 FROM "Games" OR FROM "Mechanics"
 WHERE innovation-score >= 4
@@ -232,7 +232,7 @@ LIMIT 20
 ### By Complexity
 
 **Simple Games (1-2):**
-```datacore
+```dataview
 TABLE complexity AS "Complexity", file.link AS "Game", system AS "System", year-published AS "Year"
 FROM "Games"
 WHERE complexity <= 2 AND complexity != null
@@ -241,7 +241,7 @@ LIMIT 15
 ```
 
 **Complex Games (4-5):**
-```datacore
+```dataview
 TABLE complexity AS "Complexity", file.link AS "Game", system AS "System", year-published AS "Year"
 FROM "Games"
 WHERE complexity >= 4 AND complexity != null
@@ -255,7 +255,7 @@ LIMIT 15
 
 ### OSR (Old School Renaissance)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer"
 FROM "Games" OR FROM "Retroclones"
 WHERE contains(string(tags), "OSR") OR type = "retroclone"
@@ -265,7 +265,7 @@ LIMIT 20
 
 ### Story Games & Narrative Design
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", game-structure AS "Structure"
 FROM "Games"
 WHERE contains(string(tags), "story-game") OR contains(string(tags), "narrative") OR contains(string(tags), "GM-less")
@@ -275,7 +275,7 @@ LIMIT 20
 
 ### Powered by the Apocalypse
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", genre AS "Genre"
 FROM "Games"
 WHERE contains(string(system), "PbtA") OR contains(string(influenced-by), "Apocalypse World")
@@ -284,7 +284,7 @@ SORT year-published ASC
 
 ### Forged in the Dark
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", setting AS "Setting"
 FROM "Games"
 WHERE contains(string(system), "FitD") OR contains(string(influenced-by), "Blades in the Dark")
@@ -305,7 +305,7 @@ SORT year-published ASC
 ### Advanced Guides
 
 - **[[Documentation/THEME-GUIDE]]** - Customize the RPG theme
-- **[[Documentation/QUERY-COOKBOOK]]** - Datacore query examples
+- **[[Documentation/QUERY-COOKBOOK]]** - Dataview query examples
 - **[[Documentation/WORKFLOW-GUIDE]]** - Content creation workflows
 - **[[Documentation/ADVANCED-FEATURES]]** - Power user features
 
@@ -321,7 +321,7 @@ SORT year-published ASC
 
 ### Random Game
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", system AS "System"
 FROM "Games"
 WHERE year-published != null
@@ -331,7 +331,7 @@ LIMIT 1
 
 ### Random Designer
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", LIST(notable-works, 3) AS "Notable Works", active-years AS "Active"
 FROM "Designers"
 SORT random()
@@ -340,7 +340,7 @@ LIMIT 1
 
 ### Random Historical Era
 
-```datacore
+```dataview
 TABLE file.link AS "Era", date-range AS "Years", LIST(defining-games, 5) AS "Key Games"
 FROM "Historical Context"
 SORT random()

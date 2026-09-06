@@ -247,7 +247,7 @@ Boss continues:
 
 ## Related Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", length(notable-works) AS "Games", active-years AS "Active"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "Black & Green Games") OR contains(tags, "romance-mechanics")
@@ -256,7 +256,7 @@ SORT length(notable-works) DESC
 
 ## Games Designed
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", genre AS "Genre"
 FROM "Games"
 WHERE contains(designer, [[Emily Care Boss]])

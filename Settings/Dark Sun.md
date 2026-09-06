@@ -174,7 +174,7 @@ The setting's legacy is secure as D&D's premier dark fantasy setting. It demonst
 
 ## Related Settings
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Setting",
   creator AS "Creator",

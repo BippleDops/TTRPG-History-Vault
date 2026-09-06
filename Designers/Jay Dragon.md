@@ -322,7 +322,7 @@ On accessibility: "Accessibility isn't feature to add—it's fundamental design 
 
 **Possum Creek Games**: Dragon's publishing imprint, known for cozy gaming, trans-affirming design, and beautiful production. The company represents alternative to corporate publishing, maintaining creative control while building sustainable practice.
 
-```datacore
+```dataview
 TABLE founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)
@@ -331,7 +331,7 @@ SORT founded ASC
 
 ## Games Designed
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(designer, this.file.link) OR designer = this.file.link

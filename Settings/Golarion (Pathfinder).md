@@ -187,7 +187,7 @@ Golarion's legacy is secure as Pathfinder's default setting and one of the indus
 
 ## Related Settings
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Setting",
   creator AS "Creator",

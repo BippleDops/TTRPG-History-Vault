@@ -260,7 +260,7 @@ Company demonstrates indie publishers can achieve professional presentation and 
 
 ## Related Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", length(notable-works) AS "Games", active-years AS "Active"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "Bully Pulpit Games") OR contains(tags, "GMless-games")
@@ -269,7 +269,7 @@ SORT length(notable-works) DESC
 
 ## Games Designed
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", genre AS "Genre"
 FROM "Games"
 WHERE contains(designer, [[Jason Morningstar]])

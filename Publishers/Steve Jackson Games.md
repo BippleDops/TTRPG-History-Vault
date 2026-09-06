@@ -53,7 +53,7 @@ Today, SJG continues operation from Austin, Texas, headquarters. The company mai
 
 ## Key Releases
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE publisher = this.file.link
@@ -62,7 +62,7 @@ SORT year-published ASC
 
 ## Notable Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", length(notable-works) AS "Games"
 FROM "Designers"
 WHERE contains(publishers-worked-with, this.file.link)

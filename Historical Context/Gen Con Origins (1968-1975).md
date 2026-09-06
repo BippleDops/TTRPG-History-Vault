@@ -743,14 +743,14 @@ Gen Con reveals and sets industry trends:
 - Convention industry analysis
 - Academic papers on gaming conventions and community formation
 
-```datacore
+```dataview
 TABLE file.link AS "Event", year AS "Year", significance AS "Impact"
 FROM "Historical Context"
 WHERE year >= 1968 AND year <= 1980
 SORT year ASC
 ```
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded"
 FROM "Publishers"
 WHERE founded >= 1968 AND founded <= 1980 OR file.link = "[[TSR]]" OR file.link = "[[Gen Con LLC]]"

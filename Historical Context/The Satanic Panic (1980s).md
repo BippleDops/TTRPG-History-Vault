@@ -80,7 +80,7 @@ The Satanic Panic emerged from several converging factors in 1980s America:
 
 ## Games Affected
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(games-affected, this.file.link) OR contains(string(this.file.link), "Dungeons")
@@ -113,7 +113,7 @@ TSR faced the most direct impact:
 - Avoided direct confrontation with critics
 - Emphasized game's creativity and educational value
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded"
 FROM "Publishers"
 WHERE contains(publishers-affected, this.file.link)

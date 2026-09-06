@@ -294,7 +294,7 @@ Oxventure exists within networks of actual play and gaming content:
 - Demonstrated connection between video game and TTRPG content creation
 - Influenced other gaming YouTubers to explore actual play
 
-```datacore
+```dataview
 TABLE
   file.link AS "Show",
   game-system AS "System",

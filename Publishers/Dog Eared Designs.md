@@ -95,7 +95,7 @@ Dog Eared Designs' philosophy reflects experimental small press nature:
 
 ## Key Releases
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE publisher = this.file.link

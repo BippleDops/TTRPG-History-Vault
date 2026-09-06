@@ -80,7 +80,7 @@ Hickman's design philosophy centers on storytelling, emotional engagement, and t
 
 ## Notable Works
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(designer, this.file.link)
@@ -143,7 +143,7 @@ SORT year-published ASC
 
 **Other Authors**: Worked with numerous authors contributing to Dragonlance shared world, establishing collaborative framework for setting development.
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "[[TSR]]") AND this.file.link != file.link
@@ -151,7 +151,7 @@ WHERE contains(publishers-worked-with, "[[TSR]]") AND this.file.link != file.lin
 
 ## Publishers Worked With
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)

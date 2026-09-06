@@ -24,7 +24,7 @@ This master index provides alphabetical access to all content in the TTRPG Histo
 
 ### Games (A-Z)
 
-```datacore
+```dataview
 TABLE year-published AS "Year", designer AS "Designer", publisher AS "Publisher", system AS "System"
 FROM "Games"
 SORT file.name ASC
@@ -34,7 +34,7 @@ SORT file.name ASC
 
 ### Designers (A-Z)
 
-```datacore
+```dataview
 TABLE birth-year AS "Born", nationality AS "From", LIST(notable-works, 3) AS "Notable Works", active-years AS "Years Active"
 FROM "Designers"
 SORT file.name ASC
@@ -44,7 +44,7 @@ SORT file.name ASC
 
 ### Publishers (A-Z)
 
-```datacore
+```dataview
 TABLE founded AS "Founded", headquarters AS "HQ", status AS "Status", LIST(key-releases, 3) AS "Key Releases"
 FROM "Publishers"
 SORT file.name ASC
@@ -54,7 +54,7 @@ SORT file.name ASC
 
 ### Mechanics (A-Z)
 
-```datacore
+```dataview
 TABLE introduced-in AS "First Used", popularized-by AS "Made Famous By", complexity AS "Complexity", innovation-score AS "Innovation"
 FROM "Mechanics"
 SORT file.name ASC
@@ -64,7 +64,7 @@ SORT file.name ASC
 
 ### Historical Eras (Chronological)
 
-```datacore
+```dataview
 TABLE date-range AS "Years", LIST(defining-games, 5) AS "Defining Games", LIST(key-designers, 5) AS "Key Designers"
 FROM "Historical Context"
 SORT file.name ASC
@@ -74,7 +74,7 @@ SORT file.name ASC
 
 ### Controversies (Chronological)
 
-```datacore
+```dataview
 TABLE year AS "Year", involved-parties AS "Parties Involved", impact AS "Impact"
 FROM "Controversies"
 SORT year ASC
@@ -84,7 +84,7 @@ SORT year ASC
 
 ### Supplements (A-Z)
 
-```datacore
+```dataview
 TABLE year-published AS "Year", game-line AS "Game Line", publisher AS "Publisher"
 FROM "Supplements"
 SORT file.name ASC
@@ -94,7 +94,7 @@ SORT file.name ASC
 
 ### Campaign Settings (A-Z)
 
-```datacore
+```dataview
 TABLE year-published AS "Year", game-system AS "System", publisher AS "Publisher", genre AS "Genre"
 FROM "Settings"
 SORT file.name ASC
@@ -104,7 +104,7 @@ SORT file.name ASC
 
 ### Retroclones / OSR (A-Z)
 
-```datacore
+```dataview
 TABLE year-published AS "Year", retro-clone-of AS "Clones", designer AS "Designer", osr-generation AS "Generation"
 FROM "Retroclones"
 SORT file.name ASC
@@ -114,7 +114,7 @@ SORT file.name ASC
 
 ### VTT Platforms (A-Z)
 
-```datacore
+```dataview
 TABLE launched AS "Launched", type AS "Type", status AS "Status", pricing-model AS "Pricing"
 FROM "VTT Platforms"
 SORT file.name ASC
@@ -124,7 +124,7 @@ SORT file.name ASC
 
 ### Actual Play Shows (A-Z)
 
-```datacore
+```dataview
 TABLE start-year AS "Started", network AS "Network", game-system AS "System", status AS "Status"
 FROM "Actual Play"
 SORT file.name ASC
@@ -136,7 +136,7 @@ SORT file.name ASC
 
 ### Most Common Tags
 
-```datacore
+```dataview
 TABLE
   tag AS "Tag",
   length(rows) AS "# Entries"
@@ -154,7 +154,7 @@ LIMIT 50
 
 ### Highly Significant (5/5)
 
-```datacore
+```dataview
 TABLE file.link AS "Entry", type AS "Type", year-published AS "Year", innovation-score AS "Innovation"
 FROM "Games" OR FROM "Mechanics"
 WHERE historical-significance = 5 OR innovation-score = 5
@@ -163,7 +163,7 @@ SORT year-published ASC
 
 ### Significant (4/5)
 
-```datacore
+```dataview
 TABLE file.link AS "Entry", type AS "Type", year-published AS "Year", innovation-score AS "Innovation"
 FROM "Games" OR FROM "Mechanics"
 WHERE historical-significance = 4 OR innovation-score = 4
@@ -176,7 +176,7 @@ SORT year-published ASC
 
 ### Active / In-Print
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE status = "active" OR status = "in-print"
@@ -185,7 +185,7 @@ SORT year-published DESC
 
 ### Out of Print
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE status = "out-of-print"
@@ -198,7 +198,7 @@ SORT year-published ASC
 
 ### Beginner-Friendly (1-2)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", complexity AS "Level", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE complexity <= 2 AND complexity != null
@@ -207,7 +207,7 @@ SORT complexity ASC, file.name ASC
 
 ### Intermediate (3)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", complexity AS "Level", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE complexity = 3
@@ -216,7 +216,7 @@ SORT file.name ASC
 
 ### Advanced (4-5)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", complexity AS "Level", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE complexity >= 4 AND complexity != null
@@ -229,7 +229,7 @@ SORT complexity DESC, file.name ASC
 
 ### Fantasy
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System", complexity AS "Complexity"
 FROM "Games"
 WHERE contains(string(genre), "fantasy")
@@ -239,7 +239,7 @@ LIMIT 30
 
 ### Science Fiction
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System", complexity AS "Complexity"
 FROM "Games"
 WHERE contains(string(genre), "science fiction") OR contains(string(genre), "sci-fi")
@@ -249,7 +249,7 @@ LIMIT 30
 
 ### Horror
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System", complexity AS "Complexity"
 FROM "Games"
 WHERE contains(string(genre), "horror")
@@ -259,7 +259,7 @@ LIMIT 30
 
 ### Superhero
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System", complexity AS "Complexity"
 FROM "Games"
 WHERE contains(string(genre), "superhero")
@@ -272,7 +272,7 @@ SORT year-published ASC
 
 ### Total Entries by Type
 
-```datacore
+```dataview
 TABLE type AS "Entry Type", COUNT(file.link) AS "Count"
 FROM "Games" OR FROM "Designers" OR FROM "Publishers" OR FROM "Mechanics" OR FROM "Historical Context"
 WHERE type != null
@@ -282,7 +282,7 @@ SORT COUNT(file.link) DESC
 
 ### Coverage by Decade
 
-```datacore
+```dataview
 TABLE
   decade + "s" AS "Decade",
   COUNT(file.link) AS "Games"
@@ -295,7 +295,7 @@ SORT decade ASC
 
 ### Geographic Distribution
 
-```datacore
+```dataview
 TABLE nationality AS "Country", COUNT(file.link) AS "# Designers"
 FROM "Designers"
 WHERE nationality != null AND nationality != ""
@@ -315,7 +315,7 @@ SORT COUNT(file.link) DESC
 
 **By Relationship:** Follow wikilinks within entries to explore connections
 
-**By Query:** Use Datacore queries to create custom filtered views
+**By Query:** Use Dataview queries to create custom filtered views
 
 ---
 

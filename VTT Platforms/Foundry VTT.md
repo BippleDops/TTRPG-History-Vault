@@ -957,7 +957,7 @@ Foundry VTT proved that a single developer with clear vision and community suppo
 
 ## Related Entries
 
-```datacore
+```dataview
 TABLE
   file.link AS "Platform",
   launch-year AS "Launched",

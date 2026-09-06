@@ -662,14 +662,14 @@ Understanding the Red Box's relevance today:
 - Academic analysis of D&D's 1980s cultural impact
 - Witwer, Michael, et al. Dungeons & Dragons Art & Arcana. Ten Speed Press, 2018.
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(file.content, "Basic") OR contains(file.content, "BECMI") OR (year-published >= 1983 AND year-published <= 1991 AND contains(publisher, "TSR"))
 SORT year-published ASC
 ```
 
-```datacore
+```dataview
 TABLE file.link AS "Event", year AS "Year", significance AS "Impact"
 FROM "Historical Context"
 WHERE year >= 1980 AND year <= 1990

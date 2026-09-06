@@ -366,7 +366,7 @@ Many DMs report studying Brennan's techniques to improve their own games.
 - Influenced streaming service TTRPG strategies
 - Created template for premium actual play subscription content
 
-```datacore
+```dataview
 TABLE
   file.link AS "Show",
   game-system AS "System",

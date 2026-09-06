@@ -7,7 +7,7 @@ platform-type: Desktop/mobile markdown note-taking app
 primary-features:
   - Markdown-based
   - Graph view connections
-  - Plugins (Datacore, Templater, etc.)
+  - Plugins (Dataview, Templater, etc.)
   - Local files
   - Bi-directional linking
 pricing-model: Free (optional paid sync service)
@@ -34,7 +34,7 @@ status: active
 
 ## Overview
 
-Obsidian, launched 2020 as personal knowledge management tool, was immediately adopted by RPG community for campaign management through markdown files, bi-directional linking (wikilinks), graph view showing connections, and extensive plugin ecosystem (Datacore for queries, Templater for templates, Excalidraw for diagrams)—creating powerful flexible campaign wiki where GMs control their own data locally, customize extensively through plugins/CSS, and build interconnected knowledge graphs of campaigns, demonstrating note-taking tools could serve complex RPG needs when properly adapted, with THIS VERY VAULT exemplifying Obsidian's RPG potential.
+Obsidian, launched 2020 as personal knowledge management tool, was immediately adopted by RPG community for campaign management through markdown files, bi-directional linking (wikilinks), graph view showing connections, and extensive plugin ecosystem (Dataview for queries, Templater for templates, Excalidraw for diagrams)—creating powerful flexible campaign wiki where GMs control their own data locally, customize extensively through plugins/CSS, and build interconnected knowledge graphs of campaigns, demonstrating note-taking tools could serve complex RPG needs when properly adapted, with THIS VERY VAULT exemplifying Obsidian's RPG potential.
 
 **Markdown Files**: Plain text with formatting
 
@@ -42,7 +42,7 @@ Obsidian, launched 2020 as personal knowledge management tool, was immediately a
 
 **Graph ViewMenuVisual network of connections
 
-**Plugins**: Extensive ecosystem (Datacore, Templater, Dice Roller, Initiative Tracker, etc.)
+**Plugins**: Extensive ecosystem (Dataview, Templater, Dice Roller, Initiative Tracker, etc.)
 
 **Local FilesMenuYou own your data, not cloud-locked
 
@@ -56,7 +56,7 @@ Obsidian, launched 2020 as personal knowledge management tool, was immediately a
 
 **Campaign Wikis**: Interconnected notes for NPCs, locations, factions, quests
 
-**Datacore Plugin**: Database queries (like this vault's Datacore tables)
+**Dataview Plugin**: Database queries (like this vault's Dataview tables)
 
 **Templater**: Automated templates for NPCs, locations, sessions
 
@@ -129,7 +129,7 @@ Obsidian, launched 2020 as personal knowledge management tool, was immediately a
 ## For This Vault
 
 **TTRPG History VaultMenuUses Obsidian with:
-- Datacore for database queries
+- Dataview for database queries
 - Templater for entry templates
 - Custom theme (TTRPG Historian)
 - Excalidraw for diagrams

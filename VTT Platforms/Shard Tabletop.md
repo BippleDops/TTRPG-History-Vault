@@ -649,7 +649,7 @@ While not achieving dominant market position, Shard represents modern approach t
 
 ## Related Entries
 
-```datacore
+```dataview
 TABLE
   file.link AS "Platform",
   launch-year AS "Launched",

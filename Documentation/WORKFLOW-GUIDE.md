@@ -702,7 +702,7 @@ Step-by-step workflows for common tasks in the TTRPG History Vault. Each workflo
 - [ ] Note vault size (MB)
 - [ ] Check load time (should be <3s)
 - [ ] Review query performance
-- [ ] Clear Datacore cache if slow
+- [ ] Clear Dataview cache if slow
 
 ---
 
@@ -874,7 +874,7 @@ Step-by-step workflows for common tasks in the TTRPG History Vault. Each workflo
 5. **Add Dynamic Queries**
 
    **Games of the Era**:
-   ```datacore
+   ```dataview
    TABLE
      file.link AS "Game",
      year-published AS "Year",
@@ -887,7 +887,7 @@ Step-by-step workflows for common tasks in the TTRPG History Vault. Each workflo
    ```
 
    **Publishers Active**:
-   ```datacore
+   ```dataview
    TABLE
      file.link AS "Publisher",
      founded AS "Founded",
@@ -898,7 +898,7 @@ Step-by-step workflows for common tasks in the TTRPG History Vault. Each workflo
    ```
 
    **Designers Emerged**:
-   ```datacore
+   ```dataview
    TABLE
      file.link AS "Designer",
      active-years AS "Active",
@@ -985,8 +985,8 @@ Step-by-step workflows for common tasks in the TTRPG History Vault. Each workflo
 **Solution**: Performance Optimization Workflow
 
 1. Check vault size: Should be <500MB for <3s load
-2. Reduce concurrent Datacore queries: Settings → Datacore → Max 5
-3. Clear Datacore cache: Settings → Datacore → Clear Cache
+2. Reduce concurrent Dataview queries: Settings → Dataview → Max 5
+3. Clear Dataview cache: Settings → Dataview → Clear Cache
 4. Move heavy images to external hosting, link instead of embed
 5. Archive inactive content to separate folder
 6. Disable unused plugins temporarily

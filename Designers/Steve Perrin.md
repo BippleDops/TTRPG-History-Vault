@@ -248,7 +248,7 @@ Steve Perrin's influence on RPG design operates through multiple channels spanni
 
 ## Related Designers and Collaborations
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", tags AS "Related Areas"
 FROM "Designers"
 WHERE contains(companies-worked, "Chaosium") OR contains(tags, "skill-based-systems")
@@ -269,7 +269,7 @@ Perrin collaborated extensively throughout his career:
 
 ## Published Works
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(designer, "Steve Perrin") OR contains(system, "Basic Roleplaying")

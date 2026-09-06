@@ -276,7 +276,7 @@ David "Zeb" Cook's influence on D&D and broader RPG design operates through mult
 
 ## Related Designers and Collaborations
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", tags AS "Related Areas"
 FROM "Designers"
 WHERE contains(companies-worked, "TSR Inc.") OR contains(tags, "AD&D")
@@ -293,7 +293,7 @@ Cook worked extensively with TSR's design team throughout his career:
 
 ## Published Works
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(designer, "Zeb Cook") OR contains(designer, "David Cook")

@@ -11,7 +11,7 @@ Welcome to the comprehensive TTRPG History Tracking Vault. This dashboard serves
 
 ## Vault Statistics
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   length(rows) AS "Count"
 FROM "Games" OR "Publishers" OR "Designers" OR "Mechanics" OR "Historical Context"
@@ -63,7 +63,7 @@ D&D's mainstream breakthrough and the contemporary RPG renaissance.
 
 ## Recent Additions
 
-```datacore
+```dataview
 TABLE
   file.link AS "Entry",
   type AS "Type",
@@ -81,7 +81,7 @@ LIMIT 10
 
 Games rated 5/5 for historical significance:
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -99,7 +99,7 @@ SORT year-published ASC
 
 Publishers by significance rating:
 
-```datacore
+```dataview
 TABLE
   file.link AS "Publisher",
   founded AS "Founded",
@@ -116,7 +116,7 @@ SORT significance DESC, founded ASC
 
 Foundational mechanics that shaped the industry:
 
-```datacore
+```dataview
 TABLE
   file.link AS "Mechanic",
   year-introduced AS "Year",
@@ -132,7 +132,7 @@ SORT year-introduced ASC
 
 Major moments that transformed the industry:
 
-```datacore
+```dataview
 TABLE
   file.link AS "Event",
   year AS "Year",
@@ -182,7 +182,7 @@ Access templates for adding new entries:
 
 ### Reference Materials
 - **[[Property-Schema|📋 Property Schema Reference]]** - Complete metadata guide
-- **[[Query-Library|🔍 Query Library]]** - Datacore query examples
+- **[[Query-Library|🔍 Query Library]]** - Dataview query examples
 - **[[README]]** - Vault documentation and usage guide
 
 ---
@@ -192,14 +192,14 @@ Access templates for adding new entries:
 ### Data Quality Checks
 
 **Games Missing Core Properties**:
-```datacore
+```dataview
 TABLE file.link AS "Game"
 FROM "Games"
 WHERE !publisher OR !designer OR !year-published
 ```
 
 **Publishers Without Key Releases**:
-```datacore
+```dataview
 TABLE file.link AS "Publisher"
 FROM "Publishers"
 WHERE !key-releases OR length(key-releases) = 0
@@ -211,7 +211,7 @@ WHERE !key-releases OR length(key-releases) = 0
 
 ### Games by Decade
 
-```datacore
+```dataview
 TABLE
   length(rows) AS "Count",
   round(avg(rows.historical-significance), 1) AS "Avg Significance",
@@ -224,7 +224,7 @@ SORT Decade ASC
 
 ### Most Prolific Publishers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Publisher",
   length(key-releases) AS "Games Published",
@@ -259,7 +259,7 @@ LIMIT 10
 2. **Archive** sources using the [[Web Archive Template]]
 3. **Document** findings in appropriate entry types
 4. **Link** entries together to build knowledge graph
-5. **Query** connections using Datacore and Bases
+5. **Query** connections using Dataview and Bases
 
 ---
 

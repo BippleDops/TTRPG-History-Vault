@@ -339,7 +339,7 @@ The split reflects broader RPG design philosophy divergence: abstraction versus 
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", year-introduced AS "Year", first-appearance AS "First Appearance"
 FROM "Mechanics"
 WHERE contains(file.name, "Combat") OR contains(file.name, "Action Economy") OR contains(file.name, "Advantage")
@@ -381,7 +381,7 @@ SORT year-introduced ASC
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System", designer AS "Designer"
 FROM "Games"
 WHERE contains(lower(file.content), "initiative") OR type = "game"

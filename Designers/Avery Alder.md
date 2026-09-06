@@ -345,7 +345,7 @@ On safety: "Games exploring difficult content need safety tools. X-card, lines a
 
 **Magpie Games**: Published Monsterhearts 2 and other works, demonstrating successful indie-publisher partnerships.
 
-```datacore
+```dataview
 TABLE founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)
@@ -354,7 +354,7 @@ SORT founded ASC
 
 ## Games Designed
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(designer, this.file.link) OR designer = this.file.link

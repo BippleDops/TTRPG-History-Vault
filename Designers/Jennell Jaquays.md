@@ -84,7 +84,7 @@ Jaquays's design philosophy emphasized player agency, environmental complexity, 
 
 ## Notable Works
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(designer, this.file.link)
@@ -162,7 +162,7 @@ Her influence on first-person shooter level design particularly reflects her dun
 - Collaborated with Ensemble Studios team on Age of Empires III
 - Contributed to numerous game development teams
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "[[Judges Guild]]") OR contains(publishers-worked-with, "[[Chaosium]]")
@@ -171,7 +171,7 @@ AND this.file.link != file.link
 
 ## Publishers Worked With
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)

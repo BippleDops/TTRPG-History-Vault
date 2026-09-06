@@ -404,7 +404,7 @@ When implementing Vancian magic:
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE contains(file.content, "Vancian") OR contains(file.content, "spell memorization") OR contains(file.content, "prepare spells") OR contains(file.content, "spell slots")

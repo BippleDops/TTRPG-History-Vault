@@ -321,7 +321,7 @@ The demonstration that horror and character development could enhance each other
 - Influenced subsequent horror-focused shows
 - Demonstrated Ravenloft's appeal in actual play
 
-```datacore
+```dataview
 TABLE
   file.link AS "Show",
   game-system AS "System",

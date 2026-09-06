@@ -114,11 +114,11 @@ tags:
 
 ---
 
-## Datacore Queries
+## Dataview Queries
 
 ### Games with Official VTT Support
 
-```datacore
+```dataview
 table title as "Game", year-published as "Year", designer as "Designer", publisher as "Publisher"
 from #ttrpg
 where contains(supported-systems, this.file.link)
@@ -129,7 +129,7 @@ limit 20
 
 ### Digital Adaptations on This Platform
 
-```datacore
+```dataview
 table title as "Adaptation", source-game as "Source", year-released as "Year", adaptation-quality as "Quality"
 from #digital-adaptation
 where contains(platform, this.file.name)
@@ -139,7 +139,7 @@ sort year-released desc
 
 ### Other VTT Platforms
 
-```datacore
+```dataview
 table title as "Platform", founded as "Founded", pricing-model as "Pricing", impact-on-industry as "Impact", status as "Status"
 from #vtt
 where file.name != this.file.name

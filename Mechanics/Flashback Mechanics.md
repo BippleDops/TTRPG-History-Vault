@@ -225,7 +225,7 @@ Beyond mechanical utility, flashbacks serve themes:
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", first-appeared AS "First Appeared", category AS "Category"
 FROM "Mechanics"  
 WHERE contains(tags, "narrative-device") OR contains(tags, "heist-gaming")
@@ -234,7 +234,7 @@ SORT first-appeared ASC
 
 ## Games Using Flashbacks
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer"
 FROM "Games"
 WHERE contains(influenced-by, [[Blades in the Dark]]) OR contains(tags, "flashback-mechanics")

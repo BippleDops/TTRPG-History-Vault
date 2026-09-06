@@ -713,7 +713,7 @@ Blackmoor's innovations appeared in subsequent products:
 
 ### Related Supplements
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

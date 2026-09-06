@@ -70,11 +70,11 @@ tags:
 
 ---
 
-## Datacore Queries
+## Dataview Queries
 
 ### Other Actual Plays Using Same System
 
-```datacore
+```dataview
 table title as "Show", format as "Format", years-active as "Years Active", cultural-impact as "Impact"
 from #actual-play
 where system-used = this.system-used
@@ -84,7 +84,7 @@ sort cultural-impact desc
 
 ### Games Influenced By This Show
 
-```datacore
+```dataview
 table title as "Game", designer as "Designer", year-published as "Year"
 from #ttrpg
 where contains(influence-on, this.file.link)
@@ -94,7 +94,7 @@ sort year-published desc
 
 ### Contemporary Actual Plays
 
-```datacore
+```dataview
 table title as "Show", system-used as "System", format as "Format", cultural-impact as "Impact"
 from #actual-play
 where file.name != this.file.name

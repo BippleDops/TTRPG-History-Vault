@@ -651,7 +651,7 @@ The long-term impact depends on execution: if D&D Beyond VTT achieves feature pa
 
 ## Related Entries
 
-```datacore
+```dataview
 TABLE
   file.link AS "Platform",
   launch-year AS "Launched",

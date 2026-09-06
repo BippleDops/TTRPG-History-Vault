@@ -821,7 +821,7 @@ Some found Manual overwhelming:
 
 ### Subsequent Planar Supplements
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

@@ -258,7 +258,7 @@ The generational approach has inspired other shows to consider similar structure
 
 ## Related Shows and Connections
 
-```datacore
+```dataview
 TABLE
   file.link AS "Show",
   game-system AS "System",

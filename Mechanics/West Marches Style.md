@@ -229,7 +229,7 @@ West Marches demonstrates:
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", category AS "Category", first-appeared AS "Origin"
 FROM "Mechanics"
 WHERE contains(tags, "campaign-structure") OR contains(tags, "sandbox")

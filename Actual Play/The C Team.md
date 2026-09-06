@@ -347,7 +347,7 @@ The devoted fanbase demonstrated:
 - Shows exploring franchise or corporate themes
 - Narrative-focused actual play emphasizing plotting and themes
 
-```datacore
+```dataview
 TABLE
   file.link AS "Show",
   game-system AS "System",

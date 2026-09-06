@@ -357,7 +357,7 @@ Point-buy systems fostered optimization culture—online guides for "efficient" 
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", year-introduced AS "Year", first-appearance AS "First Appearance"
 FROM "Mechanics"
 WHERE contains(file.name, "Advancement") OR contains(file.name, "Experience") OR contains(file.name, "Class") OR contains(file.name, "Skill")
@@ -399,7 +399,7 @@ SORT year-introduced ASC
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System", designer AS "Designer"
 FROM "Games"
 WHERE type = "game"

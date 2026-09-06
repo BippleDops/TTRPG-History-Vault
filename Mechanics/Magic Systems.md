@@ -409,7 +409,7 @@ The observation that martial characters scale linearly while casters scale expon
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", year-introduced AS "Year", first-appearance AS "First Appearance"
 FROM "Mechanics"
 WHERE contains(file.name, "Vancian") OR contains(file.name, "Magic") OR contains(file.name, "Spell")
@@ -451,7 +451,7 @@ SORT year-introduced ASC
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System", designer AS "Designer"
 FROM "Games"
 WHERE contains(lower(file.content), "magic") OR contains(lower(file.content), "spell") OR type = "game"

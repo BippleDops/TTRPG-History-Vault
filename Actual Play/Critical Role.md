@@ -356,7 +356,7 @@ Critical Role's success inspired and enabled numerous other actual play producti
 - **High Rollers** - UK-based D&D stream
 - **And dozens more** across platforms and systems
 
-```datacore
+```dataview
 TABLE
   file.link AS "Related Show",
   format AS "Format",

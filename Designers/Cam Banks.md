@@ -118,7 +118,7 @@ Banks's design philosophy emphasizes narrative flexibility, character relationsh
 - Design consultation for multiple publishers
 - Critical Role creative direction (former)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(designer, this.file.link)
@@ -184,7 +184,7 @@ SORT year-published ASC
 
 **Multiple Licensed Properties**: Collaborated with license holders for Firefly/Serenity, Battlestar Galactica, Leverage, Supernatural, and others, demonstrating skill in translating media properties to gaming.
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "Margaret Weis Productions") AND this.file.link != file.link
@@ -192,7 +192,7 @@ WHERE contains(publishers-worked-with, "Margaret Weis Productions") AND this.fil
 
 ## Publishers Worked With
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)

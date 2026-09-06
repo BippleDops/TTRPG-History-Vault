@@ -34,7 +34,7 @@ Quick reference checklist for entry validation.
 - [ ] Design Philosophy section
 - [ ] Reception and Legacy section
 - [ ] 8+ WikiLinks to related content
-- [ ] 3 Datacore query blocks (Related Games, Publisher Context, Designer Context)
+- [ ] 3 Dataview query blocks (Related Games, Publisher Context, Designer Context)
 - [ ] Notes and References section with citations
 
 ### Relationship Updates
@@ -67,7 +67,7 @@ Quick reference checklist for entry validation.
 - [ ] Cultural Impact section
 - [ ] Current Status section
 - [ ] Legacy section
-- [ ] 2 Datacore queries (Games Published, Designers Employed)
+- [ ] 2 Dataview queries (Games Published, Designers Employed)
 
 ## For New Designer Entries
 
@@ -95,7 +95,7 @@ Quick reference checklist for entry validation.
 - [ ] Innovations and Contributions section
 - [ ] Awards and Recognition section
 - [ ] Legacy and Influence section
-- [ ] 2 Datacore queries (Games Designed, Publishers Worked With)
+- [ ] 2 Dataview queries (Games Designed, Publishers Worked With)
 
 ## For New Mechanics Entries
 
@@ -119,7 +119,7 @@ Quick reference checklist for entry validation.
 - [ ] Cultural Impact section
 - [ ] Strengths and Weaknesses section
 - [ ] Modern Usage section
-- [ ] 1+ Datacore query (Games Using This Mechanic)
+- [ ] 1+ Dataview query (Games Using This Mechanic)
 
 ## For New Historical Event Entries
 
@@ -148,7 +148,7 @@ Quick reference checklist for entry validation.
 - [ ] Long-Term Consequences section
 - [ ] Key Figures Involved section
 - [ ] Historical Significance section
-- [ ] 2+ Datacore queries (Related Games, Related Publishers/Events)
+- [ ] 2+ Dataview queries (Related Games, Related Publishers/Events)
 
 ## Universal Validation Steps
 
@@ -165,7 +165,7 @@ Quick reference checklist for entry validation.
 - [ ] Ran `link_validator.py` - 0 errors
 - [ ] Ran `schema_validator.py` - 0 errors, 90%+ completeness
 - [ ] Ran `reciprocal_link_checker.py` - 0 errors
-- [ ] Opened in Obsidian - all Datacore queries display
+- [ ] Opened in Obsidian - all Dataview queries display
 - [ ] Checked graph view - entry connected to related content
 - [ ] Verified in Bases view - entry appears with correct properties
 

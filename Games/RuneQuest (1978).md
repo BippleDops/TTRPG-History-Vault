@@ -196,7 +196,7 @@ RuneQuest proved RPGs could succeed without mimicking D&D, encouraged design div
 
 ## Related Games
 
-```datacore
+```dataview
 TABLE year-published AS "Year", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(influenced-by, this.file.link) OR contains(influence-on, this.file.link)
@@ -205,7 +205,7 @@ SORT year-published ASC
 
 ## Publisher Context
 
-```datacore
+```dataview
 TABLE founded AS "Founded", era-active AS "Era"
 FROM "Publishers"
 WHERE contains(key-releases, this.file.link)
@@ -213,7 +213,7 @@ WHERE contains(key-releases, this.file.link)
 
 ## Designer Context
 
-```datacore
+```dataview
 TABLE active-years AS "Active", birth-year AS "Born"
 FROM "Designers"
 WHERE contains(notable-works, this.file.link)

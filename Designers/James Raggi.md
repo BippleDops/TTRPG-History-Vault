@@ -209,7 +209,7 @@ Raggi has defended his artistic choices as expressions of creative freedom and r
 
 ## Related Designers and Collaborations
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", tags AS "Related Areas"
 FROM "Designers"
 WHERE contains(tags, "OSR") OR contains(tags, "weird-fantasy") OR contains(tags, "horror-gaming")
@@ -226,7 +226,7 @@ Raggi's publishing work connected him to numerous designers:
 
 ## Published Works
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(publisher, "Lamentations of the Flame Princess") OR contains(designer, "James Raggi")

@@ -199,7 +199,7 @@ Advantage/Disadvantage demonstrates:
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", first-appeared AS "Origin", category AS "Category"
 FROM "Mechanics"
 WHERE contains(tags, "resolution") OR contains(tags, "D&D-5E")

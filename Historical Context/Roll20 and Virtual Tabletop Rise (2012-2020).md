@@ -876,14 +876,14 @@ VTTs are now essential infrastructure:
 - User testimonials and case studies
 - Platform feature documentation and changelogs
 
-```datacore
+```dataview
 TABLE file.link AS "Event", year AS "Year", significance AS "Impact"
 FROM "Historical Context"
 WHERE year >= 2012 AND contains(tags, "digital") OR contains(tags, "technology")
 SORT year ASC
 ```
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year"
 FROM "Games"
 WHERE year-published >= 2012 AND (contains(file.content, "Roll20") OR contains(file.content, "virtual tabletop") OR contains(file.content, "VTT"))

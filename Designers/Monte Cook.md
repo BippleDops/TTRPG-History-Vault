@@ -64,7 +64,7 @@ Monte Cook's design philosophy emphasizes accessibility and innovation:
 
 ## Notable Works
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(designer, this.file.link)
@@ -131,7 +131,7 @@ Cook frequently collaborates with other designers:
 - Bruce Cordell (designer)
 - Sean K. Reynolds (designer)
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "[[Wizards of the Coast]]")
@@ -139,7 +139,7 @@ WHERE contains(publishers-worked-with, "[[Wizards of the Coast]]")
 
 ## Publishers Worked With
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)

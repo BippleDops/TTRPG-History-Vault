@@ -54,12 +54,12 @@ python Scripts/reciprocal_link_checker.py --report reciprocal-test.md
 - Mismatched designer → Update either game or designer entry
 - Orphaned reference → Remove or correct
 
-### 4. Datacore Query Testing
+### 4. Dataview Query Testing
 
 **Manual Testing**:
 1. Open entry in Obsidian
 2. Switch to Reading View
-3. Verify all ```datacore blocks render tables
+3. Verify all ```dataview blocks render tables
 4. Check query results are relevant (not empty, not excessive)
 
 **Expected Results**:
@@ -68,12 +68,12 @@ python Scripts/reciprocal_link_checker.py --report reciprocal-test.md
 - Column aliases display correctly ("Game" not "file.link")
 
 **Fixing Query Errors**:
-```datacore
+```text
 Error: Property 'year-publihsed' not found
 ```
 → Fix typo: `year-published`
 
-```datacore
+```text
 Error: Folder 'Game' not found
 ```
 → Fix folder name: `"Games"`
@@ -90,7 +90,7 @@ Error: Folder 'Game' not found
 2. Navigate to new/modified entries
 3. Verify:
    - WikiLinks tappable
-   - Datacore tables scroll horizontally
+   - Dataview tables scroll horizontally
    - Images fit screen
 
 ### 6. Graph View Verification
@@ -144,7 +144,7 @@ diff validation/links.md validation/links-previous.md
 
 **Smoke Tests**:
 - Open 5 random entries → All render correctly
-- Run 5 Datacore queries → All return results
+- Run 5 Dataview queries → All return results
 - Check graph view → Loads in <5 seconds
 - Open mobile app → Syncs and displays
 

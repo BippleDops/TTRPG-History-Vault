@@ -783,14 +783,14 @@ Fifth Edition created the largest RPG community ever:
 - Community forum discussions and reactions
 - Academic papers on D&D's cultural impact
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(file.content, "Fifth Edition") OR contains(file.content, "5th Edition") OR year-published >= 2014
 SORT year-published ASC
 ```
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Impact"
 FROM "Publishers"
 WHERE contains(file.content, "Fifth Edition") OR contains(file.content, "D&D Beyond")

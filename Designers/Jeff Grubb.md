@@ -313,7 +313,7 @@ Jeff Grubb's contributions influenced D&D's development, superhero gaming, and c
 
 ## Related Designers and Collaborations
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", tags AS "Related Areas"
 FROM "Designers"
 WHERE contains(companies-worked, "TSR Inc.") OR contains(tags, "worldbuilder")
@@ -334,7 +334,7 @@ Grubb collaborated extensively throughout his TSR career:
 
 ## Published Works
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(designer, "Jeff Grubb") OR contains(setting, "Forgotten Realms")

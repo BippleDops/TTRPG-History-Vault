@@ -23,7 +23,7 @@ This dashboard aggregates analytics from across the vault, providing quantitativ
 
 ## Quick Stats
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   "**Metric**" AS "",
   "**Value**" AS ""
@@ -307,7 +307,7 @@ All CSV exports available in: `Attachments/Diagrams/analytics/`
 
 ### Most Influential Games (PageRank)
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Game",
   year-published AS "Year",
@@ -320,7 +320,7 @@ LIMIT 10
 
 ### Most Innovative Games
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Game",
   year-published AS "Year",
@@ -333,7 +333,7 @@ LIMIT 10
 
 ### Publication Volume by Decade
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   decade AS "Decade",
   count AS "Games Published"
@@ -346,7 +346,7 @@ SORT decade ASC
 
 ### Most Prolific Designers
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   designer AS "Designer",
   count AS "Games"

@@ -26,18 +26,18 @@ Complete configuration guide for community plugins that enhance the TTRPG Histor
 
 These plugins are essential for vault functionality. The vault will not work correctly without them.
 
-### Datacore
+### Dataview
 
 **Purpose**: Embedded queries for dynamic data views and relationships
 
 **Installation**:
 1. Settings → Community Plugins → Browse
-2. Search "Datacore"
+2. Search "Dataview"
 3. Click Install → Enable
 
 **Configuration**:
 ```
-Settings → Datacore
+Settings → Dataview
 
 ✓ Enable codeblock dataviews: ON
 ✓ Enable inline dataviews: ON
@@ -46,12 +46,12 @@ Settings → Datacore
 ✓ Maximum concurrent queries: 10
 ```
 
-**Why Essential**: All dynamic queries use Datacore syntax (NOT Dataview). The vault has 250+ embedded queries across MOCs, dashboard, and entry notes.
+**Why Essential**: Every embedded query in the vault is written in Dataview Query Language (DQL: `TABLE … FROM … WHERE …`) inside ```` ```dataview ```` fences. The vault has 800+ embedded queries across MOCs, the dashboard, and entry notes. (Until the 2026-09 repair the fences were labelled `datacore`; Datacore does not parse DQL, so none of them rendered.)
 
 **Verification**:
 - Open [[TTRPG-History-Dashboard]]
 - Scroll to "Vault Statistics" section
-- If you see a table with entry counts, Datacore is working
+- If you see a table with entry counts, Dataview is working
 - If you see raw code blocks, check plugin is enabled
 
 ### Templater
@@ -385,12 +385,12 @@ module.exports = getRelatedGames;
 Related games: <% tp.user.get_related_games(tp) %>
 ```
 
-### Datacore Performance Tuning
+### Dataview Performance Tuning
 
 **For Vaults with 500+ Entries**:
 
 ```
-Settings → Datacore
+Settings → Dataview
 
 Maximum concurrent queries: 5
 ✓ Enable query caching: ON
@@ -501,20 +501,20 @@ Template for designer/publisher interviews:
 ### Tested Combinations
 
 **Fully Compatible**:
-- Datacore + Templater + Advanced Tables ✓
-- Datacore + Tracker + Excalidraw ✓
+- Dataview + Templater + Advanced Tables ✓
+- Dataview + Tracker + Excalidraw ✓
 - Templater + QuickAdd + MetaEdit ✓
 
 **Potential Conflicts**:
-- **DB Folder + Datacore**: Can cause property sync issues if editing simultaneously
-  - **Solution**: Close DB Folder view before running Datacore queries
+- **DB Folder + Dataview**: Can cause property sync issues if editing simultaneously
+  - **Solution**: Close DB Folder view before running Dataview queries
 - **MetaEdit + Templater**: Hotkey conflicts possible
   - **Solution**: Assign unique hotkeys in Settings
 
 **Performance Impact**:
 - **Many plugins enabled**: Slower vault load times
   - **Solution**: Enable only plugins you actively use
-- **Heavy Datacore + Tracker**: Can slow editing on older hardware
+- **Heavy Dataview + Tracker**: Can slow editing on older hardware
   - **Solution**: Reduce concurrent queries, increase cache time
 
 ---
@@ -523,8 +523,8 @@ Template for designer/publisher interviews:
 
 ### Common Issues
 
-**"Datacore queries don't update"**
-- Clear cache: Settings → Datacore → Clear Cache
+**"Dataview queries don't update"**
+- Clear cache: Settings → Dataview → Clear Cache
 - Reload Obsidian: Ctrl/Cmd+R
 - Check query syntax (requires explicit aliases)
 
@@ -544,7 +544,7 @@ Template for designer/publisher interviews:
 - Verify YAML formatting in frontmatter
 
 **"DB Folder breaks property formatting"**
-- Always close DB Folder view before running Datacore queries
+- Always close DB Folder view before running Dataview queries
 - Use DB Folder for editing only, not viewing
 - Keep backup before bulk editing
 
@@ -561,8 +561,8 @@ Template for designer/publisher interviews:
 3. Verify configurations: Check each plugin's settings
 4. Test core workflows: Run validation scripts, create test note
 
-**If queries stop working after Datacore update**:
-- Check [Datacore release notes](https://github.com/blacksmithgu/datacore/releases)
+**If queries stop working after Dataview update**:
+- Check [Dataview release notes](https://github.com/blacksmithgu/obsidian-dataview/releases)
 - Syntax changes may require query updates
 - Use [[Query-Library]] as reference for current syntax
 
@@ -614,22 +614,22 @@ action Shell commands: Validate Schema
 ## Recommended Plugin Combinations by Use Case
 
 ### For Researchers
-- **Required**: Datacore, Templater
+- **Required**: Dataview, Templater
 - **Recommended**: QuickAdd, Advanced Tables
 - **Optional**: Obsidian Web Clipper (browser extension)
 
 ### For Data Managers
-- **Required**: Datacore, Templater
+- **Required**: Dataview, Templater
 - **Recommended**: MetaEdit, DB Folder, Advanced Tables
 - **Optional**: Shell Commands
 
 ### For Visual Learners
-- **Required**: Datacore, Templater
+- **Required**: Dataview, Templater
 - **Recommended**: Excalidraw, Tracker
 - **Optional**: Kanban
 
 ### For Collaborators
-- **Required**: Datacore, Templater
+- **Required**: Dataview, Templater
 - **Recommended**: Git, Shell Commands
 - **Optional**: Kanban (for task tracking)
 
@@ -639,7 +639,7 @@ action Shell commands: Validate Schema
 
 ### Documentation Links
 
-- **Datacore**: https://github.com/blacksmithgu/datacore
+- **Dataview**: https://blacksmithgu.github.io/obsidian-dataview/
 - **Templater**: https://silentvoid13.github.io/Templater/
 - **Advanced Tables**: https://github.com/tgrosinger/advanced-tables-obsidian
 - **Tracker**: https://github.com/pyrochlore/obsidian-tracker

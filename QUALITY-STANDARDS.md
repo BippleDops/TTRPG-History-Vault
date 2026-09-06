@@ -8,7 +8,7 @@ Comprehensive standards for vault content quality.
 - 1,000+ words
 - All required properties present
 - 3+ WikiLinks
-- 1+ Datacore query
+- 1+ Dataview query
 - 1+ citation
 
 **Status**: Acceptable for initial commit, flagged for expansion
@@ -17,7 +17,7 @@ Comprehensive standards for vault content quality.
 - 2,000+ words
 - All required + 50% optional properties
 - 8+ WikiLinks
-- 3 Datacore queries
+- 3 Dataview queries
 - 3+ citations
 - All sections complete
 
@@ -27,7 +27,7 @@ Comprehensive standards for vault content quality.
 - 3,000+ words
 - All required + 80% optional properties
 - 15+ WikiLinks
-- 4+ Datacore queries
+- 4+ Dataview queries
 - 5+ citations from multiple sources
 - All sections detailed and comprehensive
 - Examples, quotes, or anecdotes included
@@ -71,7 +71,7 @@ Comprehensive standards for vault content quality.
 - **Balance**: 8-15 links ideal (fewer = isolated, more = cluttered)
 - **Bidirectional**: Always update reciprocal links
 
-### Datacore Query Quality
+### Dataview Query Quality
 - **Functional**: All queries execute without errors
 - **Relevant**: Results meaningful to entry context
 - **Performant**: Use WHERE clauses to limit scope

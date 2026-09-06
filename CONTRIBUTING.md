@@ -23,7 +23,7 @@ Thank you for your interest in contributing! This guide will help you add conten
 - **Links**: Minimum 8 WikiLinks to related content
 - **Citations**: All historical claims must have sources
 - **Property Schema**: 100% compliance with schemas
-- **Datacore Queries**: All queries must execute without errors
+- **Dataview Queries**: All queries must execute without errors
 
 ### Property Schema Compliance
 
@@ -56,9 +56,9 @@ Each entry type has strict required properties. See [[Property-Schema]] for comp
 4. Design Philosophy (creator intentions)
 5. Setting and Themes (if applicable)
 6. Reception and Legacy (reviews, awards, lasting influence)
-7. Related Games (Datacore query)
-8. Publisher Context (Datacore query)
-9. Designer Context (Datacore query)
+7. Related Games (Dataview query)
+8. Publisher Context (Dataview query)
+9. Designer Context (Dataview query)
 10. Notes and References (bibliography)
 
 [Continue for other types]
@@ -89,8 +89,8 @@ Each entry type has strict required properties. See [[Property-Schema]] for comp
    - Include 10+ WikiLinks
    - Cite all sources
 
-5. **Add Datacore Queries**
-   ```datacore
+5. **Add Dataview Queries**
+   ```dataview
    TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
    FROM "Games"
    WHERE contains(influenced-by, this.file.link) OR contains(influence-on, this.file.link)
@@ -118,7 +118,7 @@ python Scripts/reciprocal_link_checker.py --report reciprocal-check.md
 
 **Test Queries**:
 - Open entry in Obsidian
-- Verify all Datacore queries display results
+- Verify all Dataview queries display results
 - Check WikiLinks resolve (no broken links)
 
 ## Committing Changes

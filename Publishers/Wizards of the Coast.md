@@ -51,7 +51,7 @@ Wizards also published other games including the Star Wars RPG (2000-2010), d20 
 
 ## Key Releases
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", genre AS "Genre", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(publisher, this.file.link)
@@ -60,7 +60,7 @@ SORT year-published ASC
 
 ## Notable Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, this.file.link)

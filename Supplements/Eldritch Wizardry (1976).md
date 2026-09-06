@@ -753,7 +753,7 @@ Later D&D products improved representation, though progress was gradual and ongo
 
 ### Subsequent Supplements
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

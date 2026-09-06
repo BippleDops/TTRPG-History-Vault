@@ -35,7 +35,7 @@ A comprehensive Obsidian vault documenting 50+ years of tabletop roleplaying gam
 
 ## Overview
 
-This vault implements a comprehensive database system using Obsidian's native **Bases** core plugin, combined with Datacore for advanced querying and Templater for streamlined data entry. All notes use rich property metadata enabling sophisticated cross-referencing and analysis.
+This vault implements a comprehensive database system using Obsidian's native **Bases** core plugin, combined with Dataview for advanced querying and Templater for streamlined data entry. All notes use rich property metadata enabling sophisticated cross-referencing and analysis.
 
 ### Key Features
 
@@ -44,7 +44,7 @@ This vault implements a comprehensive database system using Obsidian's native **
 ✅ **Multiple Navigation Paths**: Dashboard, Master Index, by-Year, by-Designer, by-System
 ✅ **RPG-Evocative Theme**: Custom theme with dice, character sheets, and stat block styling
 ✅ **Database Views**: Multiple Bases views for browsing and analyzing data
-✅ **Dynamic Queries**: Datacore queries showing relationships and statistics
+✅ **Dynamic Queries**: Dataview queries showing relationships and statistics
 ✅ **Smart Templates**: Templater-powered templates streamlining data entry
 ✅ **Knowledge Graph**: Extensive linking creating explorable knowledge network
 ✅ **Research Archive**: Web clipping and source documentation system
@@ -98,7 +98,7 @@ TTRPG-History-Vault/
    - Search
 
 3. **Required Community Plugins** (install from Settings → Community Plugins):
-   - **Datacore** (NOT Dataview - critical distinction!)
+   - **Dataview** (all embedded queries are Dataview DQL in ```` ```dataview ```` fences)
    - **Templater** (optional, for templates)
    - Advanced Tables (optional but recommended)
 
@@ -109,13 +109,13 @@ TTRPG-History-Vault/
 3. **Install community plugins**:
    - Go to Settings → Community Plugins
    - Turn off Restricted Mode
-   - Browse and install Templater and Datacore
+   - Browse and install Dataview and Templater
 4. **Configure Templater**:
    - Settings → Templater → Template folder location: `Templates`
    - Enable "Trigger Templater on new file creation"
    - Configure folder-based templates (see Templates section)
-5. **Enable Datacore**:
-   - Settings → Datacore → Enable codeblock dataviews: ON
+5. **Enable Dataview**:
+   - Settings → Dataview → Enable codeblock dataviews: ON
    - Enable inline dataviews: ON
 
 ### First Steps
@@ -181,10 +181,10 @@ influenced-by:
 
 ### Querying Data
 
-**Datacore Queries**:
-Use datacore code blocks in any note:
+**Dataview Queries**:
+Use dataview code blocks in any note:
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE historical-significance >= 4
@@ -222,7 +222,7 @@ All templates use Templater syntax for dynamic prompts and automation.
 - **Suggesters**: Dropdown menus for categorical data (system type, genre, etc.)
 - **Auto-dates**: Automatically populate current date
 - **Cursor Positioning**: Places cursor at main content section
-- **Embedded Queries**: Include relevant Datacore queries automatically
+- **Embedded Queries**: Include relevant Dataview queries automatically
 
 ### Folder-Based Auto-Templates
 
@@ -294,7 +294,7 @@ Install from Settings → Community Plugins → Browse:
 
 **Required**:
 - **Templater** (v2.8.3+): Dynamic templates with prompts and automation
-- **Datacore** (latest version): Advanced querying and data display
+- **Dataview** (latest version): Advanced querying and data display
 
 **Recommended**:
 - **Advanced Tables**: Improved table editing
@@ -317,7 +317,7 @@ Enable folder templates: ON
 Syntax highlighting: ON
 ```
 
-**Datacore**:
+**Dataview**:
 ```
 Enable codeblock dataviews: ON
 Enable inline dataviews: ON
@@ -430,7 +430,7 @@ git push
 1. **Git Remote**: Push to GitHub/GitLab regularly
 2. **Cloud Sync**: Use Obsidian Sync or cloud storage
 3. **Local Backup**: Periodic full vault backups
-4. **Export Important Queries**: Save key Datacore queries separately
+4. **Export Important Queries**: Save key Dataview queries separately
 
 ---
 
@@ -438,7 +438,7 @@ git push
 
 ### Obsidian Documentation
 - [Obsidian Help](https://help.obsidian.md/)
-- [Datacore Plugin](https://github.com/blacksmithgu/datacore)
+- [Dataview Plugin](https://blacksmithgu.github.io/obsidian-dataview/)
 - [Templater Documentation](https://silentvoid13.github.io/Templater/)
 
 ### TTRPG Research Resources
@@ -506,7 +506,7 @@ When documenting games, publishers, and designers, always:
 - **8 historical era entries** covering 1974-present
 - **5 navigation indexes** (Dashboard, Master Index, by-Year, by-Designer, by-System)
 - **Custom RPG-evocative theme** (dice, character sheets, stat blocks)
-- **3 configured plugins** (Datacore, Templater, Excalidraw)
+- **3 configured plugins** (Dataview, Templater, Excalidraw)
 - Complete educational curriculum (6-week course)
 - Parallel agentic expansion (165 new entries in single session)
 - Streamlined documentation structure

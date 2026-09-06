@@ -335,7 +335,7 @@ Modern HP implementation wisdom includes:
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE contains(file.content, "Hit Points") OR contains(file.content, "hit points") OR contains(file.content, " HP")

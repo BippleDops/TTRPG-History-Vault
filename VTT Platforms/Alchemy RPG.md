@@ -556,7 +556,7 @@ While never achieving significant market impact, Alchemy RPG represents the real
 
 ## Related Entries
 
-```datacore
+```dataview
 TABLE
   file.link AS "Platform",
   launch-year AS "Launched",

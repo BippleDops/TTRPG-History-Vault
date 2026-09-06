@@ -476,7 +476,7 @@ Modern games sometimes combine dice pools with other mechanics:
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE contains(file.content, "dice pool") OR contains(file.content, "Dice Pool") OR contains(system, "Storyteller") OR contains(system, "d6 pool") OR contains(system, "d10 pool")

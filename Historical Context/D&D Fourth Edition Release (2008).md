@@ -579,14 +579,14 @@ These lessons inform ongoing RPG design, publishing, and community management.
 - Wizards of the Coast press releases and announcements
 - Contemporary gaming media coverage (2008-2014)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE (year-published >= 2007 AND year-published <= 2009) OR contains(file.content, "Fourth Edition") OR contains(file.content, "4th Edition")
 SORT year-published ASC
 ```
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Impact"
 FROM "Publishers"
 WHERE contains(file.content, "Fourth Edition") OR contains(file.content, "Pathfinder")

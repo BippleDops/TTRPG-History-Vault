@@ -692,7 +692,7 @@ TSR's experience influenced entire RPG industry's IP approach.
 
 ### Companion Volumes
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

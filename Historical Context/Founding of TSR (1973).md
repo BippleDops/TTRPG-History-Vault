@@ -63,7 +63,7 @@ TSR's founding directly led to:
 
 **Numerous D&D supplements and adventures** that defined adventure gaming throughout the 1970s-1990s.
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(publisher, "[[TSR]]")
@@ -90,7 +90,7 @@ TSR's founding created the RPG publishing industry. Before TSR, no commercial RP
 
 TSR essentially created the industry other publishers would enter.
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded"
 FROM "Publishers"
 WHERE founded >= 1973 AND founded <= 1980

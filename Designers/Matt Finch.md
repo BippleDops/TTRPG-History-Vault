@@ -264,7 +264,7 @@ Matt Finch's influence on the Old School Renaissance operates through both pract
 
 ## Related Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", tags AS "Related Areas"
 FROM "Designers"
 WHERE contains(tags, "OSR") OR contains(tags, "retroclones")

@@ -867,7 +867,7 @@ Controversial ending:
 
 ## Related Products
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

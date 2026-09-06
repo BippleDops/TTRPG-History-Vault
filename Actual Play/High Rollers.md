@@ -335,7 +335,7 @@ High Rollers exists within networks of UK and international actual play content:
 - Historical connection to Yogscast gaming content network
 - Crossover audience with gaming content
 
-```datacore
+```dataview
 TABLE
   file.link AS "Show",
   game-system AS "System",

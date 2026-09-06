@@ -263,7 +263,7 @@ Sean Patrick Fannon's influence operates through community building, advocacy, a
 
 ## Related Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", tags AS "Related Areas"
 FROM "Designers"
 WHERE contains(tags, "Savage-Worlds") OR contains(tags, "community-builder")

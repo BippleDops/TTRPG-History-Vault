@@ -564,7 +564,7 @@ These discussions have led to many DMs running Ireena as a more active, empowere
 
 ### Official Supplements
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

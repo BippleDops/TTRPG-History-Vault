@@ -155,7 +155,7 @@ The third edition release in 2021 refined rather than revolutionized, demonstrat
 
 ## Related Games
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", osr-generation AS "OSR Generation"
 FROM "Retroclones" OR "Games"
 WHERE contains(influenced-by, this.file.link) OR contains(influence-on, this.file.link) OR contains(tags, "third-wave-osr") OR contains(tags, "freeform-classes")

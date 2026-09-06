@@ -522,7 +522,7 @@ OSRIC's precedent became crucial during WotC's OGL 1.1 controversy:
 
 ## Related Retroclones
 
-```datacore
+```dataview
 TABLE
   file.link AS "Retroclone",
   year-published AS "Year",

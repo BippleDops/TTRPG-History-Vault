@@ -67,7 +67,7 @@ While the original D&D used multiple dice types, the d20 became central to resol
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", system AS "System"
 FROM "Games"
 WHERE contains(string(this.file.link), "d20") OR contains(string(system), "d20")

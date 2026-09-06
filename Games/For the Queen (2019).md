@@ -784,7 +784,7 @@ For the Queen's greatest achievement may be proving that generous accessible des
 
 ## Related Games
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", genre AS "Genre"
 FROM "Games"
 WHERE contains(influenced-by, this.file.link) OR contains(influence-on, this.file.link)
@@ -793,7 +793,7 @@ SORT year-published ASC
 
 ## Designer Context
 
-```datacore
+```dataview
 TABLE active-years AS "Active Years", length(notable-works) AS "Games Designed"
 FROM "Designers"
 WHERE contains(notable-works, this.file.link)
@@ -801,7 +801,7 @@ WHERE contains(notable-works, this.file.link)
 
 ## Story Games Movement
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", game-structure AS "Structure"
 FROM "Games"
 WHERE contains(tags, "story-game") AND contains(tags, "gm-less")

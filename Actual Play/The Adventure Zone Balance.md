@@ -365,7 +365,7 @@ This success created career paths for actual play creators and demonstrated that
 - [[Friends at the Table]]: Narrative ambition, thematic depth (though FatT predates TAZ)
 - Countless comedy actual play podcasts following TAZ's template
 
-```datacore
+```dataview
 TABLE
   file.link AS "Show",
   game-system AS "System",

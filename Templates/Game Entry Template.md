@@ -47,7 +47,7 @@ play-experience: false
 
 ## Related Games
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year"
 FROM "Games"
 WHERE contains(influenced-by, this.file.link) OR contains(influence-on, this.file.link)
@@ -56,7 +56,7 @@ SORT year-published ASC
 
 ## Publisher Context
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded"
 FROM "Publishers"
 WHERE contains(key-releases, this.file.link)
@@ -64,7 +64,7 @@ WHERE contains(key-releases, this.file.link)
 
 ## Designer Context
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(notable-works, this.file.link)

@@ -40,7 +40,7 @@ This theme is specifically designed to evoke the experience of reading classic R
 - Burgundy labels with gold borders
 - Looks like an actual D&D character sheet!
 
-**Tables (Datacore Queries)** - Monster Stat Blocks
+**Tables (Dataview Queries)** - Monster Stat Blocks
 - "🎲 ADVENTURE LOG 🎲" header label
 - Burgundy gradient header like D&D 5e stat blocks
 - Gold double border underneath (classic RPG style)
@@ -188,7 +188,7 @@ The theme includes comprehensive dark mode support with inverted colors:
 - ✅ Already set in `.obsidian/appearance.json`
 - ✅ Font size: 17px (optimal for readability)
 - ✅ Compatible with all existing CSS snippets
-- ✅ Works with Datacore and Templater plugins
+- ✅ Works with Dataview and Templater plugins
 
 ---
 
@@ -237,7 +237,7 @@ For minor customizations without editing the theme:
 ## Compatibility
 
 **Works with:**
-- ✅ Datacore plugin (tables beautifully styled)
+- ✅ Dataview plugin (tables beautifully styled)
 - ✅ Templater plugin
 - ✅ Graph view (custom node/link colors)
 - ✅ Properties/Frontmatter (enhanced card display)
@@ -248,7 +248,7 @@ For minor customizations without editing the theme:
 
 **Optimized for:**
 - Long-form historical writing
-- Database-style Datacore queries
+- Database-style Dataview queries
 - Research and citation work
 - Graph-based exploration
 - Academic documentation
@@ -308,7 +308,7 @@ To update the theme with new features:
 - Initial release
 - Parchment aesthetic with burgundy/gold accents
 - Complete dark mode support
-- Datacore table optimization
+- Dataview table optimization
 - Custom decorative elements
 - Print-ready styles
 - Mobile responsive design

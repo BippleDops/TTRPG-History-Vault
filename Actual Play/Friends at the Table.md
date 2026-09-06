@@ -626,7 +626,7 @@ Shows with similar approaches or influences:
 - **Dice Will Roll** - Political themes and indie systems
 - **The Critshow** - Social consciousness and diverse representation
 
-```datacore
+```dataview
 TABLE
   file.link AS "Related Show",
   format AS "Format",

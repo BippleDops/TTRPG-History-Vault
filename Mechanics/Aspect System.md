@@ -410,7 +410,7 @@ Games adapt aspects in various ways:
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE contains(file.content, "Fate") OR contains(file.content, "aspects") OR contains(file.content, "Aspects") OR contains(system, "Fate")

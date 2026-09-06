@@ -56,7 +56,7 @@ Internal debate at Wizards centered on risk—would open licensing cannibalize s
 
 ## Games Affected
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE year-published = number(2000) OR contains(games-affected, this.file.link) OR contains(string(tags), "d20") OR contains(string(tags), "ogl")
@@ -77,7 +77,7 @@ The OGL affected virtually every RPG publisher:
 - White Wolf and other major publishers faced competition from d20 alternatives
 - The "d20 glut" eventually saturated the market
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded"
 FROM "Publishers"
 WHERE contains(publishers-affected, this.file.link) OR contains(string(tags), "d20-era")

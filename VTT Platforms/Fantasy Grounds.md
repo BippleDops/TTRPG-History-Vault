@@ -828,7 +828,7 @@ Fantasy Grounds showed that players would invest in comprehensive digital tools 
 
 ## Related Entries
 
-```datacore
+```dataview
 TABLE
   file.link AS "Platform",
   launch-year AS "Launched",

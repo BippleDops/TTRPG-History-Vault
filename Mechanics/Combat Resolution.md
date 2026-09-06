@@ -363,7 +363,7 @@ The combat resolution sequence became ritualized social performance: declaring t
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", year-introduced AS "Year", first-appearance AS "First Appearance"
 FROM "Mechanics"
 WHERE contains(file.name, "Armor Class") OR contains(file.name, "Initiative") OR contains(file.name, "Advantage") OR contains(file.name, "Hit Points")
@@ -403,7 +403,7 @@ SORT year-introduced ASC
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System", designer AS "Designer"
 FROM "Games"
 WHERE type = "game" AND (contains(lower(file.content), "combat") OR contains(lower(file.content), "attack"))

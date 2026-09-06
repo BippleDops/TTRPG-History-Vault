@@ -359,7 +359,7 @@ Third Edition's 2003 revision as 3.5 Edition addressed balance issues, clarified
 
 ## Related Games
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(influenced-by, this.file.link) OR contains(influence-on, this.file.link)
@@ -368,7 +368,7 @@ SORT year-published ASC
 
 ## Publisher Context
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(key-releases, this.file.link)
@@ -377,7 +377,7 @@ SORT founded ASC
 
 ## Designer Context
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", length(notable-works) AS "Games Designed"
 FROM "Designers"
 WHERE contains(notable-works, this.file.link)

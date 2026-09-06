@@ -282,7 +282,7 @@ Playbooks became essential PbtA element and influenced character creation broadl
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", first-appeared AS "Origin", category AS "Category"
 FROM "Mechanics"
 WHERE contains(tags, "PbtA") OR contains(tags, "character-creation")

@@ -88,11 +88,11 @@ tags:
 
 ---
 
-## Datacore Queries
+## Dataview Queries
 
 ### Original Game Being Emulated
 
-```datacore
+```dataview
 table title as "Game", year-published as "Year", designer as "Designer", publisher as "Publisher"
 from #ttrpg
 where file.link = this.emulates
@@ -101,7 +101,7 @@ where file.link = this.emulates
 
 ### Other Retroclones of Same Source
 
-```datacore
+```dataview
 table title as "Retroclone", year-published as "Year", designer as "Designer", license as "License", complexity as "Complexity"
 from #retroclone
 where emulates = this.emulates
@@ -111,7 +111,7 @@ sort year-published asc
 
 ### OSR Games from Same Period
 
-```datacore
+```dataview
 table title as "Game", year-published as "Year", designer as "Designer", game-system as "System"
 from #ttrpg OR #retroclone
 where contains(tags, "osr")

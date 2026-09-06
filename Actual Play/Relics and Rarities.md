@@ -309,7 +309,7 @@ This influenced how actors engaged with actual play, with more performers explor
 - Influenced other shows incorporating investigation and mystery elements
 - Demonstrated appeal of detective fiction in TTRPG format
 
-```datacore
+```dataview
 TABLE
   file.link AS "Show",
   game-system AS "System",

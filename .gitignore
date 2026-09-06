@@ -24,3 +24,8 @@ desktop.ini
 
 # Sync conflicts
 *conflicted copy*
+
+# Vendored community-plugin bundles (re-downloaded by Obsidian from
+# .obsidian/community-plugins.json; keep manifest.json and data.json)
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css

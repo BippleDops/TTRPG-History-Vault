@@ -195,7 +195,7 @@ The setting's legacy is secure as one of RPG gaming's most important settings. I
 
 ## Related Settings
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Setting",
   creator AS "Creator",

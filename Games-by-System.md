@@ -24,7 +24,7 @@ This index organizes games by their core mechanical systems, allowing you to tra
 
 ### All Games by System
 
-```datacore
+```dataview
 TABLE
   system AS "System Family",
   COUNT(file.link) AS "# Games",
@@ -41,7 +41,7 @@ SORT COUNT(file.link) DESC
 
 ### Core d20 System Games
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -74,7 +74,7 @@ SORT year-published ASC
 
 ### B/X and OSR Games
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -109,7 +109,7 @@ SORT year-published ASC
 
 ### White Wolf and Chronicles of Darkness
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -144,7 +144,7 @@ SORT year-published ASC
 
 ### The Apocalypse Engine Games
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -180,7 +180,7 @@ SORT year-published ASC
 
 ### Blades in the Dark Engine
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -215,7 +215,7 @@ SORT year-published ASC
 
 ### FATE Core and Derivatives
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -249,7 +249,7 @@ SORT year-published ASC
 
 ### Roll Under Skill Percentile
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -287,7 +287,7 @@ SORT year-published ASC
 
 ### Investigative Games
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -322,7 +322,7 @@ SORT year-published ASC
 
 ### Monte Cook's Universal Engine
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -355,7 +355,7 @@ SORT year-published ASC
 
 ### Free League's Modular System
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -390,7 +390,7 @@ SORT year-published ASC
 
 ### Universal Simulation
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -418,7 +418,7 @@ SORT year-published ASC
 
 ### Fast, Furious, Fun
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -446,7 +446,7 @@ SORT year-published ASC
 
 ### Marvel Heroic & Variants
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -473,7 +473,7 @@ SORT year-published ASC
 
 #### GM-less and Diceless Games
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -487,7 +487,7 @@ SORT year-published ASC
 
 #### Card-Based Games
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -500,7 +500,7 @@ SORT year-published ASC
 
 #### Jenga and Dread-likes
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   file.link AS "Game",
@@ -538,7 +538,7 @@ SORT year-published ASC
 
 ### Simple Systems (Complexity 1-2)
 
-```datacore
+```dataview
 TABLE
   complexity AS "Level",
   file.link AS "Game",
@@ -551,7 +551,7 @@ SORT complexity ASC, year-published ASC
 
 ### Intermediate Systems (Complexity 3)
 
-```datacore
+```dataview
 TABLE
   complexity AS "Level",
   file.link AS "Game",
@@ -564,7 +564,7 @@ SORT year-published ASC
 
 ### Complex Systems (Complexity 4-5)
 
-```datacore
+```dataview
 TABLE
   complexity AS "Level",
   file.link AS "Game",
@@ -596,7 +596,7 @@ python3 Scripts/analytics/system_family_tree.py
 ### Simulationist Systems
 Focus on modeling reality and detailed mechanics
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   system AS "System",
@@ -611,7 +611,7 @@ LIMIT 15
 ### Narrativist Systems
 Focus on story and dramatic tension
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   system AS "System",
@@ -626,7 +626,7 @@ LIMIT 20
 ### Gamist Systems
 Focus on tactical challenge and player skill
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   system AS "System",
@@ -643,7 +643,7 @@ SORT year-published ASC
 
 ### Universal/Generic Systems
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   system AS "System",
@@ -668,7 +668,7 @@ SORT year-published ASC
 
 ### Discover a Random System Family
 
-```datacore
+```dataview
 TABLE
   system AS "System Family",
   COUNT(file.link) AS "# Games",

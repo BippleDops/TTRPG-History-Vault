@@ -136,7 +136,7 @@ Cthulhu Wars' success launched Petersen Games as board game publisher and led to
 
 ## Notable Works
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(designer, this.file.link)
@@ -190,7 +190,7 @@ Petersen collaborated with numerous designers across tabletop and video games:
 - John Romero and John Carmack (Doom series)
 - Bruce Shelley (Age of Empires series)
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "[[Chaosium]]") AND this.file.link != file.link
@@ -198,7 +198,7 @@ WHERE contains(publishers-worked-with, "[[Chaosium]]") AND this.file.link != fil
 
 ## Publishers Worked With
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)
