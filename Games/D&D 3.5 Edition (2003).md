@@ -17,7 +17,7 @@ influence-on:
   - "[[Pathfinder (2009)]]"
   - "[[13th Age (2013)]]"
 influenced-by:
-  - "[[D&D Third Edition (2000)]]"
+  - "[[Dungeons & Dragons Third Edition (2000)]]"
   - "[[Advanced Dungeons & Dragons (1977)]]"
 tags:
   - ttrpg

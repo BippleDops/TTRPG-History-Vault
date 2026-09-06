@@ -18,7 +18,7 @@ influence-on:
   - "[[13th Age (2013)]]"
   - "[[Strike! (2010)]]"
 influenced-by:
-  - "[[D&D Third Edition (2000)]]"
+  - "[[Dungeons & Dragons Third Edition (2000)]]"
   - "[[World of Warcraft (2004)]]"
   - "[[Guild Wars (2005)]]"
 tags:

@@ -21,7 +21,7 @@ influence-on:
   - Gonzo fantasy gaming
 influenced-by:
   - [[Dungeons & Dragons]]
-  - [[Advanced Dungeons & Dragons First Edition (1977)]]
+  - [[Advanced Dungeons & Dragons (1977)]]
   - Appendix N literature
   - [[Call of Cthulhu (1981)]]
 tags:

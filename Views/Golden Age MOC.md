@@ -60,7 +60,7 @@ This era transformed TTRPGs from Gary Gygax's singular vision into a mature crea
 - **1998**: Development begins on D&D Third Edition
 - **1999**: [[Seventh Sea]] launches from Alderac Entertainment Group
 - **1999**: [[d20 System]] development finalized
-- **2000**: [[D&D Third Edition (2000)|D&D Third Edition]] and [[Open Gaming License]] announced
+- **2000**: [[Dungeons & Dragons Third Edition (2000)|D&D Third Edition]] and [[Open Gaming License]] announced
 
 ---
 

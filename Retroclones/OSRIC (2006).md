@@ -1,7 +1,7 @@
 ---
 type: retroclone
 clone-title: OSRIC (Old School Reference and Index Compilation)
-emulates: "[[Advanced Dungeons & Dragons First Edition (1977)]]"
+emulates: "[[Advanced Dungeons & Dragons (1977)]]"
 publisher: Stuart Marshall (self-published)
 designer:
   - Stuart Marshall
@@ -549,7 +549,7 @@ SORT year-published ASC
 
 ### Related
 
-- [[Advanced Dungeons & Dragons First Edition (1977)]]
+- [[Advanced Dungeons & Dragons (1977)]]
 - [[Open Game License]] (if entry exists)
 - [[Old School Renaissance]] (if entry exists)
 - [[Labyrinth Lord (2007)]]

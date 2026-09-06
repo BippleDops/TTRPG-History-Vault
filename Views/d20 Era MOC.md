@@ -31,7 +31,7 @@ This era proved both the power and peril of open licensing, demonstrated D&D's c
 
 ### 2000-2001: Third Edition Launch
 
-- **January 2000**: [[D&D Third Edition (2000)|D&D Third Edition]] announced with [[Open Gaming License]]
+- **January 2000**: [[Dungeons & Dragons Third Edition (2000)|D&D Third Edition]] announced with [[Open Gaming License]]
 - **August 2000**: Player's Handbook, DMG, and Monster Manual released
 - **2000**: Immediate commercial and critical success
 - **2000**: d20 System Trademark License published
@@ -97,7 +97,7 @@ SORT year-published ASC
 
 ### Landmark Titles
 
-**[[D&D Third Edition (2000)]]**
+**[[Dungeons & Dragons Third Edition (2000)]]**
 - Complete mechanical overhaul of AD&D
 - Unified core mechanic: d20 + modifiers vs. target number
 - Skills, feats, and modular character building
