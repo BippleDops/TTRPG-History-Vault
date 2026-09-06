@@ -457,11 +457,9 @@ LIMIT 10
 
 **User Guides**:
 - [[README]] - Complete vault documentation
-- [[GETTING-STARTED]] - Quick start guide
 - [[Property-Schema]] - Metadata reference
 - [[CUSTOMIZATION-GUIDE]] - Visual enhancements
-- [[VAULT-VALIDATION-REPORT]] - Technical details
-- [[COMPLETION-SUMMARY]] - Project overview
+- [[CHANGELOG]] - Dated repository history
 
 ---
 
@@ -471,7 +469,7 @@ LIMIT 10
 
 1. **Explore Bases Views** - Click any `.base` file to browse data
 2. **Read Example Content** - Check out landmark games
-3. **Review Documentation** - Start with GETTING-STARTED.md
+3. **Review Documentation** - Start with README.md
 4. **Try Creating** - Use templates to add your first entry
 5. **Enable Visual Enhancements** - CSS snippets in Settings → Appearance
 

@@ -8,14 +8,25 @@
 > notes are AI syntheses, not archived web pages, and their "quotes" are illustrative rather
 > than real quotations. Corrections are welcome — see [Contributing](#contributing).
 
-> **🚀 NEW USER? Start here:** [[START-HERE|Quick Start Guide]] - Your complete 5-minute introduction
+An [Obsidian](https://obsidian.md) vault documenting 50+ years of tabletop roleplaying game
+history (1974–present): games, designers, publishers, mechanics, eras, controversies, campaign
+settings, supplements, retroclones, virtual tabletops and actual-play shows, plus Python scripts
+for analytics, validation and export.
 
-A comprehensive Obsidian vault documenting 50+ years of tabletop roleplaying game history (1974-present). This vault contains **309+ entries** covering games, designers, publishers, mechanics, controversies, and cultural movements, plus **18 Python scripts** for analytics and export.
+**Current contents** (counted from the files, September 2026):
 
-**Current Statistics:**
-- 73 Games | 39 Designers | 33 Publishers | 23 Mechanics
-- 15 Actual Play Shows | 11 Controversies | 11 Supplements
-- 10 Campaign Settings | 11 Retroclones | 10 VTT Platforms | 8 Historical Eras
+| Folder | Entries | Folder | Entries |
+|--------|--------:|--------|--------:|
+| `Games/` | 128 | `Retroclones/` | 17 |
+| `Designers/` | 94 | `Actual Play/` | 15 |
+| `Mechanics/` | 74 | `Controversies/` | 11 |
+| `Publishers/` | 46 | `Supplements/` | 11 |
+| `Historical Context/` | 24 (8 eras, 16 events) | `Settings/` | 10 |
+| `VTT Platforms/` | 19 | | |
+
+449 content entries in total (10 of them short, sourced stubs tagged `stub`), about 1.08 million
+words across all notes, plus 19 `Research Archive/` syntheses, a 6-week curriculum and 8
+accessibility notes in `Educational/`, and 18 Python scripts in `Scripts/`.
 
 ---
 
@@ -23,32 +34,36 @@ A comprehensive Obsidian vault documenting 50+ years of tabletop roleplaying gam
 
 - [Overview](#overview)
 - [Vault Structure](#vault-structure)
-- [Getting Started](#getting-started)
-- [Using the Vault](#using-the-vault)
+- [Opening the Vault in Obsidian](#opening-the-vault-in-obsidian)
+- [Finding Your Way Around](#finding-your-way-around)
+- [Who Is This For?](#who-is-this-for)
+- [Adding and Editing Entries](#adding-and-editing-entries)
 - [Templates](#templates)
 - [Database Views (Bases)](#database-views-bases)
-- [Required Plugins](#required-plugins)
+- [Scripts: Validation, Analytics and Export](#scripts-validation-analytics-and-export)
+- [Plugins](#plugins)
+- [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
+- [Documentation Map](#documentation-map)
 - [Backup and Version Control](#backup-and-version-control)
+- [Support and Resources](#support-and-resources)
+- [License and Attribution](#license-and-attribution)
 
 ---
 
 ## Overview
 
-This vault implements a comprehensive database system using Obsidian's native **Bases** core plugin, combined with Dataview for advanced querying and Templater for streamlined data entry. All notes use rich property metadata enabling sophisticated cross-referencing and analysis.
+Every note carries structured frontmatter (see `Views/Property-Schema.md`) so the vault works as
+a database as well as a wiki:
 
-### Key Features
-
-✅ **Complete Historical Coverage**: Track games from 1974's original D&D to modern releases (309+ entries)
-✅ **Rich Metadata Schema**: Comprehensive property definitions across all entry types
-✅ **Multiple Navigation Paths**: Dashboard, Master Index, by-Year, by-Designer, by-System
-✅ **RPG-Evocative Theme**: Custom theme with dice, character sheets, and stat block styling
-✅ **Database Views**: Multiple Bases views for browsing and analyzing data
-✅ **Dynamic Queries**: Dataview queries showing relationships and statistics
-✅ **Smart Templates**: Templater-powered templates streamlining data entry
-✅ **Knowledge Graph**: Extensive linking creating explorable knowledge network
-✅ **Research Archive**: Web clipping and source documentation system
-✅ **Git-Ready**: Structured for version control and collaborative development
+- **Bases views** (`Views/*.base`) — Obsidian's native database views for filtering, sorting and
+  grouping entries.
+- **Dataview queries** — 800+ embedded ```` ```dataview ```` blocks show related games, publisher
+  catalogues, designer portfolios and era statistics.
+- **Templater templates** — guided creation of new entries with the right properties.
+- **WikiLinks and aliases** — entries are named `Title (Year).md` and declare a year-less
+  `aliases:` entry, so `[[Blades in the Dark]]` and `[[Blades in the Dark (2017)]]` both resolve.
+- **Maps of Content** — era MOCs in `Views/` and the indexes at the vault root.
 
 ---
 
@@ -56,133 +71,156 @@ This vault implements a comprehensive database system using Obsidian's native **
 
 ```
 TTRPG-History-Vault/
-├── Games/                    # Individual TTRPG titles
-├── Publishers/               # Publishing companies and imprints
-├── Designers/                # Game designers and creators
-├── Mechanics/                # Game systems and mechanical innovations
-├── Historical Context/       # Timeline events, movements, cultural moments
-├── Reviews & Analysis/       # Critical reception and retrospectives
-├── Research Archive/         # Web clippings, articles, interviews
-├── Templates/               # All template files
-├── Views/                   # Bases files and Maps of Content
-└── Attachments/            # Images, PDFs, cover art
+├── Games/                 # Individual TTRPG titles (`Title (Year).md`)
+├── Designers/             # Game designers and creators
+├── Publishers/            # Publishing companies and imprints
+├── Mechanics/             # Game systems and mechanical innovations
+├── Historical Context/    # Eras and pivotal events
+├── Controversies/         # Industry disputes and cultural moments
+├── Supplements/           # Adventures, sourcebooks, expansions
+├── Settings/              # Campaign settings
+├── Retroclones/           # OSR and emulation games
+├── VTT Platforms/         # Virtual tabletops and digital tools
+├── Actual Play/           # Streaming shows and podcasts
+├── Research Archive/      # AI-synthesised topic overviews (see banner above)
+├── Educational/           # Curriculum and accessibility notes
+├── Views/                 # Bases files, MOCs, dashboard, Property-Schema, Query-Library
+├── Visualizations/        # Timeline and network notes
+├── Templates/             # Templater templates for every entry type
+├── Documentation/         # Guides (plugins, queries, workflow, testing, theme)
+│   └── _meta/             # October 2025 generation logs — provenance only
+├── Scripts/               # Python validation, analytics and export tools
+├── Attachments/           # Images and generated diagrams
+└── .github/               # CI workflow, issue and PR templates
 ```
 
-### Folder Purposes
-
-- **Games**: Core entries documenting individual TTRPG titles with full metadata
-- **Publishers**: Company profiles with founding dates, key releases, and business info
-- **Designers**: Creator biographies with notable works and innovations
-- **Mechanics**: Documentation of mechanical systems and design patterns
-- **Historical Context**: Major events, controversies, and cultural moments
-- **Reviews & Analysis**: Critical reception documentation
-- **Research Archive**: Captured web content, articles, and primary sources
-- **Templates**: Templater templates for creating new entries
-- **Views**: Bases database views and Maps of Content (MOCs) for navigation
-- **Attachments**: Images, PDFs, and other media files
+Root-level navigation notes: `MASTER-INDEX.md` (A–Z, by attribute), `Games-by-Year.md`,
+`Games-by-Designer.md`, `Games-by-System.md`. Policy documents: `CONTRIBUTING.md`,
+`QUALITY-STANDARDS.md`, `CHANGELOG.md`, `LICENSE`.
 
 ---
 
-## Getting Started
+## Opening the Vault in Obsidian
 
-> **👉 For a complete quick start guide, see [[START-HERE|START-HERE.md]]**
+1. **Get the files**: `git clone https://github.com/BippleDops/TTRPG-History-Vault.git` (or
+   download the ZIP from GitHub).
+2. **Open as a vault**: in Obsidian choose *Open folder as vault* and select the
+   `TTRPG-History-Vault` folder. Use Obsidian 1.9.10 or newer so the Bases core plugin is available.
+3. **Enable core plugins** (Settings → Core plugins): Bases, Properties, Backlinks, Graph view,
+   Outline, Search, Quick switcher.
+4. **Install community plugins** (Settings → Community plugins → turn off Restricted mode → Browse):
+   - **Dataview** — required; every embedded query is Dataview DQL.
+   - **Templater** — optional, needed only to create entries from the templates.
+   - **Excalidraw** — optional, for the hand-drawn diagrams.
 
-### Prerequisites
+   The plugin *settings* are already committed in `.obsidian/plugins/*/data.json`; only the plugin
+   code needs downloading.
+5. **Configure Dataview**: Settings → Dataview → *Enable codeblock dataviews* ON,
+   *Enable inline dataviews* ON.
+6. **Configure Templater** (if installed): Settings → Templater → *Template folder location* =
+   `Templates`, *Trigger Templater on new file creation* ON, and add folder templates
+   (`Games` → `Templates/Game Entry Template.md`, `Publishers` → `Templates/Publisher Template.md`,
+   `Designers` → `Templates/Designer Template.md`,
+   `Mechanics` → `Templates/Mechanics Documentation Template.md`,
+   `Historical Context` → `Templates/Historical Event Template.md`).
 
-1. **Obsidian v1.9.10+** (any recent version)
-2. **Required Core Plugins** (enable in Settings → Core Plugins):
-   - Properties
-   - Backlinks
-   - Graph View
-   - Outline
-   - Search
+### First steps
 
-3. **Required Community Plugins** (install from Settings → Community Plugins):
-   - **Dataview** (all embedded queries are Dataview DQL in ```` ```dataview ```` fences)
-   - **Templater** (optional, for templates)
-   - Advanced Tables (optional but recommended)
-
-### Initial Setup
-
-1. **Open the vault** in Obsidian
-2. **Enable core plugins** listed above
-3. **Install community plugins**:
-   - Go to Settings → Community Plugins
-   - Turn off Restricted Mode
-   - Browse and install Dataview and Templater
-4. **Configure Templater**:
-   - Settings → Templater → Template folder location: `Templates`
-   - Enable "Trigger Templater on new file creation"
-   - Configure folder-based templates (see Templates section)
-5. **Enable Dataview**:
-   - Settings → Dataview → Enable codeblock dataviews: ON
-   - Enable inline dataviews: ON
-
-### First Steps
-
-1. **Open the Dashboard**: Navigate to `Views/TTRPG-History-Dashboard.md`
-2. **Explore the Database Views**: Click the `.base` files in Views folder
-3. **Browse Example Content**: Read through Games, Publishers, Designers
-4. **Review Property Schema**: Check `Views/Property-Schema.md`
-5. **Try Creating an Entry**: Use templates to add a new game or publisher
+1. Open `Views/TTRPG-History-Dashboard.md` — era navigation, database views, highlights.
+2. Open `MASTER-INDEX.md` — every entry type as a sortable table, plus browse-by-attribute views.
+3. Open `Views/All-Games.base` to see the Bases interface.
+4. Read `Games/Dungeons & Dragons (1974).md` for a representative entry.
+5. Open the Graph view (Ctrl/Cmd + G) to see how entries connect.
 
 ---
 
-## Using the Vault
+## Finding Your Way Around
 
-### Navigation
+- **Quick Switcher** (Ctrl/Cmd + O): type any game, designer or publisher name.
+- **Search** (Ctrl/Cmd + Shift + F): full-text search across all entries.
+- **Indexes**: `MASTER-INDEX.md` (A–Z, by significance, status, complexity, genre, movement),
+  `Games-by-Year.md`, `Games-by-Designer.md`, `Games-by-System.md`.
+- **Eras**: `Historical Context/` and the era MOCs in `Views/` (Early Era, Golden Age, d20 Era,
+  OSR Revival, Modern Era).
+- **Follow links**: every entry links to related games, people and companies; the Backlinks pane
+  shows what links here.
+- **Bases views**: `.base` files in `Views/` filter, sort and group by property.
 
-**Start Here**:
-- **[[TTRPG-History-Dashboard]]**: Main navigation hub with stats and quick links
-- **[[MASTER-INDEX]]**: Complete A-Z reference guide
-- **[[Games-by-Year]]**: Chronological timeline (1974-present)
-- **[[Games-by-Designer]]**: Browse by creator
-- **[[Games-by-System]]**: Browse by mechanical family
-- **[[Historical Context]]**: Browse 8 comprehensive historical eras
-- **Database Views**: Use .base files for browsing and filtering
+### Entry structure
 
-**Finding Content**:
-- Use **Quick Switcher** (Ctrl/Cmd + O) to jump to specific notes
-- Use **Search** (Ctrl/Cmd + Shift + F) for full-text search
-- Use **Graph View** to explore connections visually
-- Use **Backlinks** panel to see what links to current note
+Every entry has frontmatter (metadata) followed by prose sections and one or more embedded
+queries:
 
-### Adding New Entries
+```yaml
+---
+title: Dungeons & Dragons
+type: game
+year-published: 1974
+designer:
+  - "[[Gary Gygax]]"
+  - "[[Dave Arneson]]"
+publisher: "[[TSR]]"
+aliases:
+  - Dungeons & Dragons
+---
+```
 
-**Using Templates**:
-1. Create new note in appropriate folder (Games, Publishers, etc.)
-2. Select or auto-apply relevant template
-3. Fill in prompted information
-4. Replace cursor placeholders with detailed content
-5. Link to related entries using [[wikilinks]]
+Typical sections: overview and history; mechanics and design analysis; cultural impact; legacy and
+influence; notes and references; Dataview queries showing related entries.
 
-**Manual Creation**:
-1. Create new note in appropriate folder
-2. Copy frontmatter from similar entry
-3. Fill in all required properties
-4. Add content sections
-5. Create links to related notes
+---
 
-### Linking Strategy
+## Who Is This For?
 
-**Create bidirectional links**:
-- Link games to publishers and designers
-- Link publishers to their games and designers
-- Link designers to games and publishers
-- Link mechanics to games that use them
-- Link historical events to affected games/publishers
+- **Researchers** — export the vault as JSON (`Scripts/export/json_api_exporter.py`), run the
+  analytics scripts for CSV datasets and network data, and generate bibliographies
+  (`Scripts/bibliography_generator.py --style chicago|mla|apa`). Verify claims against primary
+  sources first (see the banner).
+- **Educators** — a 6-week syllabus lives in `Educational/Curricula/History-of-RPGs-101/`;
+  `Scripts/export/anki_flashcards.py` builds study decks and `hugo_exporter.py` builds a static
+  site.
+- **Game designers** — `Mechanics/` catalogues mechanical innovations, `Designers/` profiles
+  design philosophies, and `Scripts/analytics/system_family_tree.py` draws system lineages.
+- **Players** — browse `Games/`, follow the influence links, read `Actual Play/` for the shows
+  that brought the hobby to a wider audience.
 
-**Use lists for multi-links**:
+---
+
+## Adding and Editing Entries
+
+### Your first entry (with Templater)
+
+1. Right-click the target folder (for example `Games`) → *New note* and name it
+   `Title (Year).md`.
+2. If folder templates are configured the Game Entry Template applies automatically; otherwise
+   Ctrl/Cmd + P → *Templater: Insert Template* → choose the template.
+3. Answer the prompts (title, publisher, year, system, genre, ratings). Suggesters offer the
+   schema-valid values.
+4. Write the body — at least the sections and word count in `QUALITY-STANDARDS.md` — and link to
+   publishers, designers, mechanics and related games with `[[WikiLinks]]`.
+5. Add `aliases:` with the year-less title so prose links resolve.
+6. Check the entry appears in `Views/All-Games.base`, then run the validators (below).
+
+### Manual creation
+
+Copy the frontmatter of a similar entry, fill in every required property from
+`Views/Property-Schema.md`, write the sections, and link to at least two related notes.
+
+### Linking
+
+Link games to publishers and designers, publishers to their games, designers to their works,
+mechanics to the games that use them, and events to the games and companies they affected. Use
+lists for multi-valued links:
+
 ```yaml
 influenced-by:
   - "[[Game One]]"
   - "[[Game Two]]"
 ```
 
-### Querying Data
+### Querying
 
-**Dataview Queries**:
-Use dataview code blocks in any note:
+Use ```` ```dataview ```` blocks anywhere:
 
 ```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
@@ -191,268 +229,166 @@ WHERE historical-significance >= 4
 SORT year-published ASC
 ```
 
-**Bases Views**:
-Open .base files in Views folder to:
-- Filter by multiple properties
-- Sort by columns
-- Group by decades, publishers, etc.
-- Calculate statistics
-- Export data
+`Views/Query-Library.md` and `Documentation/QUERY-COOKBOOK.md` collect ready-made patterns.
 
 ---
 
 ## Templates
 
-All templates use Templater syntax for dynamic prompts and automation.
-
-### Available Templates
-
-| Template | Purpose | Location |
-|----------|---------|----------|
-| Game Entry Template | Document TTRPG titles | `Templates/Game Entry Template.md` |
-| Publisher Template | Profile publishing companies | `Templates/Publisher Template.md` |
-| Designer Template | Chronicle game creators | `Templates/Designer Template.md` |
-| Mechanics Documentation Template | Analyze game mechanics | `Templates/Mechanics Documentation Template.md` |
-| Historical Event Template | Record pivotal moments | `Templates/Historical Event Template.md` |
-| Web Archive Template | Save research sources | `Templates/Web Archive Template.md` |
-
-### Template Features
-
-- **Dynamic Prompts**: Templater asks for required information
-- **Suggesters**: Dropdown menus for categorical data (system type, genre, etc.)
-- **Auto-dates**: Automatically populate current date
-- **Cursor Positioning**: Places cursor at main content section
-- **Embedded Queries**: Include relevant Dataview queries automatically
-
-### Folder-Based Auto-Templates
-
-Configure Templater to automatically apply templates when creating notes in specific folders:
-
-1. Settings → Templater → Folder Templates
-2. Add mappings:
-   - `Games` → `Templates/Game Entry Template.md`
-   - `Publishers` → `Templates/Publisher Template.md`
-   - `Designers` → `Templates/Designer Template.md`
-   - `Mechanics` → `Templates/Mechanics Documentation Template.md`
-   - `Historical Context` → `Templates/Historical Event Template.md`
+All templates in `Templates/` use Templater prompts, suggesters for categorical values, cursor
+positioning and embedded queries. One template exists per entry type: Game Entry, Publisher,
+Designer, Mechanics Documentation, Historical Event, Web Archive, Actual Play, Supplement,
+Retroclone, VTT Platform, Digital Adaptation, Convention, Award and Controversy.
 
 ---
 
 ## Database Views (Bases)
 
-The vault includes pre-configured Bases views for browsing and analyzing data.
-
-### Available Views
-
 | View | Purpose | File |
 |------|---------|------|
-| All Games Database | Complete game catalog with filtering | `Views/All-Games.base` |
+| All Games Database | Complete game catalogue with filtering | `Views/All-Games.base` |
 | Publishers Analysis | Publishing companies by era and significance | `Views/Publishers.base` |
 | Design Innovations Timeline | Mechanical innovations chronologically | `Views/Innovations.base` |
 | Games by Decade | Historical progression view | `Views/By-Decade.base` |
 | All Designers | Game creators and contributors | `Views/Designers.base` |
 | Historical Events | Major moments in TTRPG history | `Views/Historical-Events.base` |
 
-### Using Bases Views
-
-1. **Open** a .base file from Views folder
-2. **Filter** using column headers to narrow results
-3. **Sort** by clicking column headers
-4. **Group** using the Group By option
-5. **Edit** entries by clicking to open the source note
-6. **Export** data using Bases export functions
-
-### Creating Custom Views
-
-1. Create new .base file in Views folder
-2. Configure source folder
-3. Define columns mapping to properties
-4. Set default sort, filters, and grouping
-5. Save and use like built-in views
+Open a `.base` file, filter with the column headers, sort by clicking a column, group with
+*Group by*, and click a row to open the source note. Create your own by adding a `.base` file that
+points at a source folder and maps columns to properties.
 
 ---
 
-## Required Plugins
+## Scripts: Validation, Analytics and Export
 
-### Core Plugins
+All scripts are Python 3 and live in `Scripts/` (MIT licence). Install the dependencies once:
 
-These are built into Obsidian and must be enabled:
-
-- **Bases**: Native database system (v1.9.10+)
-- **Properties**: Manage metadata across vault
-- **Templates**: Basic template functionality
-- **Daily Notes**: Optional, for research logging
-- **Backlinks**: View incoming links
-- **Graph View**: Visualize knowledge graph
-- **Outline**: Document structure navigation
-- **Search**: Full-text search
-- **Quick Switcher**: Fast note navigation
-
-### Community Plugins
-
-Install from Settings → Community Plugins → Browse:
-
-**Required**:
-- **Templater** (v2.8.3+): Dynamic templates with prompts and automation
-- **Dataview** (latest version): Advanced querying and data display
-
-**Recommended**:
-- **Advanced Tables**: Improved table editing
-- **Tracker**: Visualize trends over time
-- **QuickAdd**: Rapid entry macros
-- **DB Folder**: Alternative spreadsheet-style editing
-
-**Optional**:
-- **Obsidian Web Clipper**: Browser extension for research archiving
-- **Calendar**: Daily notes visualization
-- **Kanban**: Task management boards
-
-### Plugin Configuration
-
-**Templater**:
-```
-Template folder location: Templates
-Trigger Templater on new file creation: ON
-Enable folder templates: ON
-Syntax highlighting: ON
+```bash
+python3 -m pip install -r requirements.txt
 ```
 
-**Dataview**:
+### Validation (run before committing)
+
+```bash
+python3 Scripts/link_validator.py --report link-report.md      # broken [[WikiLinks]]
+python3 Scripts/schema_validator.py                             # required properties per type
+python3 Scripts/reciprocal_link_checker.py                      # bidirectional relationships
+python3 Scripts/quality_enhancer.py                             # word counts, missing sections
 ```
-Enable codeblock dataviews: ON
-Enable inline dataviews: ON
-Inline dataview prefix: =
+
+`link_validator.py` exits non-zero when broken links exceed `--max-broken N`; the CI workflow in
+`.github/workflows/validate.yml` runs it with a budget that is lowered as links are fixed.
+
+### Analytics
+
+```bash
+./Scripts/run_all_analytics.sh          # everything below, output in Attachments/Diagrams/analytics/
+python3 Scripts/analytics/publication_trends.py
+python3 Scripts/analytics/influence_network.py
+python3 Scripts/analytics/innovation_timeline.py
+python3 Scripts/analytics/coverage_gaps.py
+python3 Scripts/analytics/system_family_tree.py
+python3 Scripts/analytics/era_comparison.py
+python3 Scripts/analytics/complexity_popularity.py
+python3 Scripts/analytics/designer_matrix.py
 ```
+
+### Export
+
+```bash
+./Scripts/run_all_exports.sh            # everything below, output in Exports/
+python3 Scripts/export/hugo_exporter.py       # static website (Hugo)
+python3 Scripts/export/pdf_compiler.py        # PDF anthology (needs Pandoc + LaTeX)
+python3 Scripts/export/epub_generator.py      # EPUB (needs Pandoc)
+python3 Scripts/export/json_api_exporter.py   # JSON API
+python3 Scripts/export/anki_flashcards.py     # Anki deck
+python3 Scripts/bibliography_generator.py --style chicago   # or mla / apa
+```
+
+---
+
+## Plugins
+
+**Core** (built in): Bases, Properties, Templates, Backlinks, Graph view, Outline, Search, Quick
+switcher; Daily notes optional.
+
+**Community — required**: Dataview. **Optional**: Templater (entry creation), Excalidraw
+(diagrams), Advanced Tables, Tracker, QuickAdd, DB Folder, Obsidian Web Clipper, Calendar, Kanban.
+
+Settings for Dataview, Templater and Excalidraw are versioned in `.obsidian/plugins/*/data.json`;
+the plugin bundles themselves are not committed. See `Documentation/PLUGIN-INTEGRATION-GUIDE.md`
+for details and `Documentation/THEME-GUIDE.md` for the CSS snippets.
+
+---
+
+## Troubleshooting
+
+- **Queries show as raw code blocks** — install and enable the Dataview community plugin, then
+  reload the vault. Every query is Dataview DQL; the Datacore plugin does not render them.
+- **Python scripts fail on import** — `python3 -m pip install -r requirements.txt`.
+- **Broken links reported** — expected while the vault is being repaired; run
+  `python3 Scripts/link_validator.py --report link-report.md` and fix or alias the targets
+  listed under *Most Common Broken Targets*. Do not create empty notes to silence the checker.
+- **Analytics output folder missing** — the scripts create `Attachments/Diagrams/analytics/` and
+  `Exports/` themselves; check write permissions.
+- **Templates do not apply** — set the Templater template folder to `Templates` and enable
+  *Trigger Templater on new file creation*.
 
 ---
 
 ## Contributing
 
-### Adding Content
+Corrections are the most valuable contribution right now: the content is AI-drafted and under
+verification. Read `CONTRIBUTING.md` (workflow, licensing of contributions, provenance rules) and
+`QUALITY-STANDARDS.md` (tiers, required sections). In short:
 
-The vault is designed for ongoing expansion:
+- Cite sources for factual claims and never present paraphrase as quotation.
+- Fill every required property (`Views/Property-Schema.md`) and add `aliases:`.
+- Link to at least two related entries and update the reciprocal links.
+- Run the validators before opening a pull request; CI runs them too.
 
-**Add Games**:
-- Use the Game Entry Template
-- Include full metadata (publisher, designer, year, etc.)
-- Write detailed content sections
-- Link to related entries
+---
 
-**Add Publishers**:
-- Document founding date, headquarters, era
-- Link to key releases
-- Note significant designers
-- Include business model and history
+## Documentation Map
 
-**Add Designers**:
-- Chronicle career and active years
-- Link to notable works
-- Document innovations and contributions
-- Include biographical information
-
-**Add Mechanics**:
-- Explain how the mechanic works
-- Identify first appearance
-- List games using the mechanic
-- Analyze impact on game design
-
-### Content Standards
-
-**Required**:
-- All required properties filled in
-- Minimum 3-4 paragraphs of content
-- Links to at least 2 related entries
-- Proper tags applied
-
-**Recommended**:
-- Citations for factual claims
-- Multiple content sections developed
-- Embedded queries showing relationships
-- Historical context provided
-
-**Quality**:
-- Clear, informative writing
-- Accurate information
-- Consistent formatting
-- Comprehensive coverage
+| Document | Purpose |
+|----------|---------|
+| `README.md` (this file) | Overview, setup, orientation |
+| `MASTER-INDEX.md` | Navigation: A–Z tables and browse-by-attribute views |
+| `Games-by-Year.md`, `Games-by-Designer.md`, `Games-by-System.md` | Specialised indexes |
+| `Views/TTRPG-History-Dashboard.md` | In-vault dashboard with era navigation and highlights |
+| `CONTRIBUTING.md`, `QUALITY-STANDARDS.md` | How to contribute and what "done" means |
+| `CHANGELOG.md` | Real, dated history of the repository |
+| `Views/Property-Schema.md` | Every property, per entry type |
+| `Views/Query-Library.md`, `Documentation/QUERY-COOKBOOK.md` | Dataview query patterns |
+| `Documentation/PLUGIN-INTEGRATION-GUIDE.md` | Plugin setup |
+| `Documentation/WORKFLOW-GUIDE.md`, `Documentation/TESTING-GUIDE.md`, `Documentation/VALIDATION-CHECKLIST.md` | Content workflow and checks |
+| `Documentation/ADVANCED-FEATURES.md`, `Documentation/CUSTOMIZATION-GUIDE.md`, `Documentation/THEME-GUIDE.md`, `Documentation/VAULT-NAVIGATION.md` | Power-user guides |
+| `Documentation/_meta/` | Logs written by the October 2025 generation sessions — provenance only, not documentation |
 
 ---
 
 ## Backup and Version Control
 
-### Git Integration
-
-The vault is structured for Git version control:
-
-**Setup**:
-```bash
-cd TTRPG-History-Vault
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin [your-repo-url]
-git push -u origin main
-```
-
-**Recommended .gitignore**:
-```
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache/
-.trash/
-```
-
-### Commit Strategy
-
-**Individual Entries**:
-```bash
-git add "Games/New Game Title.md"
-git commit -m "Add: New Game Title (year)"
-git push
-```
-
-**Batch Updates**:
-```bash
-git add Publishers/
-git commit -m "Update: Publisher entries with new metadata"
-git push
-```
-
-**Template Changes**:
-```bash
-git add Templates/
-git commit -m "Refine: Game Entry Template with additional fields"
-git push
-```
-
-### Backup Recommendations
-
-1. **Git Remote**: Push to GitHub/GitLab regularly
-2. **Cloud Sync**: Use Obsidian Sync or cloud storage
-3. **Local Backup**: Periodic full vault backups
-4. **Export Important Queries**: Save key Dataview queries separately
+The repository is the backup. Commit individual entries with descriptive messages
+(`git add "Games/New Game (Year).md" && git commit -m "Add Games/New Game (Year)"`), push regularly,
+and keep `.obsidian/workspace*.json` out of Git (already in `.gitignore`). Obsidian Sync or any
+cloud folder works alongside Git for personal copies.
 
 ---
 
 ## Support and Resources
 
-### Obsidian Documentation
-- [Obsidian Help](https://help.obsidian.md/)
-- [Dataview Plugin](https://blacksmithgu.github.io/obsidian-dataview/)
-- [Templater Documentation](https://silentvoid13.github.io/Templater/)
+**Obsidian**: [Obsidian Help](https://help.obsidian.md/) ·
+[Dataview](https://blacksmithgu.github.io/obsidian-dataview/) ·
+[Templater](https://silentvoid13.github.io/Templater/)
 
-### TTRPG Research Resources
-- RPG.net
-- Board Game Geek (RPG section)
-- DriveThruRPG
-- The Alexandrian
-- Wikipedia TTRPG entries (use thetimetube.com for clean copies)
+**TTRPG history (primary and secondary literature)**: Jon Peterson, *Playing at the World* (2012)
+and *Game Wizards* (2021); Shannon Appelcline, *Designers & Dragons* (4 vols., 2014);
+RPG.net; BoardGameGeek RPG section; DriveThruRPG catalogue; The Alexandrian; Wikipedia TTRPG
+entries (as a starting point, not a citation).
 
-### Related Projects
-- Designers & Dragons (Shannon Applecline)
-- Playing at the World (Jon Peterson)
-- Game Wizards (Jon Peterson)
-- Various TTRPG history podcasts and YouTube channels
+Questions and corrections: open an issue or pull request on GitHub.
 
 ---
 
@@ -472,56 +408,3 @@ When documenting games, publishers, and designers, always:
 - Provide citations for factual claims
 - Credit original sources
 - Follow fair use principles for analysis and commentary
-
----
-
-## Additional Documentation
-
-**Essential:**
-- **[[START-HERE]]** - Quick start guide (read this first!)
-- **[[TTRPG-History-Dashboard]]** - Main navigation hub
-- **[[MASTER-INDEX]]** - Complete A-Z reference
-- **COMPREHENSIVE-IMPROVEMENT-SUMMARY.md** - Complete v4.0 achievements
-- **CONTRIBUTING.md** - How to add content
-- **QUALITY-STANDARDS.md** - Content requirements
-- **PARALLEL-AGENTS-GUIDE.md** - Using Claude Code for expansion
-
-**Advanced** (in `Documentation/` folder):
-- Advanced Features, Customization Guide, Plugin Integration
-- Query Cookbook, Workflow Guide, Testing Guide
-- Validation Checklist, Vault Navigation
-
-**Development:**
-- `Scripts/` - 18 Python scripts for analytics and export
-- `Educational/` - Complete 6-week university curriculum
-- `Templates/` - Entry templates for creating content
-
----
-
-## Changelog
-
-### Version 4.0 (October 2025)
-- **309+ entries** across 11 content categories (+115% growth from v3.0)
-- **18 Python scripts** (8 analytics, 5 export, 3 validation, 2 quality)
-- **8 historical era entries** covering 1974-present
-- **5 navigation indexes** (Dashboard, Master Index, by-Year, by-Designer, by-System)
-- **Custom RPG-evocative theme** (dice, character sheets, stat blocks)
-- **3 configured plugins** (Dataview, Templater, Excalidraw)
-- Complete educational curriculum (6-week course)
-- Parallel agentic expansion (165 new entries in single session)
-- Streamlined documentation structure
-- Production-ready infrastructure
-
-### Version 1.0 (October 2024)
-- Initial vault structure
-- All templates created
-- Example content for games, publishers, designers, mechanics
-- Database views configured
-- Dashboard and MOC files implemented
-- Complete documentation
-
----
-
-*This vault is a living document of TTRPG history. Every entry, link, and query contributes to our collective understanding of this transformative medium.*
-
-**Questions or Issues?** See [[START-HERE|START-HERE.md]] for troubleshooting and [[SESSION-COMPLETION-REPORT]] for latest updates.

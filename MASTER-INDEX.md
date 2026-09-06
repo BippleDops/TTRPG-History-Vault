@@ -12,11 +12,12 @@ This master index provides alphabetical access to all content in the TTRPG Histo
 
 ## Navigation
 
-- **[[TTRPG-History-Dashboard]]** - Main visual dashboard
-- **[[START-HERE]]** - Quick start guide
+- **[[README]]** - Overview, setup and orientation (read this first)
+- **[[TTRPG-History-Dashboard]]** - In-vault dashboard: era navigation, database views, highlights
 - **[[Games-by-Year]]** - Chronological index
 - **[[Games-by-Designer]]** - Creator index
 - **[[Games-by-System]]** - Mechanical index
+- **Era MOCs**: [[Early Era MOC]] · [[Golden Age MOC]] · [[d20 Era MOC]] · [[OSR Revival MOC]] · [[Modern Era MOC]]
 
 ---
 
@@ -268,6 +269,91 @@ SORT year-published ASC
 
 ---
 
+## By Movement
+
+### OSR (Old School Renaissance)
+
+```dataview
+TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer"
+FROM "Games" OR "Retroclones"
+WHERE contains(string(tags), "OSR") OR type = "retroclone"
+SORT year-published ASC
+```
+
+### Story Games and Narrative Design
+
+```dataview
+TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", game-structure AS "Structure"
+FROM "Games"
+WHERE contains(string(tags), "story-game") OR contains(string(tags), "narrative") OR contains(string(tags), "GM-less")
+SORT year-published ASC
+```
+
+### Powered by the Apocalypse
+
+```dataview
+TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", genre AS "Genre"
+FROM "Games"
+WHERE contains(string(system), "PbtA") OR contains(string(influenced-by), "Apocalypse World")
+SORT year-published ASC
+```
+
+### Forged in the Dark
+
+```dataview
+TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", setting AS "Setting"
+FROM "Games"
+WHERE contains(string(system), "FitD") OR contains(string(influenced-by), "Blades in the Dark")
+SORT year-published ASC
+```
+
+---
+
+## By Game System
+
+```dataview
+TABLE system AS "System Family", length(rows) AS "# Games"
+FROM "Games"
+WHERE system != null AND system != ""
+GROUP BY system
+SORT length(rows) DESC
+LIMIT 20
+```
+
+---
+
+## Highlights
+
+### Most Influential Designers
+
+```dataview
+TABLE file.link AS "Designer", influence-score AS "Influence", notable-works AS "Key Works", active-years AS "Active"
+FROM "Designers"
+WHERE influence-score >= 4
+SORT influence-score DESC, file.name ASC
+LIMIT 12
+```
+
+### Most Innovative Mechanics (5/5)
+
+```dataview
+TABLE file.link AS "Mechanic", introduced-in AS "First Appeared In", popularized-by AS "Popularized By"
+FROM "Mechanics"
+WHERE innovation-score = 5
+SORT file.name ASC
+```
+
+### Recent Additions
+
+```dataview
+TABLE file.mtime AS "Modified", file.link AS "Entry", type AS "Type"
+FROM "Games" OR "Designers" OR "Publishers"
+SORT file.mtime DESC
+LIMIT 10
+```
+
+---
+
 ## Quick Statistics
 
 ### Total Entries by Type
@@ -323,33 +409,36 @@ SORT COUNT(file.link) DESC
 
 ### Documentation
 
-- **START-HERE.md** - New user orientation
-- **README.md** - Technical overview
-- **CONTRIBUTING.md** - Content guidelines
-- **QUALITY-STANDARDS.md** - Entry requirements
+- **[[README]]** - Overview, setup, orientation
+- **[[CONTRIBUTING]]** - Content guidelines and licensing of contributions
+- **[[QUALITY-STANDARDS]]** - Entry requirements
+- **[[CHANGELOG]]** - Dated history of the repository
+- **[[Property-Schema]]** - Every property, per entry type
+- **[[Query-Library]]** and **[[QUERY-COOKBOOK]]** - Dataview query patterns
 
 ### Indexes
 
-- **Games-by-Year.md** - Chronological timeline
-- **Games-by-Designer.md** - Creator catalog
-- **Games-by-Publisher.md** - Company catalog
-- **Games-by-System.md** - Mechanical families
+- **[[Games-by-Year]]** - Chronological timeline
+- **[[Games-by-Designer]]** - Creator catalog
+- **[[Games-by-System]]** - Mechanical families
+- **[[TTRPG-History-Dashboard]]** - Era MOCs and database views
 
 ### Tools
 
 - **Scripts/analytics/** - 8 analysis tools
 - **Scripts/export/** - 5 export formats
+- **Scripts/link_validator.py**, **schema_validator.py**, **reciprocal_link_checker.py** - Validators
 - **Scripts/quality_enhancer.py** - Improvement tool
 - **Scripts/bibliography_generator.py** - Citation tool
 
+See the README's *Scripts* section for usage.
+
 ---
 
-**🎲 Complete A-Z access to 309+ entries covering 50 years of TTRPG history 🎲**
+**🎲 Complete A-Z access to 449 entries covering 50 years of TTRPG history 🎲**
 
 *Use Cmd/Ctrl + F to search this index, or use the specialized indexes for attribute-based browsing.*
 
 ---
 
-*Last updated: October 2025*
-*Version: 4.0*
-*Vault Status: Production-Ready*
+*Last updated: September 2026 (repair release — see [[CHANGELOG]])*

@@ -19,12 +19,11 @@ GROUP BY type AS "Category"
 SORT Category ASC
 ```
 
-**Current Vault Contents**:
-- **Games**: 20 landmark titles documented
-- **Publishers**: 15 major publishers profiled
-- **Designers**: 16 influential creators detailed
-- **Mechanics**: 3 foundational systems analyzed
-- **Historical Events**: 3 pivotal moments chronicled
+The table above is computed live from the vault. For static counts and the full folder map see
+[[README]]; for A–Z tables of every entry type see [[MASTER-INDEX]].
+
+**Indexes**: [[MASTER-INDEX|Master Index (A–Z)]] · [[Games-by-Year]] · [[Games-by-Designer]] ·
+[[Games-by-System]]
 
 ---
 

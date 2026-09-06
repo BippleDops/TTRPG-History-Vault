@@ -13,7 +13,7 @@ This index organizes games by their core mechanical systems, allowing you to tra
 ## Navigation
 
 - **[[TTRPG-History-Dashboard]]** - Main visual dashboard
-- **[[START-HERE]]** - Quick start guide
+- **[[README]]** - Overview and setup
 - **[[MASTER-INDEX]]** - Complete A-Z reference
 - **[[Games-by-Year]]** - Chronological index
 - **[[Games-by-Designer]]** - Creator index

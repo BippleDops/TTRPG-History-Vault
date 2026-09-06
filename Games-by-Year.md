@@ -13,7 +13,7 @@ This index presents all games in the vault in chronological order, allowing you 
 ## Navigation
 
 - **[[TTRPG-History-Dashboard]]** - Main visual dashboard
-- **[[START-HERE]]** - Quick start guide
+- **[[README]]** - Overview and setup
 - **[[MASTER-INDEX]]** - Complete A-Z reference
 - **[[Games-by-Designer]]** - Creator index
 - **[[Games-by-System]]** - Mechanical index

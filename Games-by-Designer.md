@@ -13,7 +13,7 @@ This index organizes games by their designers, allowing you to explore creative 
 ## Navigation
 
 - **[[TTRPG-History-Dashboard]]** - Main visual dashboard
-- **[[START-HERE]]** - Quick start guide
+- **[[README]]** - Overview and setup
 - **[[MASTER-INDEX]]** - Complete A-Z reference
 - **[[Games-by-Year]]** - Chronological index
 - **[[Games-by-System]]** - Mechanical index

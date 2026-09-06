@@ -336,8 +336,8 @@ To update the theme with new features:
 ## Support
 
 For theme issues or customization help, see:
-- [[START-HERE]] - Quick start guide
-- [[SESSION-COMPLETION-REPORT]] - Latest vault updates
+- [[README]] - Overview and setup
+- [[CHANGELOG]] - Latest vault updates
 - `Documentation/` folder - Advanced guides
 
 ---
