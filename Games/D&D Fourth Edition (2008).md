@@ -1,4 +1,11 @@
 ---
+aliases:
+  - "D&D Fourth Edition"
+  - "Dungeons & Dragons Fourth Edition"
+  - "Dungeons & Dragons Fourth Edition (2008)"
+  - "Dungeons & Dragons 4th Edition (2008)"
+  - "D&D 4th Edition"
+  - "D&D 4E"
 title: D&D Fourth Edition
 type: game
 publisher: [[Wizards of the Coast]]
@@ -18,7 +25,7 @@ influence-on:
   - "[[13th Age (2013)]]"
   - "[[Strike! (2010)]]"
 influenced-by:
-  - "[[D&D Third Edition (2000)]]"
+  - "[[Dungeons & Dragons Third Edition (2000)]]"
   - "[[World of Warcraft (2004)]]"
   - "[[Guild Wars (2005)]]"
 tags:
@@ -391,7 +398,7 @@ Fourth Edition taught critical lessons:
 
 ## Related Games
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(influenced-by, this.file.link) OR contains(influence-on, this.file.link)
@@ -400,7 +407,7 @@ SORT year-published ASC
 
 ## Publisher Context
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(key-releases, this.file.link)
@@ -409,7 +416,7 @@ SORT founded ASC
 
 ## Designer Context
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", length(notable-works) AS "Games Designed"
 FROM "Designers"
 WHERE contains(notable-works, this.file.link)

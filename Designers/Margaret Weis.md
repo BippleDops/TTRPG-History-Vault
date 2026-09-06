@@ -122,7 +122,7 @@ Gaming world developed for their RPG system
 
 Numerous collaborations with other authors, standalone novels, and gaming contributions
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(designer, this.file.link)
@@ -186,7 +186,7 @@ While primarily known for fiction, Weis contributed to game design:
 
 **TSR/Wizards of the Coast**: Maintained long professional relationship with D&D publishers, navigating licensing, creative direction, and business concerns across decades and corporate transitions.
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "[[TSR]]") AND this.file.link != file.link
@@ -194,7 +194,7 @@ WHERE contains(publishers-worked-with, "[[TSR]]") AND this.file.link != file.lin
 
 ## Publishers Worked With
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)

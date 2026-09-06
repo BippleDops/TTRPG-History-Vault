@@ -1,9 +1,8 @@
 ---
 title: "The Open Gaming License: History and the 2023 OGL Crisis"
-type: web-archive
-source-url: Multiple sources including Paizo, WotC statements, community archives
+type: synthesis
+sources: []
 source-type: industry/legal/community
-archived-date: 2024-12-20
 author: Ryan Dancey, Paizo, community archivists
 publication: Various official and community sources
 topics:
@@ -18,13 +17,18 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - legal-history
   - industry-transformation
   - community-action
   - modern-history
   - licensing
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -244,22 +248,19 @@ Sources include official legal documents, designer statements, community archive
 - Economic boycott effectiveness
 - Publisher-community solidarity
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**Ryan Dancey on OGL Philosophy (2000):**
-"The goal is to make Dungeons & Dragons the foundation for fantasy gaming, the way Windows is the foundation for PC software. If other people are making money off D&D, that's not competition - that makes D&D more valuable."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**On OGL Impact:**
-"The OGL enabled more innovation in RPG design in five years than the previous twenty. Not all of it was good, but the ecosystem it created transformed the industry permanently."
+- **Ryan Dancey on the OGL (c. 2000)** — Dancey's stated rationale was to make D&D the foundation of fantasy gaming in the way Windows was the foundation of PC software: other people making money from D&D-compatible products was not competition but added value to D&D itself.
 
-**Kyle Brink (WotC Executive, 2023):**
-"We got it wrong. The rollout of OGL 1.1 was a mistake, and we have heard you. We are committing the D&D 5E SRD to Creative Commons, ensuring it will always be freely available."
+- **OGL impact** — The OGL is often credited with enabling more design innovation in five years than the previous twenty; not all of it was good, but the ecosystem it created permanently changed the industry.
 
-**Paizo Statement (2023):**
-"We cannot rely on a license that the owning company can attempt to revoke. The ORC License will be genuinely open, industry-owned, and truly irrevocable."
+- **Wizards of the Coast, January 2023** — In a statement signed by executive producer Kyle Brink, Wizards acknowledged that the OGL 1.1 rollout had been a mistake, left OGL 1.0a in place, and released the 5.1 System Reference Document under a Creative Commons licence so that it would remain freely available.
 
-**Legal Reality:**
-"Whether OGL 1.0a was truly 'irrevocable' remains legally untested. WotC's retreat meant no court ruled on this question, leaving some uncertainty."
+- **Paizo, January 2023** — Paizo's announcement of the ORC licence argued that publishers could not rely on a licence its owner might try to revoke, and promised an alternative that would be open, industry-owned and irrevocable.
+
+- **Legal position** — Whether OGL 1.0a was truly irrevocable was never tested in court; because Wizards backed down, no ruling settled the question and some uncertainty remains.
 
 **Statistics:**
 - **200+** publishers released d20 products (2000-2005)

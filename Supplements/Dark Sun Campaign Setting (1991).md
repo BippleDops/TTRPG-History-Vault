@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Dark Sun Campaign Setting"
 type: supplement
 supplement-title: Dark Sun Campaign Setting
 parent-game: "[[Advanced Dungeons & Dragons (1977)]]"
@@ -851,7 +853,7 @@ Darkness concerns:
 
 ## Related Products
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

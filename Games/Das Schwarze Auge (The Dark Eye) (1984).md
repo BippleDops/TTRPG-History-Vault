@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "Das Schwarze Auge (The Dark Eye)"
+  - "Das Schwarze Auge"
+  - "The Dark Eye"
 title: Das Schwarze Auge (The Dark Eye)
 type: game
 publisher: [[Schmidt Spiele]], [[Ulisses Spiele]]
@@ -200,7 +204,7 @@ Das Schwarze Auge stands as monument to non-English RPG potential, demonstrating
 
 ## Related Games
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", genre AS "Genre"
 FROM "Games"
 WHERE contains(influenced-by, this.file.link) OR contains(influence-on, this.file.link)
@@ -209,7 +213,7 @@ SORT year-published ASC
 
 ## Publisher Context
 
-```datacore
+```dataview
 TABLE founded AS "Founded", headquarters AS "Location", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(key-releases, this.file.link)
@@ -217,7 +221,7 @@ WHERE contains(key-releases, this.file.link)
 
 ## Designer Context
 
-```datacore
+```dataview
 TABLE active-years AS "Active Years", length(notable-works) AS "Games Designed"
 FROM "Designers"
 WHERE contains(notable-works, this.file.link)

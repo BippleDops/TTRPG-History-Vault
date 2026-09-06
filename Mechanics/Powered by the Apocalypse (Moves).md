@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Powered by the Apocalypse"
+  - "PbtA"
 type: mechanic
 mechanic-name: Powered by the Apocalypse (Moves)
 first-appearance: "[[Apocalypse World (2010)]]"
@@ -73,7 +76,7 @@ When you take something by force or defend yourself in combat, roll +Hard. On 10
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", system AS "System"
 FROM "Games"
 WHERE contains(string(system), "pbta") OR contains(string(this.file.link), "Powered")

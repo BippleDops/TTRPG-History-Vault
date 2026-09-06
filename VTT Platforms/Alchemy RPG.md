@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Alchemy VTT"
 type: vtt-platform
 platform-name: Alchemy RPG
 launch-year: 2020
@@ -554,7 +556,7 @@ While never achieving significant market impact, Alchemy RPG represents the real
 
 ## Related Entries
 
-```datacore
+```dataview
 TABLE
   file.link AS "Platform",
   launch-year AS "Launched",

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Annalise"
 title: Annalise
 type: game
 publisher: [[Nathan D. Paoletta]]

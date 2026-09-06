@@ -2,13 +2,13 @@
 tags:
   - reference
   - queries
-  - datacore
+  - dataview
 cssclass: query-library
 ---
 
 # Query Library
 
-A comprehensive collection of Datacore query patterns for the TTRPG History Vault. All queries use explicit column aliases and Datacore syntax.
+A comprehensive collection of Dataview query patterns for the TTRPG History Vault. All queries use Dataview Query Language (DQL) with explicit column aliases.
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@ A comprehensive collection of Datacore query patterns for the TTRPG History Vaul
 
 **Use Case**: Discover second-degree influence relationships - games that influenced games that this game influenced. Useful for understanding indirect lineage and the broader ripple effects of influential titles.
 
-```datacore
+```dataview
 table without id
   influenced.file.link AS "First Generation",
   influenced.influence-on AS "Second Generation"
@@ -47,7 +47,7 @@ where influenced.influence-on
 
 **Use Case**: Identify designers who worked with a specific publisher. Maps professional relationships between creative talent and publishing houses.
 
-```datacore
+```dataview
 table without id
   file.link AS "Designer",
   publishers-worked-with AS "Publishers",
@@ -67,7 +67,7 @@ sort file.name asc
 
 **Use Case**: Find all games that use a specific mechanic, revealing adoption patterns and showing which designs embraced particular innovations.
 
-```datacore
+```dataview
 table without id
   file.link AS "Game",
   year-published AS "Year",
@@ -88,7 +88,7 @@ sort year-published asc
 
 **Use Case**: Map the complete influence chain from a seminal game through all its direct descendants.
 
-```datacore
+```dataview
 table without id
   file.link AS "Influenced Game",
   year-published AS "Year",
@@ -111,7 +111,7 @@ sort year-published asc
 
 **Use Case**: Track when and how quickly a mechanic spread through the industry after introduction. Reveals adoption curves and tipping points.
 
-```datacore
+```dataview
 table without id
   year-published AS "Year",
   file.link AS "Game",
@@ -132,7 +132,7 @@ sort year-published asc
 
 **Use Case**: Analyze publisher dominance and market shifts over time. Shows which publishers led each era.
 
-```datacore
+```dataview
 table without id
   publisher AS "Publisher",
   count(file.link) AS "Games Published"
@@ -152,7 +152,7 @@ sort count(file.link) desc
 
 **Use Case**: Monitor how genre popularity changed across decades. Identifies trends like the rise of indie story games or decline of simulation-heavy designs.
 
-```datacore
+```dataview
 table without id
   genre AS "Genre",
   count(file.link) AS "Game Count"
@@ -173,7 +173,7 @@ sort count(file.link) desc
 
 **Use Case**: Show all games using the same system chronologically, revealing how system families evolved and spawned variants.
 
-```datacore
+```dataview
 table without id
   file.link AS "Game",
   year-published AS "Year",
@@ -194,7 +194,7 @@ sort year-published asc
 
 **Use Case**: Identify boundary-spanning games published during major industry transitions (OSR revival, 5E era, etc.).
 
-```datacore
+```dataview
 table without id
   file.link AS "Game",
   year-published AS "Year",
@@ -215,7 +215,7 @@ sort year-published asc
 
 **Use Case**: View a designer's complete works organized by historical period, revealing career evolution and era-specific innovations.
 
-```datacore
+```dataview
 table without id
   file.link AS "Game",
   year-published AS "Year",
@@ -238,7 +238,7 @@ sort year-published asc
 
 **Use Case**: Calculate average innovation scores per decade to identify which periods were most creative and groundbreaking.
 
-```datacore
+```dataview
 table without id
   floor(year-published / 10) * 10 AS "Decade",
   round(avg(innovation-score), 2) AS "Avg Innovation",
@@ -259,7 +259,7 @@ sort floor(year-published / 10) * 10 asc
 
 **Use Case**: Rank games using a composite metric that emphasizes historical significance over pure innovation. Identifies the most culturally important titles.
 
-```datacore
+```dataview
 table without id
   file.link AS "Game",
   year-published AS "Year",
@@ -282,7 +282,7 @@ limit 20
 
 **Use Case**: Understand the accessibility landscape by counting games at each complexity tier. Reveals market segmentation.
 
-```datacore
+```dataview
 table without id
   complexity AS "Complexity Tier",
   count(file.link) AS "Game Count",
@@ -303,7 +303,7 @@ sort complexity asc
 
 **Use Case**: Rank publishers by total output and calculate their average game significance. Identifies prolific versus quality-focused publishers.
 
-```datacore
+```dataview
 table without id
   publisher AS "Publisher",
   count(file.link) AS "Total Games",
@@ -326,7 +326,7 @@ limit 15
 
 **Use Case**: Identify designers with the longest active careers, showing sustained creative output over decades.
 
-```datacore
+```dataview
 table without id
   file.link AS "Designer",
   active-years AS "Active Period",
@@ -348,7 +348,7 @@ limit 20
 
 **Use Case**: Surface the most significant historical events in TTRPG history based on significance ratings.
 
-```datacore
+```dataview
 table without id
   file.link AS "Event",
   year AS "Year",
@@ -371,7 +371,7 @@ sort significance desc, year asc
 
 **Use Case**: Identify games that lack influence attribution, helping maintain relationship completeness. Most post-1974 games should acknowledge influences.
 
-```datacore
+```dataview
 table without id
   file.link AS "Game",
   year-published AS "Year",
@@ -393,7 +393,7 @@ sort year-published desc
 
 **Use Case**: Find games that no other game claims as an influence - potential data gaps or truly isolated designs.
 
-```datacore
+```dataview
 table without id
   file.link AS "Game",
   year-published AS "Year",
@@ -414,7 +414,7 @@ sort year-published desc
 
 **Use Case**: Audit data quality by finding entries missing important optional properties like genre, complexity, or innovation scores.
 
-```datacore
+```dataview
 table without id
   file.link AS "Game",
   year-published AS "Year",
@@ -436,7 +436,7 @@ sort year-published desc
 
 **Use Case**: Monitor vault growth by showing recently created or modified entries. Useful for reviewing recent work.
 
-```datacore
+```dataview
 table without id
   file.link AS "Entry",
   type AS "Type",
@@ -458,7 +458,7 @@ limit 30
 
 **Use Case**: Find games with multiple designers, revealing collaborative partnerships and co-creation patterns.
 
-```datacore
+```dataview
 table without id
   file.link AS "Game",
   designer AS "Designers",
@@ -479,7 +479,7 @@ sort year-published desc
 
 **Use Case**: Group publishers by when they were founded to understand industry growth waves and generation cohorts.
 
-```datacore
+```dataview
 table without id
   file.link AS "Publisher",
   founded AS "Founded",
@@ -500,7 +500,7 @@ sort founded asc
 
 **Use Case**: Organize mechanics into functional categories (resolution, character creation, conflict, etc.) for systematic study.
 
-```datacore
+```dataview
 table without id
   category AS "Category",
   file.link AS "Mechanic",
@@ -522,7 +522,7 @@ sort category asc, year-introduced asc
 
 **Use Case**: Analyze the geographic origins of TTRPG publishers, revealing regional industry centers.
 
-```datacore
+```dataview
 table without id
   headquarters AS "Location",
   count(file.link) AS "Publisher Count",
@@ -545,7 +545,7 @@ sort count(file.link) desc
 
 **Use Case**: Find games that blend multiple genres, identifying innovative hybrid designs.
 
-```datacore
+```dataview
 table without id
   file.link AS "Game",
   genre AS "Genres",
@@ -566,7 +566,7 @@ sort innovation-score desc
 
 **Use Case**: Study publishers that closed, analyzing industry mortality and historical context.
 
-```datacore
+```dataview
 table without id
   file.link AS "Publisher",
   founded AS "Founded",
@@ -588,7 +588,7 @@ sort defunct desc
 
 **Use Case**: Identify designers with highest average innovation scores - the industry's most creative minds.
 
-```datacore
+```dataview
 table without id
   designer AS "Designer",
   count(file.link) AS "Games Designed",
@@ -612,7 +612,7 @@ limit 20
 
 **Use Case**: Count unique systems used across all games to measure mechanical diversity in the hobby.
 
-```datacore
+```dataview
 table without id
   system AS "System",
   count(file.link) AS "Games Using",
@@ -633,7 +633,7 @@ sort count(file.link) desc
 
 **Use Case**: Filter historical events by their impact areas (legal, cultural, economic, creative) to study specific types of industry change.
 
-```datacore
+```dataview
 table without id
   file.link AS "Event",
   year AS "Year",
@@ -654,7 +654,7 @@ sort significance desc
 
 **Use Case**: Identify the most historically significant game from each decade - the title that defined its era.
 
-```datacore
+```dataview
 table without id
   floor(year-published / 10) * 10 AS "Decade",
   file.link AS "Top Game",
@@ -678,7 +678,7 @@ sort floor(year-published / 10) * 10 asc
 
 **Use Case**: Calculate which games are most frequently cited as influences by counting backlinks in the influenced-by property.
 
-```datacore
+```dataview
 table without id
   file.link AS "Game",
   year-published AS "Year",
@@ -700,7 +700,7 @@ limit 20
 
 **Use Case**: Aggregate influence of all games by a designer to identify the most influential creators (not just popular).
 
-```datacore
+```dataview
 table without id
   designer AS "Designer",
   count(file.link) AS "Games",
@@ -724,7 +724,7 @@ limit 20
 
 **Use Case**: Identify decades with low game coverage, revealing gaps in the vault's historical representation.
 
-```datacore
+```dataview
 table without id
   floor(year-published / 10) * 10 AS "Decade",
   count(file.link) AS "Game Count"
@@ -743,7 +743,7 @@ sort floor(year-published / 10) * 10 asc
 
 **Use Case**: List currently active designers (no death-year listed) for tracking living contributors and potential interview subjects.
 
-```datacore
+```dataview
 table without id
   file.link AS "Designer",
   birth-year AS "Born",
@@ -764,7 +764,7 @@ sort active-years asc
 
 **Use Case**: Trace how systems evolved from predecessors by following influenced-by relationships at the system level.
 
-```datacore
+```dataview
 table without id
   file.link AS "Game",
   system AS "System",
@@ -793,7 +793,7 @@ sort year-published asc
 ### Syntax Reminders
 
 - Always use explicit aliases: `file.link AS "Name"`
-- Code fence: ` ```datacore ` (never dataview)
+- Code fence: ` ```dataview ` (not `datacore` — Datacore does not parse DQL)
 - Self-reference: `this.file.link`
 - String searches: `contains(string(file.inlinks), "text")`
 - Math functions: `floor()`, `round()`, `avg()`, `sum()`, `count()`

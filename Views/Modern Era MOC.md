@@ -103,7 +103,7 @@ This era has fundamentally transformed TTRPGs from subcultural hobby to recogniz
 
 ## Major Games of the Era
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -236,7 +236,7 @@ SORT year-published ASC
 
 ## Publishers Active in the Era
 
-```datacore
+```dataview
 TABLE
   file.link AS "Publisher",
   founded AS "Founded",
@@ -343,7 +343,7 @@ SORT founded ASC
 
 ## Influential Designers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   active-years AS "Active Period",
@@ -438,7 +438,7 @@ SORT file.name ASC
 
 ## Key Mechanics Introduced
 
-```datacore
+```dataview
 TABLE
   file.link AS "Mechanic",
   year-introduced AS "Year",
@@ -536,7 +536,7 @@ SORT year-introduced ASC
 
 ## Historical Events
 
-```datacore
+```dataview
 TABLE
   file.link AS "Event",
   year AS "Year",

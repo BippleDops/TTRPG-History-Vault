@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "Root The Tabletop Roleplaying Game"
+  - "Root: The Tabletop Roleplaying Game"
+  - "Root RPG"
 title: "Root: The Tabletop Roleplaying Game"
 type: game
 publisher: [[Magpie Games]]

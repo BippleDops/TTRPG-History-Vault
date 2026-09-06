@@ -223,7 +223,7 @@ Czege's approach emphasizes:
 
 ## Related Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", length(notable-works) AS "Games", active-years AS "Active"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "Half Meme Press") OR contains(tags, "psychological-mechanics")
@@ -232,7 +232,7 @@ SORT length(notable-works) DESC
 
 ## Games Designed
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", genre AS "Genre"
 FROM "Games"
 WHERE contains(designer, [[Paul Czege]])

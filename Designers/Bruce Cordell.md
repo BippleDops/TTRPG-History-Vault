@@ -254,7 +254,7 @@ Bruce Cordell's influence operates through his integration of cosmic horror into
 
 ## Related Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", tags AS "Related Areas"
 FROM "Designers"
 WHERE contains(tags, "cosmic-horror") OR contains(tags, "weird-fantasy") OR contains(companies-worked, "Monte Cook Games")

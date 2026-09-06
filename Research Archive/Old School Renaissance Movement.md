@@ -1,9 +1,8 @@
 ---
 title: "The Old School Renaissance (OSR) Movement"
-type: web-archive
-source-url: Multiple OSR blogs, forums, and community archives
+type: synthesis
+sources: []
 source-type: community/design-movement
-archived-date: 2024-12-20
 author: OSR community (various bloggers, designers, theorists)
 publication: Multiple community sources
 topics:
@@ -18,13 +17,18 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - osr
   - design-movement
   - classic-play
   - community-driven
   - 2000s-2010s
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -308,22 +312,19 @@ The Old School Renaissance (OSR) represents a grassroots movement to recover, pr
 - Modern OSR adventures
 - Design principles
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**Matt Finch: Quick Primer:**
-"The biggest difference between old-school and modern gaming is the referee's authority over rules. In old-school play, the referee makes rulings on the spot. The rules are guidelines, not physics."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**On Player Skill:**
-"Old-school play rewards player cleverness, not character sheet optimization. You don't roll to search for traps - you describe where and how you search, and the referee tells you what you find."
+- **Matt Finch, *Quick Primer for Old School Gaming* (2008)** — Finch locates the key difference between old-school and modern play in the referee's authority: rulings are made on the spot, and the rules are guidelines rather than physics.
 
-**OSR Philosophy:**
-"Information is the treasure. Give players meaningful choices by giving them meaningful information. Don't hide the dungeon behind perception checks - describe what they see and let them decide what to do."
+- **Player skill** — Old-school play rewards player cleverness over character-sheet optimisation; searching for a trap means describing where and how the character searches, not rolling a skill.
 
-**On Emergent Play:**
-"The OSR doesn't believe in 'story games' vs 'traditional games' - it believes in emergent story from system interaction vs. pre-plotted narrative. Story happens, but it comes from play, not script."
+- **Information as treasure** — Players get meaningful choices when they get meaningful information, so the dungeon is described openly rather than hidden behind perception checks.
 
-**Movement Impact:**
-"The OSR proved that 'old-school' wasn't obsolete - it was misunderstood. By recovering lost techniques and combining them with modern design clarity, the movement created something new while honoring the old."
+- **Emergent play** — The movement rejects the "story games versus traditional games" split in favour of a different contrast: story emerging from system interaction versus pre-plotted narrative. Story happens, but it comes from play rather than a script.
+
+- **Movement impact** — The OSR's claim is that "old-school" was misunderstood rather than obsolete; by recovering lost techniques and presenting them with modern clarity it made something new while honouring the original games.
 
 ## Related Vault Entries
 

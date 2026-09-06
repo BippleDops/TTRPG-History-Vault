@@ -167,7 +167,7 @@ The setting's longevity—nearly 40 years of continuous publication—demonstrat
 
 ## Related Settings
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Setting",
   creator AS "Creator",

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Vincent Baker"
 type: designer
 designer-name: D. Vincent Baker
 birth-year: 1968
@@ -72,7 +74,7 @@ Baker's design philosophy centers on several revolutionary principles:
 
 ## Notable Works
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(designer, this.file.link)
@@ -125,7 +127,7 @@ Baker frequently collaborates with his wife Meguey Baker, who co-designed severa
 - Emily Care Boss (Breaking the Ice)
 - The indie RPG design community broadly
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "[[Lumpley Games]]") AND this.file.link != file.link
@@ -133,7 +135,7 @@ WHERE contains(publishers-worked-with, "[[Lumpley Games]]") AND this.file.link !
 
 ## Publishers Worked With
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)

@@ -66,7 +66,7 @@ Rein-Hagen's design philosophy revolutionized how designers approached RPGs:
 
 ## Notable Works
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(designer, this.file.link)
@@ -117,7 +117,7 @@ Rein-Hagen worked with numerous designers building the World of Darkness:
 - Bill Bridges (Mage: The Ascension)
 - Various World of Darkness contributors
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "[[White Wolf Publishing]]")
@@ -125,7 +125,7 @@ WHERE contains(publishers-worked-with, "[[White Wolf Publishing]]")
 
 ## Publishers Worked With
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)

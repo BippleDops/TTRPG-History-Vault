@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Thousand Year Old Vampire"
 title: Thousand Year Old Vampire
 type: game
 publisher: [[Tim Hutchings]]

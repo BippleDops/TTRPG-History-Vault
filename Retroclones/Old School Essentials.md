@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "OSE"
+  - "Old School Essentials (2018)"
 type: retroclone
 emulates: B/X D&D (1981 Basic/Expert Sets)
 designer: Gavin Norman

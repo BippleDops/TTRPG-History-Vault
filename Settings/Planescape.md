@@ -196,7 +196,7 @@ The setting's legacy is secure as D&D's premier planar setting and most philosop
 
 ## Related Settings
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Setting",
   creator AS "Creator",

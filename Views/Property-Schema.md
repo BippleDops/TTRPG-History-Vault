@@ -15,7 +15,7 @@ Complete documentation of all properties used across the TTRPG History Vault. Th
 
 Properties (also called frontmatter or metadata) provide structured data enabling:
 - Database views through Bases
-- Dynamic queries through Datacore
+- Dynamic queries through Dataview
 - Relationships between notes
 - Filtering and sorting
 - Statistical analysis
@@ -404,11 +404,11 @@ play-experience: false
 
 ## Validation Queries
 
-Use these Datacore queries to check for missing or incorrect properties:
+Use these Dataview queries to check for missing or incorrect properties:
 
 ### Games Missing Required Properties
 
-```datacore
+```dataview
 TABLE file.link AS "Game"
 FROM "Games"
 WHERE !title OR !type OR !publisher OR !designer OR !year-published
@@ -416,7 +416,7 @@ WHERE !title OR !type OR !publisher OR !designer OR !year-published
 
 ### Publishers Without Key Releases
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher"
 FROM "Publishers"
 WHERE !key-releases OR length(key-releases) = 0
@@ -424,7 +424,7 @@ WHERE !key-releases OR length(key-releases) = 0
 
 ### Designers Without Notable Works
 
-```datacore
+```dataview
 TABLE file.link AS "Designer"
 FROM "Designers"
 WHERE !notable-works OR length(notable-works) = 0

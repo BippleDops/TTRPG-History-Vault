@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Clay That Woke"
 title: The Clay That Woke
 type: game
 publisher: [[Half Meme Press]]

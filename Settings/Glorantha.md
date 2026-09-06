@@ -184,7 +184,7 @@ The setting's influence extends beyond direct commercial success. Glorantha pion
 
 ## Related Settings
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Setting",
   creator AS "Creator",

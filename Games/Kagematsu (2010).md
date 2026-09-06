@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Kagematsu"
 title: Kagematsu
 type: game
 publisher: Self-published

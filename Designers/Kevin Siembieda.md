@@ -270,7 +270,7 @@ The OSR movement and recent interest in older games has created some renewed app
 
 ## Publishers and Related Designers
 
-```datacore
+```dataview
 TABLE founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE file.name = "Palladium Books"
@@ -278,7 +278,7 @@ WHERE file.name = "Palladium Books"
 
 ## Games Designed
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", historical-significance AS "Significance"
 FROM "Games"
 WHERE contains(designer, this.file.link) OR designer = this.file.link

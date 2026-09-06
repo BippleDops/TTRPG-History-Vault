@@ -146,7 +146,7 @@ Despite limited recent support, Greyhawk maintains cultural relevance. The 5th E
 
 ## Related Settings
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Setting",
   creator AS "Creator",

@@ -13,7 +13,7 @@ This index organizes games by their designers, allowing you to explore creative 
 ## Navigation
 
 - **[[TTRPG-History-Dashboard]]** - Main visual dashboard
-- **[[START-HERE]]** - Quick start guide
+- **[[README]]** - Overview and setup
 - **[[MASTER-INDEX]]** - Complete A-Z reference
 - **[[Games-by-Year]]** - Chronological index
 - **[[Games-by-System]]** - Mechanical index
@@ -24,7 +24,7 @@ This index organizes games by their designers, allowing you to explore creative 
 
 ### Designer Directory
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   birth-year AS "Born",
@@ -42,7 +42,7 @@ SORT file.name ASC
 
 ### Legendary Creators (Influence 5/5)
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 5) AS "Key Works",
@@ -55,7 +55,7 @@ SORT file.name ASC
 
 ### Highly Influential (Influence 4/5)
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 4) AS "Key Works",
@@ -76,7 +76,7 @@ Use the queries below to see all games by specific designers:
 
 #### Gary Gygax
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Gary Gygax")
@@ -89,7 +89,7 @@ SORT year-published ASC
 
 #### Dave Arneson
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Dave Arneson")
@@ -102,7 +102,7 @@ SORT year-published ASC
 
 #### Mark Rein-Hagen
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Mark Rein-Hagen") OR contains(string(designer), "Mark Rein·Hagen")
@@ -115,7 +115,7 @@ SORT year-published ASC
 
 #### Vincent Baker
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Vincent Baker") OR contains(string(designer), "D. Vincent Baker")
@@ -128,7 +128,7 @@ SORT year-published ASC
 
 #### John Harper
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "John Harper")
@@ -141,7 +141,7 @@ SORT year-published ASC
 
 #### Monte Cook
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Monte Cook")
@@ -154,7 +154,7 @@ SORT year-published ASC
 
 #### Jonathan Tweet
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Jonathan Tweet")
@@ -167,7 +167,7 @@ SORT year-published ASC
 
 #### Robin D. Laws
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Robin") AND contains(string(designer), "Laws")
@@ -180,7 +180,7 @@ SORT year-published ASC
 
 #### Ken Hite
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Ken Hite") OR contains(string(designer), "Kenneth Hite")
@@ -193,7 +193,7 @@ SORT year-published ASC
 
 #### Sandy Petersen
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Sandy Petersen")
@@ -206,7 +206,7 @@ SORT year-published ASC
 
 #### Greg Stafford
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Greg Stafford")
@@ -219,7 +219,7 @@ SORT year-published ASC
 
 #### Steve Jackson
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Steve Jackson")
@@ -232,7 +232,7 @@ SORT year-published ASC
 
 #### Mike Pondsmith
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Mike Pondsmith")
@@ -245,7 +245,7 @@ SORT year-published ASC
 
 #### Luke Crane
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", publisher AS "Publisher", system AS "System"
 FROM "Games"
 WHERE contains(string(designer), "Luke Crane")
@@ -260,7 +260,7 @@ SORT year-published ASC
 
 ### Narrative-Focused Designers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 3) AS "Key Games",
@@ -272,7 +272,7 @@ SORT file.name ASC
 
 ### Simulation-Focused Designers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 3) AS "Key Games",
@@ -284,7 +284,7 @@ SORT file.name ASC
 
 ### Mechanics-Focused Designers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 3) AS "Key Games",
@@ -296,7 +296,7 @@ SORT file.name ASC
 
 ### OSR Movement Designers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 3) AS "Key Games",
@@ -330,7 +330,7 @@ SORT file.name ASC
 
 ### First Generation (1970s Origins)
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   birth-year AS "Born",
@@ -346,7 +346,7 @@ SORT birth-year ASC
 
 ### Second Generation (1980s Expansion)
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   birth-year AS "Born",
@@ -362,7 +362,7 @@ SORT birth-year ASC
 
 ### Third Generation (1990s Innovation)
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 3) AS "Key Works"
@@ -377,7 +377,7 @@ SORT file.name ASC
 
 ### Fourth Generation (2000s Renaissance)
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 3) AS "Key Works"
@@ -392,7 +392,7 @@ SORT file.name ASC
 
 ### Fifth Generation (2010s-Present Modern Era)
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 3) AS "Key Works"
@@ -409,7 +409,7 @@ SORT file.name ASC
 
 ### American Designers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 3) AS "Key Works",
@@ -421,7 +421,7 @@ SORT influence-score DESC, file.name ASC
 
 ### British Designers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 3) AS "Key Works",
@@ -433,7 +433,7 @@ SORT file.name ASC
 
 ### European Designers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   nationality AS "Country",
@@ -449,7 +449,7 @@ SORT nationality ASC, file.name ASC
 
 ### By Number of Notable Works
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   length(notable-works) AS "# Games",
@@ -467,7 +467,7 @@ LIMIT 20
 
 ### Still Active (40+ Years)
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   active-years AS "Career Span",
@@ -499,7 +499,7 @@ python3 Scripts/analytics/influence_network.py
 
 ### ENnie Award Winners
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 3) AS "Award-Winning Works",
@@ -511,7 +511,7 @@ SORT file.name ASC
 
 ### Origins Award Winners
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 3) AS "Award-Winning Works",
@@ -557,7 +557,7 @@ SORT file.name ASC
 
 ### Discover a Random Creator
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   LIST(notable-works, 4) AS "Notable Works",

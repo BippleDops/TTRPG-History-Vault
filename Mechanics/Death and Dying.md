@@ -374,7 +374,7 @@ High-level D&D campaigns developed "resurrection economy" where parties accumula
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", year-introduced AS "Year", first-appearance AS "First Appearance"
 FROM "Mechanics"
 WHERE contains(file.name, "Hit Points") OR contains(file.name, "Healing") OR contains(file.name, "Combat")
@@ -412,7 +412,7 @@ SORT year-introduced ASC
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System", designer AS "Designer"
 FROM "Games"
 WHERE type = "game" AND (contains(lower(file.content), "death") OR contains(lower(file.content), "dying") OR contains(lower(file.content), "hit point"))

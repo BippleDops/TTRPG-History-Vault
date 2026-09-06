@@ -229,7 +229,7 @@ Jason Bulmahn's influence on tabletop gaming extends beyond Pathfinder's commerc
 
 ## Collaborations and Design Teams
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", tags AS "Related Areas"
 FROM "Designers"
 WHERE contains(companies-worked, "Paizo Publishing") OR contains(tags, "Pathfinder")
@@ -248,7 +248,7 @@ Bulmahn led large design teams throughout Pathfinder development:
 
 ## Published Works and Product Lines
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(designer, "Jason Bulmahn") OR contains(system, "Pathfinder")

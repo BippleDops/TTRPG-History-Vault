@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Veil"
 title: The Veil
 type: game
 publisher: [[Samjoko Publishing]]

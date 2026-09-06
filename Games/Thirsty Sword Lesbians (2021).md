@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Thirsty Sword Lesbians"
 title: Thirsty Sword Lesbians
 type: game
 publisher: [[Evil Hat Productions]]

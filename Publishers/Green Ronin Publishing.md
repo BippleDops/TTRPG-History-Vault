@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Green Ronin"
 title: Green Ronin Publishing
 type: publisher
 founded: 2000
@@ -61,7 +63,7 @@ Today, Green Ronin operates as respected mid-tier publisher with diverse product
 
 ## Key Releases
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE publisher = this.file.link
@@ -70,7 +72,7 @@ SORT year-published ASC
 
 ## Notable Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", length(notable-works) AS "Games"
 FROM "Designers"
 WHERE contains(publishers-worked-with, this.file.link)

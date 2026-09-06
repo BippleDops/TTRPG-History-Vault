@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Zak Smith Controversy"
 type: controversy
 time-period: 2019
 key-figures:

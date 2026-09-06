@@ -257,7 +257,7 @@ On Lovecraft: "Cosmic horror is epistemological horror—the universe doesn't ca
 
 ## Publishers Worked With
 
-```datacore
+```dataview
 TABLE founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link) OR contains(key-releases, file.outlinks)
@@ -266,7 +266,7 @@ SORT founded ASC
 
 ## Games Designed
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(designer, this.file.link) OR designer = this.file.link

@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "X-Card"
+  - "Lines and Veils"
 title: Safety Tools
 type: mechanics
 first-appeared: Multiple (2000s-2010s)

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Planescape Campaign Setting"
 type: supplement
 supplement-title: Planescape Campaign Setting
 parent-game: "[[Advanced Dungeons & Dragons (1977)]]"
@@ -865,7 +867,7 @@ Controversial ending:
 
 ## Related Products
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

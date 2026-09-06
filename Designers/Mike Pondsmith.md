@@ -187,7 +187,7 @@ Pondsmith's influence continues through Cyberpunk Red's release, ongoing R. Tals
 
 ## Related Designers and Collaborations
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", tags AS "Related Areas"
 FROM "Designers"
 WHERE contains(tags, "cyberpunk-genre") OR contains(tags, "1980s-gaming") OR contains(tags, "independent-publisher")
@@ -206,7 +206,7 @@ Pondsmith's work influenced and was influenced by numerous designers:
 
 ## Games and Publications
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(designer, "Mike Pondsmith") OR contains(designer, "Pondsmith")

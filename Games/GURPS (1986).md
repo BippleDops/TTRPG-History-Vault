@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "GURPS"
 title: GURPS
 type: game
 publisher: [[Steve Jackson Games]]
@@ -173,7 +175,7 @@ GURPS proved universal systems could thrive, demonstrated that detailed simulati
 
 ## Related Games
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", genre AS "Genre"
 FROM "Games"
 WHERE contains(influenced-by, this.file.link) OR contains(influence-on, this.file.link)
@@ -182,7 +184,7 @@ SORT year-published ASC
 
 ## Publisher Context
 
-```datacore
+```dataview
 TABLE founded AS "Founded", headquarters AS "Location", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(key-releases, this.file.link)
@@ -190,7 +192,7 @@ WHERE contains(key-releases, this.file.link)
 
 ## Designer Context
 
-```datacore
+```dataview
 TABLE active-years AS "Active Years", length(notable-works) AS "Games Designed"
 FROM "Designers"
 WHERE contains(notable-works, this.file.link)

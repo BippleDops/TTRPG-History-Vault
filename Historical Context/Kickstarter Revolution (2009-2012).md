@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "Kickstarter Revolution"
+  - "Kickstarter"
+  - "Crowdfunding in TTRPGs"
 title: Kickstarter Revolution
 type: historical-event
 year: 2009
@@ -764,14 +768,14 @@ Beyond economics, crowdfunding affected culture:
 - Financial and business analysis of crowdfunding models
 - Platform evolution and feature development history
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded"
 FROM "Publishers"
 WHERE founded >= 2009 OR contains(file.content, "Kickstarter") OR contains(file.content, "crowdfunding")
 SORT founded ASC
 ```
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE year-published >= 2012 AND (contains(file.content, "Kickstarter") OR contains(file.content, "crowdfund"))

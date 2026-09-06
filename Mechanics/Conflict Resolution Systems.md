@@ -226,7 +226,7 @@ Became fundamental narrativist principle. Task/conflict distinction essential de
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", first-appeared AS "Origin", category AS "Category"
 FROM "Mechanics"
 WHERE contains(tags, "resolution") OR contains(tags, "stakes-setting")

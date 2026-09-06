@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "The Forge Wars"
+  - "The Forge"
 title: The Forge Wars (2001-2008)
 type: historical-event
 year-occurred: 2001-2008

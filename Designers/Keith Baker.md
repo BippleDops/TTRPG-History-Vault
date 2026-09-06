@@ -216,7 +216,7 @@ Keith Baker's influence on game design operates through multiple channels: revol
 
 ## Collaborations and Related Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", tags AS "Related Areas"
 FROM "Designers"
 WHERE contains(companies-worked, "Wizards of the Coast") OR contains(tags, "D&D-designer")
@@ -235,7 +235,7 @@ Baker collaborated with numerous designers throughout his career:
 
 ## Published Works
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(designer, "Keith Baker") OR contains(setting, "Eberron")

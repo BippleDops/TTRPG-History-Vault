@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Dog Eat Dog"
 title: Dog Eat Dog
 type: game
 publisher: Self-published

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "White Wolf"
 type: publisher
 publisher-name: White Wolf Publishing
 founded: 1991
@@ -46,7 +48,7 @@ In 2015, Paradox Interactive acquired White Wolf from CCP. After controversy ove
 
 ## Key Releases
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", genre AS "Genre", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(publisher, this.file.link)
@@ -55,7 +57,7 @@ SORT year-published ASC
 
 ## Notable Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, this.file.link)

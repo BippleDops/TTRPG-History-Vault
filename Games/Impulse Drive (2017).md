@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Impulse Drive"
 title: Impulse Drive
 type: game
 publisher: Self-published

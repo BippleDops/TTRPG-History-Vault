@@ -1,9 +1,9 @@
 ---
 title: "Kickstarter and the Crowdfunding Revolution in TTRPGs"
-type: web-archive
-source-url: https://www.kickstarter.com/ and crowdfunding analysis
+type: synthesis
+sources:
+  - https://www.kickstarter.com/
 source-type: platform/industry-analysis
-archived-date: 2024-12-20
 author: Kickstarter, industry analysts, creators, backers
 publication: Multiple sources
 topics:
@@ -17,13 +17,18 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - crowdfunding
   - industry-transformation
   - economics
   - modern-history
   - publishing
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -321,19 +326,17 @@ Kickstarter's emergence as a crowdfunding platform transformed TTRPG publishing 
 - FOMO culture
 - Stakeholder feelings
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**Creator Perspective:**
-"Kickstarter let me make the game I wanted, not the game a publisher thought would sell. The community voted with their wallets, and I could create with complete artistic freedom while knowing I had an audience."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**Industry Impact:**
-"Crowdfunding didn't just change how games get funded - it changed who gets to make games. The gatekeepers can be bypassed if you can convince the community to support your vision."
+- **Creator view** — Creators frequently say crowdfunding let them make the game they wanted rather than the one a publisher expected to sell, with backers confirming an audience in advance and leaving artistic control with the designer.
 
-**On Challenges:**
-"Every Kickstarter creator underestimates shipping costs. Then they learn. The successful ones budget better next time. The unsuccessful ones never get a next time."
+- **Industry impact** — Crowdfunding changed not only how games are funded but who gets to make them: traditional gatekeepers can be bypassed by anyone who can persuade a community to back a vision.
 
-**Community Voice:**
-"Backing on Kickstarter feels different than buying retail. I'm part of making this exist. I'm invested in its success. I'm patient with delays because I understand the complexity."
+- **Challenges** — A commonplace among creators is that everyone underestimates shipping and fulfilment costs the first time; those who survive budget better on the next campaign, while those who do not may never get another.
+
+- **Backer view** — Backers often describe pledging as different from a retail purchase: a sense of helping something exist and being invested in its success, which makes them more patient with delays.
 
 **Statistics:**
 - **Critical Role**: $11.4M (2019 record for RPG)

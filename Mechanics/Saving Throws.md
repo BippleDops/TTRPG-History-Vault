@@ -435,7 +435,7 @@ Saving throws may not suit:
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE contains(file.content, "saving throw") OR contains(file.content, "Saving Throw") OR contains(file.content, "save")

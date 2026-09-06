@@ -743,14 +743,14 @@ Ongoing implications:
 - Legal analyses and expert commentary
 - D&D Beyond subscription data and analysis
 
-```datacore
+```dataview
 TABLE file.link AS "Event", year AS "Year", significance AS "Impact"
 FROM "Historical Context"
 WHERE contains(tags, "legal") OR contains(tags, "community-uprising") OR year = 2023
 SORT year DESC
 ```
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded"
 FROM "Publishers"
 WHERE contains(file.content, "OGL") OR contains(file.content, "ORC") OR file.link = "[[Paizo Publishing]]" OR file.link = "[[Wizards of the Coast]]"

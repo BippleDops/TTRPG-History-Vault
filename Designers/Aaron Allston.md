@@ -158,7 +158,7 @@ Allston's success in both game design and fiction writing was relatively rare, d
 - Collaborated with other Star Wars authors including Timothy Zahn and Michael Stackpole
 - Contributed to shared universe storytelling
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "[[TSR]]") OR contains(publishers-worked-with, "[[Hero Games]]")
@@ -167,7 +167,7 @@ AND this.file.link != file.link
 
 ## Publishers Worked With
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)

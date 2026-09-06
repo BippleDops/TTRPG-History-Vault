@@ -634,7 +634,7 @@ The Greyhawk name maintained value and recognition for decades, becoming synonym
 
 ### Related Supplements
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

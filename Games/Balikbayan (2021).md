@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Balikbayan"
 title: "Balikbayan: Returning Home"
 type: game
 publisher: Hella Positive Roleplay

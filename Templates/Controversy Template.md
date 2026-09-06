@@ -80,11 +80,11 @@ tags:
 
 ---
 
-## Datacore Queries
+## Dataview Queries
 
 ### Related Games
 
-```datacore
+```dataview
 table title as "Game", designer as "Designer", year-published as "Year", publisher as "Publisher"
 from #ttrpg
 where contains(this.related-games, file.link)
@@ -94,7 +94,7 @@ sort year-published asc
 
 ### Related Publishers
 
-```datacore
+```dataview
 table title as "Publisher", founded as "Founded", status as "Status"
 from #publisher
 where contains(this.related-publishers, file.link)
@@ -104,7 +104,7 @@ sort founded asc
 
 ### Other Controversies in Same Period
 
-```datacore
+```dataview
 table title as "Controversy", year as "Year", significance as "Significance", resolution as "Status"
 from #controversy
 where year >= (this.year - 3)

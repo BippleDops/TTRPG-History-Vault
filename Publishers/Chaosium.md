@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Chaosium Inc"
+  - "Chaosium Inc."
 type: publisher
 publisher-name: Chaosium
 founded: 1975
@@ -82,7 +85,7 @@ Today, Chaosium operates as stable, growing publisher maintaining legacy while i
 
 ## Key Releases
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", genre AS "Genre", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(publisher, this.file.link)
@@ -91,7 +94,7 @@ SORT year-published ASC
 
 ## Notable Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, this.file.link)

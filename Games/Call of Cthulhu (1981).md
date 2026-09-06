@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Call of Cthulhu"
+  - "CoC"
 title: Call of Cthulhu
 type: game
 publisher: [[Chaosium]]
@@ -115,7 +118,7 @@ Call of Cthulhu received immediate acclaim and has maintained popularity for ove
 - Won the Origins Award for Best Roleplaying Rules of 1981
 - Has been translated into dozens of languages
 - Spawned numerous supplements covering different eras and locations
-- Created successful spinoffs (Cthulhu Dark Ages, Cthulhu Now, Delta Green)
+- Spawned Chaosium's own variant settings (Cthulhu Now, Cthulhu Dark Ages) and, under licence, third-party lines such as Pagan Publishing's Delta Green (1997; continued since 2016 by Arc Dream Publishing)
 - Maintained continuous publication through seven editions
 - Established Chaosium as a major RPG publisher
 
@@ -123,7 +126,7 @@ The game proved that TTRPGs could be more than power fantasies. Its influence ap
 
 ## Related Games
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year"
 FROM "Games"
 WHERE contains(influenced-by, this.file.link) OR contains(influence-on, this.file.link)
@@ -132,7 +135,7 @@ SORT year-published ASC
 
 ## Publisher Context
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded"
 FROM "Publishers"
 WHERE contains(key-releases, this.file.link)
@@ -140,7 +143,7 @@ WHERE contains(key-releases, this.file.link)
 
 ## Designer Context
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(notable-works, this.file.link)

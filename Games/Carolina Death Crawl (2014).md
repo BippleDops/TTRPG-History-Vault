@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Carolina Death Crawl"
 title: Carolina Death Crawl
 type: game
 publisher: [[Bully Pulpit Games]]

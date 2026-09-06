@@ -83,11 +83,11 @@ tags:
 
 ---
 
-## Datacore Queries
+## Dataview Queries
 
 ### Historical Events at This Convention
 
-```datacore
+```dataview
 table title as "Event", year as "Year", event-type as "Type", significance as "Significance"
 from #historical-event
 where contains(location, this.file.name)
@@ -97,7 +97,7 @@ sort year desc
 
 ### Games Launched at Convention
 
-```datacore
+```dataview
 table title as "Game", year-published as "Year", designer as "Designer", publisher as "Publisher"
 from #ttrpg
 where contains(launch-venue, this.file.link)
@@ -108,7 +108,7 @@ limit 20
 
 ### Other Conventions in Same Region
 
-```datacore
+```dataview
 table title as "Convention", founded as "Founded", frequency as "Frequency", status as "Status"
 from #convention
 where contains(location, split(this.location, ",")[0])

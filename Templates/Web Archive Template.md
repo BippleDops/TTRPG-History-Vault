@@ -29,21 +29,21 @@ tags:
 ## Related Entries
 
 ### Games
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year"
 FROM "Games"
 WHERE contains(related-games, this.file.link)
 ```
 
 ### Publishers
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded"
 FROM "Publishers"
 WHERE contains(related-publishers, this.file.link)
 ```
 
 ### Designers
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(related-designers, this.file.link)

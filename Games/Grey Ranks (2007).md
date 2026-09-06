@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Grey Ranks"
 title: Grey Ranks
 type: game
 publisher: [[Bully Pulpit Games]]

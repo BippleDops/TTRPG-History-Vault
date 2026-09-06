@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Fellowship"
 title: Fellowship
 type: game
 publisher: [[Liberi Gothica Games]]

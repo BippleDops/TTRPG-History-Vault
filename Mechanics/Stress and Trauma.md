@@ -220,7 +220,7 @@ Stress/Trauma demonstrates:
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", first-appeared AS "Origin", category AS "Category"
 FROM "Mechanics"
 WHERE contains(tags, "resource-management") OR contains(tags, "Forged-in-the-Dark")

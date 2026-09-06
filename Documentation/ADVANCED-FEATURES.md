@@ -18,7 +18,7 @@ This guide documents advanced features, enhancements, and power-user techniques 
 - [CSS Customization](#css-customization)
 - [Python Automation Scripts](#python-automation-scripts)
 - [Plugin Integrations](#plugin-integrations)
-- [Advanced Datacore Techniques](#advanced-datacore-techniques)
+- [Advanced Dataview Techniques](#advanced-dataview-techniques)
 - [Templater Automation](#templater-automation)
 - [Workflow Optimization](#workflow-optimization)
 
@@ -26,7 +26,7 @@ This guide documents advanced features, enhancements, and power-user techniques 
 
 ## Query Library
 
-The [[Query-Library]] contains 30+ advanced Datacore query patterns for sophisticated data analysis. These queries go beyond basic filtering to provide insights into TTRPG history.
+The [[Query-Library]] contains 30+ advanced Dataview query patterns for sophisticated data analysis. These queries go beyond basic filtering to provide insights into TTRPG history.
 
 ### Quick Access Categories
 
@@ -63,7 +63,7 @@ The [[Query-Library]] contains 30+ advanced Datacore query patterns for sophisti
 
 **Example**: Finding all games that influenced modern design:
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", length(influence-on) AS "Influenced"
 FROM "Games"
 WHERE year-published >= 2000 AND length(influence-on) > 0
@@ -365,7 +365,7 @@ The vault works with additional community plugins for enhanced functionality.
 
 ### Recommended Plugins
 
-**Datacore** (Required)
+**Dataview** (Required)
 - Embedded queries
 - Database views
 - Statistical analysis
@@ -394,13 +394,13 @@ See [[PLUGIN-INTEGRATION-GUIDE]] for detailed configuration instructions.
 
 ---
 
-## Advanced Datacore Techniques
+## Advanced Dataview Techniques
 
 ### Self-Referential Queries
 
 Use `this.file.link` to query relationships to current note:
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year"
 FROM "Games"
 WHERE contains(influenced-by, this.file.link)
@@ -413,7 +413,7 @@ SORT year-published ASC
 
 Use inline JavaScript for complex calculations:
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -427,7 +427,7 @@ SORT (historical-significance + innovation-score) DESC
 
 Combine WHERE with property checks:
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded"
 FROM "Publishers"
 WHERE defunct AND founded < 2000
@@ -438,7 +438,7 @@ SORT founded ASC
 
 Work with list properties:
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   length(notable-works) AS "Games Designed",
@@ -452,7 +452,7 @@ SORT length(notable-works) DESC
 
 Group results by property:
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   length(rows) AS "Count",
   round(avg(rows.historical-significance), 1) AS "Avg Significance"
@@ -531,7 +531,7 @@ Settings → Templater → Folder Templates:
 3. **Create Entry** using appropriate template
 4. **Link Relationships** to related entries
 5. **Validate** using Python scripts
-6. **Query Connections** using Datacore
+6. **Query Connections** using Dataview
 
 ### Batch Entry Workflow
 
@@ -592,10 +592,10 @@ Settings → Templater → Folder Templates:
 
 ### Common Issues
 
-**"Datacore queries show 'No results'"**
+**"Dataview queries show 'No results'"**
 - Check folder path in FROM clause (exact match required)
 - Verify property names match schema exactly (case-sensitive)
-- Ensure Datacore plugin is enabled and updated
+- Ensure Dataview plugin is enabled and updated
 
 **"Template prompts don't appear"**
 - Verify Templater plugin is enabled

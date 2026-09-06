@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Shock Social Science Fiction"
+  - "Shock: Social Science Fiction"
 title: "Shock: Social Science Fiction"
 type: game
 publisher: [[Glyphpress]]

@@ -87,11 +87,11 @@ tags:
 
 ---
 
-## Datacore Queries
+## Dataview Queries
 
 ### Source Game Details
 
-```datacore
+```dataview
 table title as "Game", year-published as "Year", designer as "Designer", game-system as "System"
 from #ttrpg
 where file.link = this.source-game
@@ -100,7 +100,7 @@ where file.link = this.source-game
 
 ### Other Adaptations of Same Game
 
-```datacore
+```dataview
 table title as "Adaptation", adaptation-type as "Type", year-released as "Year", platform as "Platform", adaptation-quality as "Quality"
 from #digital-adaptation
 where source-game = this.source-game
@@ -110,7 +110,7 @@ sort year-released asc
 
 ### Digital Adaptations from Same Era
 
-```datacore
+```dataview
 table title as "Adaptation", source-game as "Source", year-released as "Year", adaptation-type as "Type", adaptation-quality as "Quality"
 from #digital-adaptation
 where year-released >= (this.year-released - 3)

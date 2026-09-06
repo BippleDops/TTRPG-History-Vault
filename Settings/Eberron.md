@@ -178,7 +178,7 @@ The setting's legacy is secure as D&D's premier magic-as-technology setting and 
 
 ## Related Settings
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Setting",
   creator AS "Creator",

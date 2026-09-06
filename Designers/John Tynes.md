@@ -288,7 +288,7 @@ On leaving gaming: "Video games offered new creative challenges and broader audi
 
 **Chaosium**: Published licensed Delta Green material for Call of Cthulhu.
 
-```datacore
+```dataview
 TABLE founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)
@@ -297,7 +297,7 @@ SORT founded ASC
 
 ## Games Designed
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(designer, this.file.link) OR designer = this.file.link

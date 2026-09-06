@@ -183,7 +183,7 @@ Created thriving GMless genre with diverse successful games. Influenced authorit
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", first-appeared AS "Origin", category AS "Category"
 FROM "Mechanics"
 WHERE contains(tags, "GMless") OR contains(tags, "authority-distribution")

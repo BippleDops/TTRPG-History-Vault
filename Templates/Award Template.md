@@ -75,11 +75,11 @@ tags:
 
 ---
 
-## Datacore Queries
+## Dataview Queries
 
 ### Games That Won This Award
 
-```datacore
+```dataview
 table title as "Game", year-published as "Year", designer as "Designer", publisher as "Publisher"
 from #ttrpg
 where contains(awards, this.file.link)
@@ -90,7 +90,7 @@ limit 25
 
 ### Designers Who Won This Award
 
-```datacore
+```dataview
 table title as "Designer", notable-works as "Notable Works", awards as "Awards Won"
 from #designer
 where contains(awards, this.file.link)
@@ -100,7 +100,7 @@ sort file.name asc
 
 ### Other Contemporary Awards
 
-```datacore
+```dataview
 table title as "Award", founded as "Founded", frequency as "Frequency", significance as "Significance", status as "Status"
 from #award
 where founded >= (this.founded - 5)

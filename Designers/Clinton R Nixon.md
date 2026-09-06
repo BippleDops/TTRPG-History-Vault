@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Clinton R. Nixon"
 title: Clinton R. Nixon
 type: designer
 birth-year: 1975

@@ -405,7 +405,7 @@ Advancement systems became flashpoint in "power gamer vs roleplayer" cultural di
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", year-introduced AS "Year", first-appearance AS "First Appearance"
 FROM "Mechanics"
 WHERE contains(file.name, "Experience") OR contains(file.name, "Character Creation") OR contains(file.name, "Skill")
@@ -440,7 +440,7 @@ SORT year-introduced ASC
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System", designer AS "Designer"
 FROM "Games"
 WHERE type = "game"

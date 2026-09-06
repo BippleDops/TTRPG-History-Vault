@@ -2,7 +2,7 @@
 
 ## Interactive Timeline Visualization
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   "🎲 " + file.link AS "Game",
   year-published AS "Year",
@@ -19,7 +19,7 @@ SORT year-published ASC, title ASC
 
 ### 1970s - The Dawn (1974-1979)
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Game",
   year-published AS "Year",
@@ -32,7 +32,7 @@ SORT year-published ASC
 
 ### 1980s - The Golden Age (1980-1989)
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Game",
   year-published AS "Year",
@@ -45,7 +45,7 @@ SORT year-published ASC
 
 ### 1990s - The Storyteller Revolution (1990-1999)
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Game",
   year-published AS "Year",
@@ -58,7 +58,7 @@ SORT year-published ASC
 
 ### 2000s - The d20 Boom & Indie Explosion (2000-2009)
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Game",
   year-published AS "Year",
@@ -72,7 +72,7 @@ SORT year-published ASC
 
 ### 2010s - The PbtA Era & OSR Renaissance (2010-2019)
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Game",
   year-published AS "Year",
@@ -86,7 +86,7 @@ SORT year-published ASC
 
 ### 2020s - The Modern Landscape (2020-Present)
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Game",
   year-published AS "Year",
@@ -100,7 +100,7 @@ SORT year-published ASC
 
 ## Innovation Leaders by Era
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Highly Innovative Games",
   year-published AS "Year",
@@ -114,7 +114,7 @@ LIMIT 50
 
 ## Historical Significance Rankings
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Most Historically Significant",
   year-published AS "Year",
@@ -130,7 +130,7 @@ LIMIT 50
 
 ### Powered by the Apocalypse
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "PbtA Game",
   year-published AS "Year",
@@ -142,7 +142,7 @@ SORT year-published ASC
 
 ### Forged in the Dark
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "FitD Game",
   year-published AS "Year",
@@ -154,7 +154,7 @@ SORT year-published ASC
 
 ### OSR and Retroclones
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "OSR Game",
   year-published AS "Year",
@@ -172,12 +172,12 @@ This timeline provides multiple views of TTRPG history:
 - Innovation and significance rankings
 - System family groupings
 
-The interactive Datacore queries allow sorting, filtering, and exploration of the complete game history represented in this vault.
+The interactive Dataview queries allow sorting, filtering, and exploration of the complete game history represented in this vault.
 
 
 ## Comprehensive Game Release Timeline (1974-Present)
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   year-published AS "Year",
   file.link AS "Game",
@@ -191,7 +191,7 @@ SORT year-published ASC, title ASC
 
 ## Visualization: Games by Decade
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   "📅 " + string(floor(year-published/10)*10) + "s" AS "Decade",
   length(rows) AS "Games Released",
@@ -206,7 +206,7 @@ SORT floor(year-published/10)*10 ASC
 
 ### The Dawn Era (1974-1979)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", significance AS "Impact"
 FROM "Games"
 WHERE year-published >= 1974 AND year-published <= 1979
@@ -215,7 +215,7 @@ SORT year-published ASC
 
 ### The Golden Age (1980-1989)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", historical-significance AS "Impact"
 FROM "Games"
 WHERE year-published >= 1980 AND year-published <= 1989
@@ -224,7 +224,7 @@ SORT year-published ASC
 
 ### The Storyteller Revolution (1990-1999)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", innovation-score AS "Innovation"
 FROM "Games"
 WHERE year-published >= 1990 AND year-published <= 1999
@@ -233,7 +233,7 @@ SORT year-published ASC
 
 ### The d20 Boom (2000-2007)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE year-published >= 2000 AND year-published <= 2007
@@ -242,7 +242,7 @@ SORT year-published ASC
 
 ### The Indie Explosion (2008-2015)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", tags AS "Tags"
 FROM "Games"
 WHERE year-published >= 2008 AND year-published <= 2015
@@ -251,7 +251,7 @@ SORT year-published ASC
 
 ### The Fifth Edition Era (2014-2020)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", genre AS "Genre"
 FROM "Games"
 WHERE year-published >= 2014 AND year-published <= 2020
@@ -260,7 +260,7 @@ SORT year-published ASC
 
 ### The Modern Landscape (2020-Present)
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", innovation-score AS "Innovation"
 FROM "Games"
 WHERE year-published >= 2020
@@ -269,7 +269,7 @@ SORT year-published DESC
 
 ## Most Influential Games by Innovation Score
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", innovation-score AS "Innovation", historical-significance AS "Historical Impact"
 FROM "Games"
 WHERE innovation-score >= 4
@@ -279,7 +279,7 @@ LIMIT 50
 
 ## Games by Complexity
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   "⚙️ Complexity " + string(complexity) AS "Level",
   length(rows) AS "Count",

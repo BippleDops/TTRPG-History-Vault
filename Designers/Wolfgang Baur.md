@@ -179,7 +179,7 @@ Baur helped establish darker, more folklore-based fantasy aesthetic in contempor
 - Collaborated with other publishers on cross-promotional projects
 - Partnerships with various gaming companies
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "[[Kobold Press]]") OR contains(publishers-worked-with, "[[TSR]]")
@@ -188,7 +188,7 @@ AND this.file.link != file.link
 
 ## Publishers Worked With
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)

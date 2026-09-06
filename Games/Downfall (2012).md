@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Downfall"
 title: Downfall
 type: game
 publisher: Self-published

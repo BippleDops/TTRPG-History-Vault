@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Dice Pool"
 title: Dice Pools
 type: mechanics
 first-appeared: "[[Shadowrun]] (1989), [[Vampire: The Masquerade]] (1991)"

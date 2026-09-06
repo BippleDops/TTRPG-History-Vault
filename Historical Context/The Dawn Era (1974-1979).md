@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Dawn Era"
 era-name: The Dawn Era
 type: historical-era
 date-range: 1974-1979

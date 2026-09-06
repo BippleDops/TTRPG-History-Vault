@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Pasion de las Pasiones"
 title: Pasión de las Pasiones
 type: game
 publisher: [[Magpie Games]]

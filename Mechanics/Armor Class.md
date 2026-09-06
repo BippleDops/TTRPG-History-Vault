@@ -438,7 +438,7 @@ AC may not suit:
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE contains(file.content, "Armor Class") OR contains(file.content, "armor class") OR contains(file.content, " AC ")

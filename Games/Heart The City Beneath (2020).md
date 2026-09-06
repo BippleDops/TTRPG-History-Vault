@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Heart The City Beneath"
+  - "Heart: The City Beneath"
 title: "Heart: The City Beneath"
 type: game
 publisher: [[Rowan Rook and Decard]]

@@ -1,4 +1,10 @@
 ---
+aliases:
+  - "Pathfinder"
+  - "Pathfinder RPG"
+  - "Pathfinder RPG (2009)"
+  - "Pathfinder Roleplaying Game"
+  - "Pathfinder 1st Edition"
 title: Pathfinder Roleplaying Game
 type: game
 publisher: [[Paizo Publishing]]
@@ -125,7 +131,7 @@ Pathfinder proved alternatives to Wizards' D&D could thrive, influencing publish
 
 ## Related Games
 
-```datacore
+```dataview
 TABLE year-published AS "Year", publisher AS "Publisher", designer AS "Designer"
 FROM "Games"
 WHERE contains(influenced-by, this.file.link) OR contains(influence-on, this.file.link)
@@ -134,7 +140,7 @@ SORT year-published ASC
 
 ## Publisher Context
 
-```datacore
+```dataview
 TABLE founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(key-releases, this.file.link)

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Unearthed Arcana"
 type: supplement
 supplement-title: Unearthed Arcana
 parent-game: "[[Advanced Dungeons & Dragons (1977)]]"
@@ -937,7 +939,7 @@ The Unearthed Arcana concept persisted:
 
 ### Related Supplements
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

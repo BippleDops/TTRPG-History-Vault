@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Blackmoor"
 type: supplement
 supplement-title: Blackmoor
 parent-game: "[[Dungeons & Dragons (1974)]]"
@@ -711,7 +713,7 @@ Blackmoor's innovations appeared in subsequent products:
 
 ### Related Supplements
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

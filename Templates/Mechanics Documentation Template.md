@@ -35,7 +35,7 @@ tags:
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", system AS "System"
 FROM "Games"
 WHERE contains(string(this.file.link), mechanic-name) OR contains(games-using, this.file.link)

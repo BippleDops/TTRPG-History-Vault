@@ -1,4 +1,9 @@
 ---
+aliases:
+  - "TSR Inc."
+  - "TSR Inc"
+  - "TSR Hobbies"
+  - "Tactical Studies Rules"
 type: publisher
 publisher-name: TSR, Inc.
 founded: 1973
@@ -42,7 +47,7 @@ By 1997, TSR faced bankruptcy. Wizards of the Coast, flush with Magic: The Gathe
 
 ## Key Releases
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", genre AS "Genre", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(publisher, this.file.link)
@@ -51,7 +56,7 @@ SORT year-published ASC
 
 ## Notable Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, this.file.link)

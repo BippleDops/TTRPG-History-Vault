@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Wanderhome"
 title: Wanderhome
 type: game
 publisher: [[Possum Creek Games]]

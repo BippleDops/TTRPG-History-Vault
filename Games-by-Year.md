@@ -13,7 +13,7 @@ This index presents all games in the vault in chronological order, allowing you 
 ## Navigation
 
 - **[[TTRPG-History-Dashboard]]** - Main visual dashboard
-- **[[START-HERE]]** - Quick start guide
+- **[[README]]** - Overview and setup
 - **[[MASTER-INDEX]]** - Complete A-Z reference
 - **[[Games-by-Designer]]** - Creator index
 - **[[Games-by-System]]** - Mechanical index
@@ -24,7 +24,7 @@ This index presents all games in the vault in chronological order, allowing you 
 
 ### All Games by Year
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", designer AS "Designer", publisher AS "Publisher", system AS "System", genre AS "Genre"
 FROM "Games"
 WHERE year-published != null
@@ -37,7 +37,7 @@ SORT year-published ASC, file.name ASC
 
 ### 1970s - The Dawn Era
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", designer AS "Designer", publisher AS "Publisher", historical-significance AS "Significance"
 FROM "Games"
 WHERE year-published >= 1970 AND year-published < 1980
@@ -56,7 +56,7 @@ SORT year-published ASC
 
 ### 1980s - The Golden Age
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", designer AS "Designer", publisher AS "Publisher", historical-significance AS "Significance"
 FROM "Games"
 WHERE year-published >= 1980 AND year-published < 1990
@@ -75,7 +75,7 @@ SORT year-published ASC
 
 ### 1990s - The Storyteller Revolution
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", designer AS "Designer", publisher AS "Publisher", historical-significance AS "Significance"
 FROM "Games"
 WHERE year-published >= 1990 AND year-published < 2000
@@ -94,7 +94,7 @@ SORT year-published ASC
 
 ### 2000s - The d20 Boom
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", designer AS "Designer", publisher AS "Publisher", historical-significance AS "Significance"
 FROM "Games"
 WHERE year-published >= 2000 AND year-published < 2010
@@ -115,7 +115,7 @@ SORT year-published ASC
 
 #### Early 2010s - OSR & Indie Explosion (2010-2014)
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", designer AS "Designer", publisher AS "Publisher", innovation-score AS "Innovation"
 FROM "Games"
 WHERE year-published >= 2010 AND year-published < 2015
@@ -132,7 +132,7 @@ SORT year-published ASC
 
 #### Mid-Late 2010s - Fifth Edition Era (2014-2020)
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", designer AS "Designer", publisher AS "Publisher", innovation-score AS "Innovation"
 FROM "Games"
 WHERE year-published >= 2014 AND year-published < 2020
@@ -151,7 +151,7 @@ SORT year-published ASC
 
 ### 2020s - The Modern Landscape
 
-```datacore
+```dataview
 TABLE year-published AS "Year", file.link AS "Game", designer AS "Designer", publisher AS "Publisher", innovation-score AS "Innovation"
 FROM "Games"
 WHERE year-published >= 2020
@@ -173,7 +173,7 @@ SORT year-published ASC
 
 ### Most Productive Years
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   COUNT(file.link) AS "# Games Published",
@@ -191,7 +191,7 @@ LIMIT 15
 
 ### Landmark Years (5+ significant games)
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   COUNT(file.link) AS "Major Releases",
@@ -208,7 +208,7 @@ SORT year-published ASC
 
 ### Most Innovative Years
 
-```datacore
+```dataview
 TABLE
   year-published AS "Year",
   COUNT(file.link) AS "# Innovative Games",
@@ -266,7 +266,7 @@ python3 Scripts/analytics/innovation_timeline.py
 
 ### Fantasy Games by Decade
 
-```datacore
+```dataview
 TABLE
   floor(year-published / 10) * 10 + "s" AS "Decade",
   COUNT(file.link) AS "# Fantasy Games",
@@ -279,7 +279,7 @@ SORT floor(year-published / 10) * 10 ASC
 
 ### Science Fiction Games by Decade
 
-```datacore
+```dataview
 TABLE
   floor(year-published / 10) * 10 + "s" AS "Decade",
   COUNT(file.link) AS "# Sci-Fi Games",
@@ -292,7 +292,7 @@ SORT floor(year-published / 10) * 10 ASC
 
 ### Horror Games by Decade
 
-```datacore
+```dataview
 TABLE
   floor(year-published / 10) * 10 + "s" AS "Decade",
   COUNT(file.link) AS "# Horror Games",

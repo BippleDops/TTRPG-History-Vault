@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Storyteller Revolution"
 era-name: The Storyteller Revolution
 type: historical-era
 date-range: 1990-1999

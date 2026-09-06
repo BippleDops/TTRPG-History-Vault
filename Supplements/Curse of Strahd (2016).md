@@ -1,6 +1,8 @@
 ---
 type: supplement
 supplement-title: Curse of Strahd
+aliases:
+  - "Curse of Strahd"
 parent-game: "[[Dungeons & Dragons Fifth Edition (2014)]]"
 publisher: "[[Wizards of the Coast]]"
 designer:
@@ -562,7 +564,7 @@ These discussions have led to many DMs running Ireena as a more active, empowere
 
 ### Official Supplements
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",
@@ -577,6 +579,16 @@ SORT year-published ASC
 **Curse of Strahd Revamped** (2020): Premium box set edition
 
 **Tarokka Deck**: Officially licensed fortune-telling cards
+
+### Expansions and Community Resources
+
+**Curse of Strahd Revamped (2020)** - A deluxe boxed reprint of Curse of Strahd featuring revised text addressing cultural sensitivity concerns (notably the portrayal of the Vistani), new artwork, and premium production values. This edition included corrections to errors, updated NPC statistics, and refinements based on years of play feedback.
+
+**Van Richten's Guide to Ravenloft (2021)** - A full campaign setting book exploring the Domains of Dread beyond Barovia. This supplement provides tools for creating horror adventures, details dozens of different domains ruled by various Darklords, and updates the Ravenloft cosmology for fifth edition. While not specifically a Curse of Strahd sequel, it builds directly on the adventure's foundation and provides context for expanding campaigns beyond Strahd's defeat.
+
+Numerous third-party publishers produced unofficial supplements enhancing the Curse of Strahd experience. These include expanded encounter locations, additional NPCs, alternative adventure hooks, and extended epilogues. The DMs Guild marketplace features hundreds of Curse of Strahd-related products, from simple random encounter tables to elaborate expansions adding dozens of hours of content.
+
+Online resources have become essential companions to running the adventure. The r/CurseofStrahd subreddit maintains extensive guides, including the popular "Curse of Strahd: Reloaded" fan revision that reorganizes certain sections for improved pacing and provides additional content for underdeveloped areas. These community resources demonstrate the adventure's remarkable staying power and the dedication of its fan base.
 
 ### Digital Adaptations
 

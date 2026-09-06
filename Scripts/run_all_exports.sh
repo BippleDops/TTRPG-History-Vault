@@ -4,7 +4,8 @@
 
 set -e
 
-VAULT_ROOT="/Users/jonsussmanstudio/Desktop/Code Demonstrator For Karl/TTRPG-History-Vault"
+# Resolve the vault root relative to this script so it works from any checkout.
+VAULT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$VAULT_ROOT"
 
 echo "=================================================="

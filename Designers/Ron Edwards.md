@@ -232,7 +232,7 @@ Regardless of position, Edwards's influence remains undeniable—even critics us
 
 ## Related Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", length(notable-works) AS "Games Designed", active-years AS "Active Period"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "Adept Press") OR contains(file.outlinks, [[Ron Edwards]])
@@ -241,7 +241,7 @@ SORT length(notable-works) DESC
 
 ## Games Designed
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", genre AS "Genre"
 FROM "Games"
 WHERE contains(designer, [[Ron Edwards]])

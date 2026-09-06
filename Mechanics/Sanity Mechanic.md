@@ -71,7 +71,7 @@ This innovation became the defining mechanic of horror RPGs, copied and adapted 
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", designer AS "Designer", system AS "System"
 FROM "Games"
 WHERE contains(string(this.file.link), "Sanity") OR contains(string(this.file.link), "Cthulhu")

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Matthew Colville"
 type: designer
 designer-name: Matt Colville
 birth-year: 1974
@@ -334,7 +336,7 @@ This community impact extends beyond individual products to cultural shift in ho
 
 ## Related Designers and Influences
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(tags, "5e-designer") OR contains(tags, "youtube-creator")

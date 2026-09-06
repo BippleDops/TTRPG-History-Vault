@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Fall of Magic"
 title: Fall of Magic
 type: game
 publisher: Heart of the Deernicorn

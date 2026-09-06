@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "The OSR Renaissance"
+  - "Old School Renaissance"
+  - "OSR"
 era-name: The OSR Renaissance
 type: historical-era
 date-range: 2006-2014

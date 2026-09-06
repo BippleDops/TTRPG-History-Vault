@@ -426,7 +426,7 @@ Bonds/Flags may not suit:
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE contains(file.content, "Bonds") OR contains(file.content, "bonds") OR contains(file.content, "Apocalypse World") OR contains(file.content, "Powered by the Apocalypse") OR contains(system, "PbtA")

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Steal Away Jordan"
 title: Steal Away Jordan
 type: game
 publisher: Self-published

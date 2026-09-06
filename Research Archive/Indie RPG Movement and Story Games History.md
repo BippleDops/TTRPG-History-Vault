@@ -1,9 +1,8 @@
 ---
 title: "The Indie RPG Movement and Story Games Revolution"
-type: web-archive
-source-url: The Forge, Story Games forum, designer blogs
+type: synthesis
+sources: []
 source-type: community/theory/design
-archived-date: 2024-12-20
 author: Ron Edwards, Vincent Baker, Paul Czege, community theorists
 publication: Multiple community sources
 topics:
@@ -19,13 +18,18 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - indie-movement
   - design-theory
   - 2000s
   - story-games
   - innovation
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -337,19 +341,17 @@ The indie RPG movement of the 2000s-2010s represents a paradigm shift in TTRPG d
 - Agenda and techniques
 - Design intentionality
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**Ron Edwards: "System Does Matter" (1999):**
-"For a given group of people, System does matter. We can design games that reliably produce specific play experiences. The system isn't neutral - it shapes and constrains what stories can be told and how."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**Vincent Baker on Apocalypse World Design:**
-"Say what honesty demands. The rules are conversation prompts. They're there to provoke interesting choices and ensure we're always looking through crosshairs. The mechanics enforce the genre."
+- **Ron Edwards, "System Does Matter" (1999)** — Edwards's essay argued that, for any given group, system matters: rules can be designed to produce specific play experiences reliably, and a system is never neutral because it shapes and constrains what stories can be told and how.
 
-**On The Forge's Impact:**
-"The Forge didn't just change what games existed - it changed how people thought about games. Design went from mysterious alchemy to accessible craft with learnable principles."
+- **Vincent Baker on Apocalypse World** — Baker's design principles cast the rules as conversation prompts: they provoke interesting choices, keep the fiction dangerous, and enforce the genre.
 
-**Paul Czege: My Life with Master Design:**
-"I wanted a game where you couldn't fight the structure - where the mechanics guaranteed a specific emotional arc. Not everyone will love their Master, but everyone will confront what they've become."
+- **The Forge's impact** — The Forge changed not only which games existed but how people thought about games, turning design from a mysterious craft into a discipline with learnable principles.
+
+- **Paul Czege on My Life with Master** — Czege has described the game as one whose structure cannot be fought: the mechanics guarantee a specific emotional arc in which every player must confront what their character has become.
 
 **Statistics and Impact:**
 - **2001-2012**: Hundreds of indie games published

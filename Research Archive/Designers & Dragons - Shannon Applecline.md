@@ -1,9 +1,9 @@
 ---
 title: "Designers & Dragons: A History of the Roleplaying Game Industry"
-type: web-archive
-source-url: https://www.drivethrurpg.com/product/118063/Designers--Dragons-The-70s
+type: synthesis
+sources:
+  - https://www.drivethrurpg.com/product/118063/Designers--Dragons-The-70s
 source-type: book-series
-archived-date: 2024-12-20
 author: Shannon Applecline
 publication: Evil Hat Productions / Mongoose Publishing
 topics:
@@ -17,12 +17,17 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - publisher-history
   - comprehensive
   - industry-analysis
   - business-history
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -167,19 +172,17 @@ The series represents years of research into industry publications, interviews w
 - Failed companies with interesting histories
 - Near-misses and what-ifs
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**On TSR's Decline:**
-"TSR's downfall wasn't due to bad games or lack of creativity. Advanced Dungeons & Dragons was at its creative height in the early 90s. Rather, TSR died from mismanagement, corporate politics, and catastrophic business decisions like the Random House distribution deal that left them millions in debt."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**On the OGL Revolution:**
-"Ryan Dancey's Open Gaming License was the most significant industry event since D&D's original publication. By open-sourcing the d20 System, Wizards transformed D&D from a product into a platform, spawning hundreds of compatible games and third-party support."
+- **On TSR's decline** — Appelcline attributes TSR's collapse not to weak games (AD&D was creatively strong in the early 1990s) but to mismanagement, internal politics and business decisions such as the Random House distribution arrangement that left the company millions in debt.
 
-**On White Wolf's Impact:**
-"Vampire: The Masquerade didn't just create a successful game line - it redefined what RPGs could be about. The focus on personal horror, political intrigue, and character-driven storytelling attracted players who had never been interested in dungeon crawling."
+- **On the OGL** — The history treats Ryan Dancey's Open Gaming License as the most consequential industry event since D&D's own publication: by opening the d20 System, Wizards turned D&D from a product into a platform supported by hundreds of compatible games and third-party products.
 
-**On Industry Economics:**
-"The dirty secret of RPG publishing is that very few companies have ever made significant profits. Most successful publishers stayed afloat through diversification (miniatures, card games, fiction) or founder dedication despite minimal financial return."
+- **On White Wolf** — Vampire: The Masquerade is presented as redefining what an RPG could be about: personal horror, political intrigue and character-driven storytelling drew in players who had never cared for dungeon crawling.
+
+- **On industry economics** — A recurring theme is that very few RPG companies have ever made significant profits; most durable publishers survived through diversification (miniatures, card games, fiction) or the founders' willingness to work for little return.
 
 **Critical Business Events:**
 - **1997**: Wizards of the Coast acquires TSR for $25 million

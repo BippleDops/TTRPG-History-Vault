@@ -14,8 +14,7 @@ innovations:
   - Established dungeon master role
   - Created Vancian magic system
 awards:
-  - Origins Hall of Fame (1980)
-  - Inducted into Adventure Gaming Hall of Fame (1999)
+  - Origins Awards (Adventure Gaming) Hall of Fame (1980)
   - Multiple Origins Awards
 active-years: 1971-2008
 tags:
@@ -63,7 +62,7 @@ Gygax's design philosophy evolved from wargaming roots but ultimately created so
 
 ## Notable Works
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher", historical-significance AS "Impact"
 FROM "Games"
 WHERE contains(designer, this.file.link)
@@ -102,8 +101,7 @@ SORT year-published ASC
 
 ## Awards and Recognition
 
-- Origins Hall of Fame (1980) - First year inducted
-- Adventure Gaming Hall of Fame (1999)
+- Origins Awards Hall of Fame (1980) — the Academy of Adventure Gaming Arts and Design's hall of fame, later renamed the Adventure Gaming Hall of Fame; it is one honour, not two
 - Multiple Origins Awards for various D&D products
 - Posthumous recognition as "Father of Roleplaying Games"
 - Featured in documentaries, books, and tributes
@@ -111,7 +109,7 @@ SORT year-published ASC
 
 ## Collaborations
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years"
 FROM "Designers"
 WHERE contains(publishers-worked-with, "[[TSR]]") AND this.file.link != file.link
@@ -119,7 +117,7 @@ WHERE contains(publishers-worked-with, "[[TSR]]") AND this.file.link != file.lin
 
 ## Publishers Worked With
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(notable-designers, this.file.link)

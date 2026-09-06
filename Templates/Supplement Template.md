@@ -70,11 +70,11 @@ tags:
 
 ---
 
-## Datacore Queries
+## Dataview Queries
 
 ### Games in Same Product Line
 
-```datacore
+```dataview
 table title as "Game", year-published as "Year", game-system as "System"
 from #ttrpg
 where contains(product-line, this.parent-game)
@@ -84,7 +84,7 @@ sort year-published asc
 
 ### Other Supplements for Parent Game
 
-```datacore
+```dataview
 table title as "Supplement", year-published as "Year", supplement-type as "Type", page-count as "Pages"
 from #supplement
 where parent-game = this.parent-game
@@ -94,7 +94,7 @@ sort year-published asc
 
 ### Related Supplements by Setting
 
-```datacore
+```dataview
 table title as "Title", parent-game as "Game", year-published as "Year"
 from #supplement
 where setting = this.setting

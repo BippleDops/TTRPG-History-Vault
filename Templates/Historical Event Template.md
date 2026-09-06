@@ -26,7 +26,7 @@ tags:
 
 ## Games Affected
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE year-published = number(<% tp.frontmatter.year %>) OR contains(games-affected, this.file.link)
@@ -35,7 +35,7 @@ SORT title ASC
 
 ## Publishers Affected
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded"
 FROM "Publishers"
 WHERE contains(publishers-affected, this.file.link)

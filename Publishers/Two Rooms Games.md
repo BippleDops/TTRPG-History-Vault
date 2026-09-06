@@ -102,7 +102,7 @@ Two Rooms Games' philosophy centers on accessibility and inclusion:
 
 ## Key Releases
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE publisher = this.file.link

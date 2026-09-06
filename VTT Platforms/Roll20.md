@@ -597,7 +597,7 @@ As the most widely-used virtual tabletop platform, Roll20 has fundamentally chan
 
 ## Related Platforms
 
-```datacore
+```dataview
 TABLE
   file.link AS "Platform",
   launch-year AS "Launched",

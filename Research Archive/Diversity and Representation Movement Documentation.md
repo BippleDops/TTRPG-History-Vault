@@ -1,9 +1,8 @@
 ---
 title: "Diversity and Representation in TTRPGs - Movement Documentation"
-type: web-archive
-source-url: Multiple sources including blogs, advocacy groups, and academic work
+type: synthesis
+sources: []
 source-type: cultural-history/activism
-archived-date: 2024-12-20
 author: Various activists, designers, researchers, and community members
 publication: Multiple sources
 topics:
@@ -19,13 +18,18 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - diversity
   - representation
   - social-justice
   - community-evolution
   - cultural-change
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -299,25 +303,21 @@ The movement toward diversity, inclusion, and better representation in TTRPGs re
 - Cultural shifts
 - Safer spaces emergence
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**On Historical Homogeneity:**
-"The hobby wasn't exclusively white and male - women and people of color always participated. But the culture, marketing, and content assumed and centered white maleness, making everyone else feel unwelcome."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**On Representation:**
-"Representation isn't 'political correctness' or 'pandering' - it's acknowledging that the hobby belongs to everyone and showing that in content, community, and culture."
+- **Historical homogeneity** — The hobby was never exclusively white and male (women and people of colour always took part), but its culture, marketing and content assumed and centred white men, which made many other participants feel unwelcome.
 
-**Aaron Trammell (Academic):**
-"Race has always been part of gaming - from the orientalism of early D&D to racial ability scores to orc coding. The question isn't whether race is in games, but whether we'll address it honestly."
+- **Representation** — Advocates frame representation not as "political correctness" or pandering but as acknowledging that the hobby belongs to everyone and reflecting that in content, community and culture.
 
-**On Safety Tools:**
-"X-Cards and content warnings aren't about censorship - they're about ensuring everyone at the table can enjoy the game without being triggered or harmed. They expand what's possible, not limit it."
+- **Aaron Trammell** — Trammell's scholarship argues that race has always been present in gaming, from the orientalism of early D&D through racial ability modifiers to the coding of orcs, so the real question is whether designers address it honestly rather than whether it is there.
 
-**On Cultural Appropriation:**
-"Using someone else's culture as exotic flavor for your game while they face discrimination in real life isn't appreciation - it's exploitation. Meaningful engagement requires respect, research, and often, compensation."
+- **Safety tools** — Proponents of tools such as the X-Card and content warnings describe them as ways of ensuring everyone at the table can enjoy the game without being harmed, expanding what a group can explore rather than censoring it.
 
-**Progress and Ongoing Work:**
-"We've made significant progress, but diversity isn't a checkbox to mark complete. This is ongoing work requiring constant vigilance, learning, and improvement."
+- **Cultural appropriation** — Critics distinguish appreciation from exploitation: using another culture as exotic set dressing while its members face real discrimination is exploitation, and meaningful engagement requires respect, research and often compensation.
+
+- **Progress and ongoing work** — Commentators generally describe the progress as real but incomplete; diversity is treated as ongoing work requiring continued attention and learning rather than a box to tick.
 
 ## Related Vault Entries
 

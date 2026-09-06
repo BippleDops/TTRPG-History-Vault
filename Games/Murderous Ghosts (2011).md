@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Murderous Ghosts"
 title: Murderous Ghosts
 type: game
 publisher: [[Lumpley Games]]

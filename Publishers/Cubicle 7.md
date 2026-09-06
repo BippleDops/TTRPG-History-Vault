@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Cubicle 7 Entertainment"
 type: publisher
 publisher-name: Cubicle 7
 founded: 2006
@@ -93,7 +95,7 @@ Today, Cubicle 7 operates as respected licensed property specialist with particu
 
 ## Key Releases
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE publisher = this.file.link
@@ -102,7 +104,7 @@ SORT year-published ASC
 
 ## Notable Designers
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", length(notable-works) AS "Games"
 FROM "Designers"
 WHERE contains(publishers-worked-with, this.file.link)

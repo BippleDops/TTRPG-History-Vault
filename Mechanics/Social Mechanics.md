@@ -339,7 +339,7 @@ Charm spells and social compulsion mechanics raised ethical concerns: Is magical
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", year-introduced AS "Year", first-appearance AS "First Appearance"
 FROM "Mechanics"
 WHERE contains(file.name, "Skill") OR contains(file.name, "Alignment") OR contains(file.name, "Relationship")
@@ -373,7 +373,7 @@ SORT year-introduced ASC
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System", designer AS "Designer"
 FROM "Games"
 WHERE type = "game" AND (contains(lower(file.content), "social") OR contains(lower(file.content), "persuasion"))

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Critical Role Premiere"
 title: Critical Role Premiere
 type: historical-event
 year: 2015
@@ -644,14 +646,14 @@ Critical Role's ongoing impact:
 - Kickstarter campaign data and updates
 - Viewership statistics and audience analysis
 
-```datacore
+```dataview
 TABLE file.link AS "Event", year AS "Year", significance AS "Impact"
 FROM "Historical Context"
 WHERE year >= 2014 AND contains(impact-areas, "cultural")
 SORT year ASC
 ```
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year"
 FROM "Games"
 WHERE contains(file.content, "Critical Role") OR contains(file.content, "Wildemount") OR contains(file.content, "Exandria")

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Deities & Demigods"
 type: supplement
 supplement-title: Deities & Demigods
 parent-game: "[[Advanced Dungeons & Dragons (1977)]]"
@@ -690,7 +692,7 @@ TSR's experience influenced entire RPG industry's IP approach.
 
 ### Companion Volumes
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

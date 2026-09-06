@@ -60,13 +60,13 @@ This era transformed TTRPGs from Gary Gygax's singular vision into a mature crea
 - **1998**: Development begins on D&D Third Edition
 - **1999**: [[Seventh Sea]] launches from Alderac Entertainment Group
 - **1999**: [[d20 System]] development finalized
-- **2000**: [[D&D Third Edition (2000)|D&D Third Edition]] and [[Open Gaming License]] announced
+- **2000**: [[Dungeons & Dragons Third Edition (2000)|D&D Third Edition]] and [[Open Gaming License]] announced
 
 ---
 
 ## Major Games of the Era
 
-```datacore
+```dataview
 TABLE
   file.link AS "Game",
   year-published AS "Year",
@@ -161,7 +161,7 @@ SORT year-published ASC
 
 ## Publishers Active in the Era
 
-```datacore
+```dataview
 TABLE
   file.link AS "Publisher",
   founded AS "Founded",
@@ -254,7 +254,7 @@ SORT founded ASC
 
 ## Influential Designers
 
-```datacore
+```dataview
 TABLE
   file.link AS "Designer",
   active-years AS "Active Period",
@@ -348,7 +348,7 @@ SORT file.name ASC
 
 ## Key Mechanics Introduced
 
-```datacore
+```dataview
 TABLE
   file.link AS "Mechanic",
   year-introduced AS "Year",
@@ -449,7 +449,7 @@ SORT year-introduced ASC
 
 ## Historical Events
 
-```datacore
+```dataview
 TABLE
   file.link AS "Event",
   year AS "Year",

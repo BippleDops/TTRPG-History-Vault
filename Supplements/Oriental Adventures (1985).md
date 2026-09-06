@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Oriental Adventures"
 type: supplement
 supplement-title: Oriental Adventures
 parent-game: "[[Advanced Dungeons & Dragons (1977)]]"
@@ -893,7 +895,7 @@ Following products expanded setting:
 
 ### Related Supplements
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

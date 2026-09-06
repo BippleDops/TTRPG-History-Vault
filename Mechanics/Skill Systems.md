@@ -373,7 +373,7 @@ Characters specialized in skills over combat became "skill monkeys"—highly com
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", year-introduced AS "Year", first-appearance AS "First Appearance"
 FROM "Mechanics"
 WHERE contains(file.name, "d20") OR contains(file.name, "Character Creation") OR contains(file.name, "Advancement")
@@ -407,7 +407,7 @@ SORT year-introduced ASC
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System", designer AS "Designer"
 FROM "Games"
 WHERE type = "game" AND (contains(lower(file.content), "skill") OR contains(lower(file.content), "proficienc"))

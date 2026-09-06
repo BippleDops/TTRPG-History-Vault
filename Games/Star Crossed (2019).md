@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Star Crossed"
 title: Star Crossed
 type: game
 publisher: [[Evil Hat Productions]]

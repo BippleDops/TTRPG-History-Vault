@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Storybrewers"
 title: Storybrewers Roleplaying
 type: publisher
 founded: 2016

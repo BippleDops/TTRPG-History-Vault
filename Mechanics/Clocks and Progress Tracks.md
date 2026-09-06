@@ -243,7 +243,7 @@ Clocks became fundamental RPG tool, comparable to experience points or initiativ
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", first-appeared AS "Origin", category AS "Category"
 FROM "Mechanics"
 WHERE contains(tags, "progress-tracking") OR contains(tags, "Forged-in-the-Dark")

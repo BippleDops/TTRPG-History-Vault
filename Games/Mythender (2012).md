@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Mythender"
 title: Mythender
 type: game
 publisher: Self-published

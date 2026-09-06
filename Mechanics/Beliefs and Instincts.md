@@ -260,7 +260,7 @@ Beliefs/Instincts demonstrate:
 
 ## Related Mechanics
 
-```datacore
+```dataview
 TABLE file.link AS "Mechanic", first-appeared AS "Origin", category AS "Category"  
 FROM "Mechanics"
 WHERE contains(tags, "character-motivation") OR contains(tags, "advancement")

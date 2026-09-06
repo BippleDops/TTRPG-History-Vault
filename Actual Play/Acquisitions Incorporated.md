@@ -333,7 +333,7 @@ This long-term success proved actual play's sustainability as content category.
 - Wizards of the Coast official content
 - PAX convention programming
 
-```datacore
+```dataview
 TABLE
   file.link AS "Show",
   start-year AS "Started",

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Manual of the Planes"
 type: supplement
 supplement-title: Manual of the Planes
 parent-game: "[[Advanced Dungeons & Dragons (1977)]]"
@@ -819,7 +821,7 @@ Some found Manual overwhelming:
 
 ### Subsequent Planar Supplements
 
-```datacore
+```dataview
 TABLE
   file.link AS "Supplement",
   year-published AS "Year",

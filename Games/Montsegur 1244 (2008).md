@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Montsegur 1244"
 title: Montsegur 1244
 type: game
 publisher: [[Chimera Creative]]

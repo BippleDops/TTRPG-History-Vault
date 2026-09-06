@@ -1,4 +1,10 @@
 ---
+aliases:
+  - "D&D 3.5 Edition"
+  - "Dungeons & Dragons 3.5 Edition"
+  - "Dungeons & Dragons 3.5 (2003)"
+  - "D&D 3.5"
+  - "D&D v3.5"
 title: D&D 3.5 Edition
 type: game
 publisher: [[Wizards of the Coast]]
@@ -17,7 +23,7 @@ influence-on:
   - "[[Pathfinder (2009)]]"
   - "[[13th Age (2013)]]"
 influenced-by:
-  - "[[D&D Third Edition (2000)]]"
+  - "[[Dungeons & Dragons Third Edition (2000)]]"
   - "[[Advanced Dungeons & Dragons (1977)]]"
 tags:
   - ttrpg
@@ -359,7 +365,7 @@ The supplement strategy assumed players would mix-and-match content from multipl
 
 ## Related Games
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", publisher AS "Publisher"
 FROM "Games"
 WHERE contains(influenced-by, this.file.link) OR contains(influence-on, this.file.link)
@@ -368,7 +374,7 @@ SORT year-published ASC
 
 ## Publisher Context
 
-```datacore
+```dataview
 TABLE file.link AS "Publisher", founded AS "Founded", significance AS "Significance"
 FROM "Publishers"
 WHERE contains(key-releases, this.file.link)
@@ -377,7 +383,7 @@ SORT founded ASC
 
 ## Designer Context
 
-```datacore
+```dataview
 TABLE file.link AS "Designer", active-years AS "Active Years", length(notable-works) AS "Games Designed"
 FROM "Designers"
 WHERE contains(notable-works, this.file.link)

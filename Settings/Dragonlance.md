@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Dragonlance Campaign Setting"
 type: setting
 associated-games:
   - "[[Advanced Dungeons & Dragons]]"
@@ -169,7 +171,7 @@ The setting's legacy is secure as one of D&D's most important settings. It demon
 
 ## Related Settings
 
-```datacore
+```dataview
 TABLE WITHOUT ID
   file.link AS "Setting",
   creator AS "Creator",

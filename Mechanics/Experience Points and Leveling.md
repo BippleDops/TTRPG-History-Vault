@@ -421,7 +421,7 @@ Modern designers explore various advancement frameworks:
 
 ## Games Using This Mechanic
 
-```datacore
+```dataview
 TABLE file.link AS "Game", year-published AS "Year", system AS "System"
 FROM "Games"
 WHERE contains(file.content, "experience points") OR contains(file.content, "Experience Points") OR contains(file.content, "XP") OR contains(file.content, "leveling")
