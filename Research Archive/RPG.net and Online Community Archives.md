@@ -1,9 +1,9 @@
 ---
 title: "RPG.net and Online TTRPG Community Archives"
-type: web-archive
-source-url: https://www.rpg.net/ and related community sites
+type: synthesis
+sources:
+  - https://www.rpg.net/
 source-type: community-archive/forum
-archived-date: 2024-12-20
 author: Community members, moderators, archivists
 publication: RPG.net, EN World, other community sites
 topics:
@@ -17,13 +17,18 @@ topics:
 relevance: 4
 tags:
   - research
-  - web-archive
+  - synthesis
   - community
   - forums
   - online-history
   - discussions
   - reviews
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -298,19 +303,17 @@ Online TTRPG communities transformed how gamers connected, shared knowledge, and
 - Dead link archaeology
 - Community memory verification
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**On Edition Wars:**
-"The 4E edition war was the most polarizing event in D&D history. RPG.net threads from 2008-2010 document every argument, from thoughtful design analysis to tribal loyalty. Reading them now is like archaeological excavation of community conflict."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**On Community Memory:**
-"Online forums preserve what human memory distorts. We can see exactly what people said in 2003, not what they remember saying. The gap between contemporary discussion and current memory is often striking."
+- **Edition wars** — The 4th Edition "edition war" was among the most polarising episodes in D&D's history, and RPG.net threads from 2008–2010 preserve every stage of it, from careful design analysis to tribal loyalty.
 
-**On Designer Participation:**
-"RPG.net in the 2000s had active designer participation. Monte Cook, Robin Laws, John Wick, and others engaged directly with community feedback. This dialogue shaped design evolution in real-time."
+- **Community memory** — Forums preserve what memory distorts: a thread shows exactly what people said in 2003 rather than what they now remember saying, and the gap between the two is often striking.
 
-**On Historical Value:**
-"The review archives capture games that have been forgotten. Dozens of 2000s indie games, small press publishers, and experimental designs exist only in these archives and scattered PDFs."
+- **Designer participation** — In the 2000s designers such as Monte Cook, Robin Laws and John Wick posted directly on RPG.net, and that dialogue with the community shaped design in something close to real time.
+
+- **Historical value** — The review archive captures games that are otherwise forgotten; many 2000s indie and small-press designs survive only there and in scattered PDFs.
 
 **Statistics:**
 - **RPG.net reviews**: 20,000+ archived

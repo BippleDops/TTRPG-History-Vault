@@ -1,9 +1,9 @@
 ---
 title: "Critical Role and the Actual Play Revolution"
-type: web-archive
-source-url: https://critrole.com/ and various media analyses
+type: synthesis
+sources:
+  - https://critrole.com/
 source-type: media/cultural-analysis
-archived-date: 2024-12-20
 author: Critical Role cast, gaming media analysts
 publication: Multiple sources
 topics:
@@ -18,13 +18,18 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - modern-history
   - cultural-impact
   - streaming
   - actual-play
   - mainstream-acceptance
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -280,13 +285,13 @@ Critical Role represents the most significant cultural phenomenon in modern TTRP
 - Crowdfunding viability
 - Media adaptation potential
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**Matthew Mercer on Home Games:**
-"The most important thing is that you and your friends are having fun. Our show is entertainment, but your game is yours. Don't compare them - just enjoy what you create together."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**On Cultural Impact:**
-"Critical Role didn't create the D&D renaissance alone, but it was the right show at the right time on the right platform. It made watching people play D&D entertaining to mainstream audiences."
+- **Matthew Mercer on home games** — Mercer has repeatedly told viewers not to measure their own tables against the show: Critical Role is produced as entertainment, while a home game belongs to the people playing it and should be enjoyed on its own terms.
+
+- **Cultural impact** — Critical Role did not create the D&D revival by itself, but it arrived as the right show, at the right time, on the right platform, and made watching other people play D&D entertaining to a mainstream audience.
 
 **Statistics:**
 - **11.4 million**: Kickstarter funding (2019 record)
@@ -294,8 +299,7 @@ Critical Role represents the most significant cultural phenomenon in modern TTRP
 - **Millions**: YouTube views per episode
 - **2015-2023**: D&D sales increased every year, correlating with CR growth
 
-**Industry Recognition:**
-"We're in the greatest time to be a TTRPG fan. The diversity of content, players, and games available now compared to even 2010 is staggering, and actual play has been a major driver." - Industry analyst
+- **Industry view** — Commentators commonly describe the 2020s as the most abundant period the hobby has known in content, players and games, compared with even a decade earlier, and credit actual play as a major driver.
 
 ## Related Vault Entries
 

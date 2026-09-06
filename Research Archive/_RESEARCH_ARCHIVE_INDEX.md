@@ -1,7 +1,6 @@
 ---
 title: "Research Archive Index - TTRPG History Vault"
 type: index
-archived-date: 2024-12-20
 tags:
   - index
   - research-archive
@@ -10,7 +9,13 @@ tags:
 
 # TTRPG History Vault - Research Archive Index
 
-This Research Archive contains 16 comprehensive resource documents covering the most important sources, movements, and developments in TTRPG history. Each document summarizes a major resource or topic, explains its historical value, and describes its utility for expanding the vault.
+> [!warning] Synthesis
+> Every note in this folder is an AI-written synthesis (October 2025), typed `synthesis` in its
+> frontmatter. None is an archived web page and none carries primary-source citations; the
+> "Key Points" sections are paraphrase, not quotation. Treat these notes as reading guides and
+> leads, verify claims against the works they name, and cite those works rather than these notes.
+
+This Research Archive contains 18 resource documents covering the most important sources, movements, and developments in TTRPG history. Each document summarizes a major resource or topic, explains its historical value, and describes its utility for expanding the vault.
 
 ## Purpose of This Archive
 
@@ -26,14 +31,14 @@ These research documents serve multiple purposes:
 **When Creating Vault Entries:**
 - Reference relevant research documents for context
 - Link to related vault entries mentioned in research docs
-- Use quotes and facts to enrich entries
+- Use the paraphrased key points and facts as leads, then verify them in the named works before citing
 - Apply analytical frameworks from research
 
 **When Researching Topics:**
 - Find which resource documents cover your topic
 - Check "Related Vault Entries" sections for connections
 - Use "Research Value" sections to understand importance
-- Follow source URLs (when available) for deeper research
+- Follow the `sources:` URLs (when present) and the works named in the text for deeper research
 
 **For Understanding TTRPG History:**
 - Read research docs to understand major movements
@@ -395,7 +400,7 @@ While this archive covers major resources, additional documentation would be val
 - Summarize existing resources, not create new research
 - Provide context and explain utility
 - Link to related vault entries
-- Identify key quotes and facts
+- Identify key points and facts (paraphrased — verify before citing)
 - Evaluate research value and integration
 
 **They are NOT:**

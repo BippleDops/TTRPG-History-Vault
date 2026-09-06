@@ -1,9 +1,8 @@
 ---
 title: "Gen Con and Gaming Convention History"
-type: web-archive
-source-url: Gen Con archives, convention histories, attendee accounts
+type: synthesis
+sources: []
 source-type: event-history/community
-archived-date: 2024-12-20
 author: Various convention organizers, historians, attendees
 publication: Convention materials, community archives
 topics:
@@ -17,13 +16,18 @@ topics:
 relevance: 4
 tags:
   - research
-  - web-archive
+  - synthesis
   - conventions
   - community
   - industry
   - events
   - culture
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -309,19 +313,17 @@ Gaming conventions represent essential community gathering spaces where the TTRP
 - Gatekeeping and inclusion
 - Evolution of convention demographics
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**Gary Gygax on Gen Con Origins:**
-"We just wanted a place where wargamers could gather, play games, and share our hobby. The first Gen Con was just a bunch of enthusiasts in a small space, never imagining it would become what it is today."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**On Convention Evolution:**
-"Gen Con transformed from a hobbyist gathering where everyone knew each other to a massive industry trade show where tens of thousands attend. Amazingly, you can still find that original spirit if you know where to look."
+- **Gary Gygax on the first Gen Con** — Gygax described the 1968 convention as simply a place for wargamers to gather, play and share their hobby: a small room of enthusiasts with no expectation of what it would become.
 
-**Industry Professional:**
-"Gen Con week determines what will be hot in gaming for the next year. Publishers time releases for Gen Con, retailers observe what sells, and the community votes with their wallets and attention."
+- **Convention evolution** — Gen Con grew from a hobbyist gathering where attendees knew one another into an industry trade show drawing tens of thousands, yet long-time attendees say the original spirit survives for those who know where to look.
 
-**Attendee Perspective:**
-"Gen Con is where I found my people. For four days a year, my weird hobby is completely normal, and 70,000 other people think the same way I do. It's home."
+- **Industry view** — For publishers and retailers, Gen Con week sets the agenda for the following year: releases are timed to it, retailers watch what sells, and the community signals its interests with its purchases and attention.
+
+- **Attendee view** — Attendees often describe the convention as a homecoming: four days a year in which an otherwise niche hobby is completely normal and tens of thousands of people share it.
 
 **Statistics:**
 - **Gen Con 1968**: ~100 attendees

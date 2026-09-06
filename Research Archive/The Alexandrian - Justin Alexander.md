@@ -1,9 +1,9 @@
 ---
 title: "The Alexandrian - Game Design Analysis and RPG Theory"
-type: web-archive
-source-url: https://thealexandrian.net/
+type: synthesis
+sources:
+  - https://thealexandrian.net/
 source-type: blog
-archived-date: 2024-12-20
 author: Justin Alexander
 publication: The Alexandrian (independent blog)
 topics:
@@ -17,12 +17,17 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - design-analysis
   - gm-techniques
   - theory
   - practical-application
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -166,22 +171,19 @@ For a history vault, The Alexandrian is critical for understanding:
 - Investigation structures
 - Sandbox vs. railroad continuum
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**On Historical Play Styles:**
-"Much of what we think we know about how old-school D&D was played is actually mythology. The actual play techniques were sophisticated and valuable, but they were often poorly documented or lost in edition transitions."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**On Edition Evolution:**
-"Each D&D edition isn't just a mechanical update - it represents a fundamental shift in what the game is supposed to be. Understanding TTRPG history requires understanding these philosophical shifts, not just rules changes."
+- **Historical play styles** — Alexander argues that much of what is "known" about how old-school D&D was played is mythology; the actual techniques were sophisticated and valuable but were poorly documented or lost across edition transitions.
 
-**On Design Recovery:**
-"The OSR isn't about nostalgia - it's about recovering genuinely valuable design techniques that were abandoned or obscured. Hexcrawl procedures, emergent play, and player agency techniques from the 1970s solve problems modern games still struggle with."
+- **Edition evolution** — Each D&D edition, in his reading, is not merely a mechanical update but a shift in what the game is supposed to be, so understanding TTRPG history means understanding those philosophical shifts as well as the rules changes.
 
-**On Adventure Design:**
-"The best classic adventures weren't linear stories - they were dynamic environments with multiple entry points, interconnected locations, and emergent narratives. We spent decades misunderstanding this because we read them as scripts instead of playspaces."
+- **Design recovery** — He frames the OSR as recovery rather than nostalgia: hexcrawl procedures, emergent play and player-agency techniques from the 1970s solve problems that modern games still struggle with.
 
-**Three Clue Rule:**
-"For any crucial piece of information, include at least three separate clues pointing to it. This principle, implicit in classic investigation scenarios, ensures players can progress even if they miss individual clues."
+- **Adventure design** — The best classic adventures, he argues, were not linear stories but dynamic environments (multiple entry points, interconnected locations, emergent narrative) that were misunderstood for decades because they were read as scripts rather than as play spaces.
+
+- **The Three Clue Rule** — For any conclusion the players must reach, include at least three separate clues pointing to it, so the scenario survives players missing any one of them.
 
 ## Related Vault Entries
 

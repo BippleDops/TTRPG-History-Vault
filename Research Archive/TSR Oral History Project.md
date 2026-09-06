@@ -1,9 +1,8 @@
 ---
 title: "TSR Oral History Project and Archive Documentation"
-type: web-archive
-source-url: Multiple archives including interviews, documentaries, and collections
+type: synthesis
+sources: []
 source-type: oral-history/documentary
-archived-date: 2024-12-20
 author: Various interviewers, archivists, documentarians
 publication: Multiple sources
 topics:
@@ -18,13 +17,18 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - oral-history
   - primary-source
   - tsr
   - company-history
   - designer-interviews
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -267,27 +271,21 @@ TSR oral history exists across multiple sources rather than a single unified pro
 - Growth pains
 - Industry conditions
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**Gary Gygax on D&D Creation:**
-"Dave [Arneson] brought me the concept of character-based gaming with experience progression. I systematized it, added much of the combat system from Chainmail, and we collaborated on the first version. Later additions were primarily mine, but without Dave's Blackmoor campaign, there would be no D&D."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**Tim Kask on Early TSR:**
-"We were making it up as we went along. None of us were businessmen. We were gamers who found ourselves running a company because people wanted to buy what we were creating. The miracle is that it worked as well as it did."
+- **Gary Gygax on D&D's creation** — Gygax's account credits Arneson with bringing him the concept of character-based play with experience progression, which Gygax systematised and combined with much of Chainmail's combat system; later additions were largely his own, but he acknowledged that without Blackmoor there would have been no D&D.
 
-**Zeb Cook on AD&D 2E Design:**
-"Gygax was gone, and we needed to update the game. But I also knew millions loved AD&D 1E. The goal was evolution, not revolution. Keep what worked, fix what didn't, and avoid alienating the existing fanbase."
+- **Tim Kask on early TSR** — Kask has recalled that early TSR was improvised by gamers rather than businessmen, people who found themselves running a company because customers wanted what they were making, and regards it as remarkable that it worked as well as it did.
 
-**Tracy Hickman on Dragonlance:**
-"We pitched an integrated novel and gaming product line. TSR had never done that before - coordinate fiction and game products to tell one story. The success of Dragonlance changed how TSR thought about their IP."
+- **Zeb Cook on AD&D 2nd Edition** — Cook has described 2nd Edition as evolution rather than revolution: with Gygax gone the game needed updating, but millions loved 1st Edition, so the aim was to keep what worked, fix what did not, and avoid alienating the existing audience.
 
-**On Williams Era (Varied Accounts):**
-"Lorraine saved TSR from the Blumes' mismanagement. She made hard decisions that kept the company alive." - Defender view
+- **Tracy Hickman on Dragonlance** — Hickman and Margaret Weis pitched Dragonlance as an integrated line of novels and game products telling one story, something TSR had not done before, and its success changed how the company thought about its intellectual property.
 
-"Lorraine alienated the creative staff, made poor strategic decisions, and ultimately drove TSR into the ground." - Critic view
+- **The Lorraine Williams era (divergent accounts)** — Defenders credit Williams with rescuing TSR from the Blume brothers' mismanagement and making hard decisions that kept it alive; critics say she alienated the creative staff, made poor strategic choices, and ultimately drove the company into the ground.
 
-**On TSR's Fall:**
-"The Random House deal was a disaster. We had to print and ship products whether retailers wanted them or not, and the returns buried us. Combined with overextension into novels and other media, we were doomed." - Employee account
+- **TSR's fall (former employees)** — Former staff describe the Random House distribution arrangement as disastrous (TSR had to print and ship product whether retailers wanted it or not, and the returns buried the company) and combine it with overextension into novels and other media to explain the collapse.
 
 ## Related Vault Entries
 

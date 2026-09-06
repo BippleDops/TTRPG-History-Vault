@@ -3,10 +3,10 @@ aliases:
   - "DriveThruRPG"
   - "RPGNow"
 title: "DriveThruRPG and Digital Distribution Revolution"
-type: web-archive
-source-url: https://www.drivethrurpg.com/
+type: synthesis
+sources:
+  - https://www.drivethrurpg.com/
 source-type: platform/industry
-archived-date: 2024-12-20
 author: OneBookShelf (parent company), publishers, community
 publication: DriveThruRPG, industry analysis
 topics:
@@ -20,12 +20,17 @@ topics:
 relevance: 4
 tags:
   - research
-  - web-archive
+  - synthesis
   - digital-distribution
   - industry-transformation
   - economics
   - accessibility
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -371,19 +376,17 @@ DriveThruRPG and its parent company OneBookShelf transformed TTRPG publishing by
 - Completeness of catalogs
 - Ongoing availability
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**On Industry Impact:**
-"DriveThruRPG didn't just create a marketplace - it created an entire ecosystem where small publishers could survive, classic games could remain available, and niche products could find their audiences indefinitely."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**Publisher Perspective:**
-"The 65/35 split means I keep more per sale than traditional distribution where I'd get maybe 20-30% after distributor and retailer cuts. Plus, my game is always available, never out of print, and I can update files when I find errors."
+- **Industry impact** — DriveThruRPG did more than open a marketplace: it created an ecosystem in which small publishers could survive, classic games could stay available, and niche products could keep finding audiences indefinitely.
 
-**On Long Tail:**
-"My game sells maybe 5 copies a month. Not enough for distribution, but over years those sales add up. DriveThruRPG's long tail means I have ongoing revenue from a game I published in 2012."
+- **Publisher economics** — Small publishers commonly cite the platform's revenue split (about 65/35 in the publisher's favour on the non-exclusive tier) as far better than the 20–30% they might net after distributor and retailer cuts in print distribution, and value that titles never go out of print and files can be corrected after release.
 
-**Historical Preservation:**
-"Without DriveThruRPG, hundreds of classic games would be inaccessible except through expensive used market or piracy. It's a living library of gaming history."
+- **The long tail** — A title that sells only a handful of copies a month, too few for print distribution, can still produce steady income for a decade or more.
+
+- **Preservation** — Without digital storefronts, hundreds of out-of-print games would be reachable only through an expensive second-hand market or piracy; the catalogue functions as a living library of the hobby's history.
 
 **Statistics:**
 - **40,000+**: Products available

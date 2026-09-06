@@ -1,9 +1,8 @@
 ---
 title: "Academic Game Studies and TTRPG Research"
-type: web-archive
-source-url: Multiple academic journals and publications
+type: synthesis
+sources: []
 source-type: academic
-archived-date: 2024-12-20
 author: Various academics and researchers
 publication: Game Studies journals, university presses, conferences
 topics:
@@ -17,12 +16,17 @@ topics:
 relevance: 4
 tags:
   - research
-  - web-archive
+  - synthesis
   - academic
   - theory
   - scholarly
   - interdisciplinary
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -266,19 +270,17 @@ Academic study of TTRPGs emerged from multiple disciplines, providing rigorous t
 - Inclusion and exclusion
 - Design assumptions and consequences
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**Gary Alan Fine: "Shared Fantasy":**
-"Role-playing games create multiple frames of meaning simultaneously - players are themselves, their characters, and participants in a social activity. Managing these frames is the essential skill of successful play."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**Sarah Lynne Bowman on Identity:**
-"Role-playing games offer a relatively safe space to explore alternative identities, values, and perspectives. This exploration can be transformative, allowing players to integrate new aspects of self."
+- **Gary Alan Fine, *Shared Fantasy* (1983)** — Fine describes role-players as operating in several frames of meaning at once (as themselves, as their characters, and as participants in a social event) and treats the ability to manage those frames as the essential skill of successful play.
 
-**José Zagal on Design:**
-"Understanding how RPG systems create particular play experiences requires analyzing the relationship between mechanics (rules), dynamics (play patterns), and aesthetics (emotional effects)."
+- **Sarah Lynne Bowman on identity** — Bowman's work treats role-playing as a comparatively safe space for trying out alternative identities, values and perspectives, and suggests that this exploration can be transformative for players.
 
-**Joseph Laycock on Satanic Panic:**
-"The panic over D&D reveals deep cultural anxieties about children's autonomy, fantasy versus reality, and secularization. The game became a scapegoat for broader social tensions."
+- **José Zagal on design** — Zagal's scholarship relates a system's rules (mechanics) to the play patterns they produce (dynamics) and the emotional effects those patterns create (aesthetics) as the way to understand why a system yields a particular experience.
+
+- **Joseph Laycock on the Satanic Panic** — Laycock's *Dangerous Games* (2015) reads the panic over D&D as an expression of broader cultural anxieties about children's autonomy, the line between fantasy and reality, and secularisation, for which the game became a scapegoat.
 
 **Research Findings:**
 - **Psychological harm**: No credible evidence found

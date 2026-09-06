@@ -1,9 +1,8 @@
 ---
 title: "White Wolf Publishing and the World of Darkness - Historical Retrospectives"
-type: web-archive
-source-url: Multiple sources including Onyx Path, company histories, designer accounts
+type: synthesis
+sources: []
 source-type: company-history/retrospective
-archived-date: 2024-12-20
 author: Mark Rein-Hagen, Stewart Wieck, Justin Achilli, developers, historians
 publication: Multiple sources
 topics:
@@ -18,13 +17,18 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - publisher-history
   - design-philosophy
   - 1990s
   - storytelling
   - cultural-impact
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -302,19 +306,17 @@ White Wolf Publishing's history represents one of the most dramatic arcs in TTRP
 - Metaplot vs. player agency
 - Edition loyalty and wars
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**Mark Rein-Hagen on Vampire's Vision:**
-"We wanted to create games about what it means to be human by exploring what happens when you're no longer human. Vampires aren't about fangs and blood - they're about losing yourself, wrestling with morality, and the price of power."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**On Storyteller vs Game Master:**
-"The terminology shift was deliberate. We're not running a game to be won - we're facilitating a story being told collaboratively. The Storyteller guides but doesn't control."
+- **Mark Rein-Hagen on Vampire** — Rein-Hagen has described Vampire as a game about what it means to be human, explored through characters who no longer are: the vampires are not about fangs and blood but about losing oneself, wrestling with morality, and the price of power.
 
-**Justin Achilli on Metaplot:**
-"Metaplot was both our greatest strength and our greatest weakness. It gave the setting life and momentum, but it also eventually made the games unplayable for new groups. We learned hard lessons about balance."
+- **"Storyteller" versus "Game Master"** — The terminology was deliberate: the role was framed as facilitating a story told collaboratively rather than running a game to be won, guiding without controlling.
 
-**On White Wolf's Cultural Impact:**
-"White Wolf proved that RPGs could be about something other than killing monsters and taking treasure. They normalized mature themes, attracted diverse players, and showed the medium's storytelling potential."
+- **Justin Achilli on metaplot** — Achilli has called metaplot both White Wolf's greatest strength and its greatest weakness: it gave the setting life and momentum but eventually made the games hard for new groups to enter, teaching the company hard lessons about balance.
+
+- **Cultural impact** — White Wolf showed that RPGs could be about something other than killing monsters and taking their treasure, normalised mature themes, drew a more diverse audience, and demonstrated the medium's storytelling potential.
 
 **Statistics:**
 - **Peak late 1990s**: White Wolf was #2 publisher by sales

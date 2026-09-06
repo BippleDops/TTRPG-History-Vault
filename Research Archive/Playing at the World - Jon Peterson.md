@@ -1,9 +1,9 @@
 ---
 title: "Playing at the World: A History of Simulating Wars, People and Fantastic Adventures"
-type: web-archive
-source-url: https://playingattheworld.blogspot.com/
+type: synthesis
+sources:
+  - https://playingattheworld.blogspot.com/
 source-type: academic/book
-archived-date: 2024-12-20
 author: Jon Peterson
 publication: Unreason Press / Blog
 topics:
@@ -17,13 +17,18 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - primary-source
   - academic
   - definitive-history
   - wargaming
   - origins
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -108,16 +113,15 @@ Peterson's blog extends the book with ongoing research:
 - [[Blackmoor]] - First RPG campaign documentation
 - [[Braunstein]] - Proto-RPG concepts
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**On Arneson's Contribution:**
-"Arneson's Blackmoor campaign, which began in 1971, introduced nearly all the core concepts we associate with roleplaying games: persistent characters, experience points, character classes, dungeon exploration, and treasure as reward."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**On D&D's Development:**
-"The original D&D was not a polished design document but rather an attempt to package the Blackmoor campaign experience into playable rules for others. This explains its notorious incompleteness - it was documenting an ongoing practice, not creating a finished system."
+- **On Arneson's contribution** — Peterson traces almost all of the core concepts of role-playing (persistent characters, experience points, character classes, dungeon exploration and treasure as reward) to Arneson's Blackmoor campaign, begun in 1971.
 
-**On Sources:**
-"Gygax's later accounts of D&D's creation, while colorful, often contradict contemporary documents from 1972-1974. Where they differ, the contemporary sources must be privileged."
+- **On D&D's development** — In Peterson's account the original D&D was less a polished design than an attempt to package the Blackmoor experience as rules others could use, which explains its notorious incompleteness: it documented an ongoing practice rather than creating a finished system.
+
+- **On sources** — Peterson's method privileges contemporary documents from 1972–1974 over later recollections, noting that Gygax's colourful later accounts of D&D's creation often contradict them.
 
 **Critical Timeline Points:**
 - **1967**: Dave Wesely runs first Braunstein game

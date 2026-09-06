@@ -1,9 +1,8 @@
 ---
 title: "TTRPG Designer Interviews and Post-Mortem Collection"
-type: web-archive
-source-url: Multiple blogs, podcasts, and publications
+type: synthesis
+sources: []
 source-type: interview/post-mortem
-archived-date: 2024-12-20
 author: Various designers, interviewers, and publications
 publication: Multiple sources
 topics:
@@ -17,13 +16,18 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - designers
   - interviews
   - creative-process
   - design-philosophy
   - primary-source
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -322,22 +326,19 @@ Designer interviews and post-mortems provide invaluable first-hand accounts of t
 - Community relationships
 - Standards changes
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**Gary Gygax on D&D Creation:**
-"The original D&D rules were incomplete because we assumed everyone would play the way we did - with a referee who understood the principles and would adjudicate creatively. We weren't writing a complete game; we were documenting a practice."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**Monte Cook on 3E Design:**
-"The goal with 3rd Edition was coherent rules where everything worked the same way. If you know how skill checks work, you know how everything works. That consistency was intentional and, I think, our greatest achievement."
+- **Gary Gygax on the original rules** — Gygax explained the 1974 rules' incompleteness by saying they assumed readers would play as his own group did, with a referee who understood the principles and adjudicated creatively; the booklets documented a practice rather than presenting a complete game.
 
-**Vincent Baker on Apocalypse World:**
-"The agenda, principles, and moves aren't just guidelines - they're the game. If you follow them, you get Apocalypse World. If you ignore them, you're playing something else. That's what 'rules as conversation prompts' means."
+- **Monte Cook on 3rd Edition** — Cook has described the design goal of 3rd Edition as coherence: a unified core mechanic, so that understanding skill checks means understanding everything else. He regards that consistency as the edition's main achievement.
 
-**Robin Laws on GUMSHOE:**
-"Investigation scenarios fail when players miss the crucial clue. GUMSHOE asks: what if we guaranteed they got the information they needed, and the challenge was what they did with it? That one shift changed everything."
+- **Vincent Baker on Apocalypse World** — Baker treats the MC's agenda, principles and moves as the game itself rather than as advice: following them produces Apocalypse World and ignoring them produces a different game. That is what he means by rules as conversation prompts.
 
-**Jason Morningstar on Fiasco:**
-"I wanted to capture that Coen Brothers feeling where everything goes wrong. The structure needed to guarantee disaster while making the journey hilarious and unpredictable. Playtesting taught us how to constrain freedom productively."
+- **Robin Laws on GUMSHOE** — Laws built GUMSHOE around the observation that investigative scenarios break when players miss a crucial clue. Guaranteeing that investigators find the core clues, and making the challenge what they do with them, is the system's central shift.
+
+- **Jason Morningstar on Fiasco** — Morningstar has said Fiasco set out to capture the Coen Brothers feeling of plans going wrong: a structure that guarantees disaster while keeping the route there funny and unpredictable, with playtesting showing how to constrain player freedom productively.
 
 ## Related Vault Entries
 

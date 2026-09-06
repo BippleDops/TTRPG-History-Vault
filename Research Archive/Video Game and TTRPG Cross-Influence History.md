@@ -1,9 +1,8 @@
 ---
 title: "Video Game and TTRPG Cross-Influence History"
-type: web-archive
-source-url: Multiple sources including game design analysis and history
+type: synthesis
+sources: []
 source-type: comparative-history/design-analysis
-archived-date: 2024-12-20
 author: Game historians, designers, and analysts
 publication: Multiple sources
 topics:
@@ -19,13 +18,18 @@ topics:
 relevance: 4
 tags:
   - research
-  - web-archive
+  - synthesis
   - video-games
   - cross-influence
   - design-evolution
   - adaptation
   - digital-analog
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -294,19 +298,17 @@ The relationship between tabletop and video game RPGs represents a fascinating c
 - BG3 bringing millions to 5E
 - Cross-medium franchises
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**On Early Adaptation:**
-"The first computer RPGs were literally D&D on a computer - same rules, same assumptions, just automated. The computer became the DM, freeing solo play but losing social creativity."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**On 4th Edition Influence:**
-"D&D 4E's clear MMORPG influence was both its innovation and its downfall. It brought tactical clarity and role definition, but alienated players who wanted less structured play."
+- **Early adaptation** — The first computer RPGs were essentially D&D on a computer (the same rules and assumptions, automated) with the machine standing in for the DM, which enabled solo play but lost the social creativity of the table.
 
-**On Baldur's Gate 3:**
-"BG3 is the most successful advertisement for D&D ever created. Millions are playing 5E rules who would never pick up a tabletop book. Larian showed that faithful adaptation can be massive success."
+- **4th Edition** — D&D 4th Edition's evident MMORPG influence is often described as both its innovation and its undoing: it brought tactical clarity and defined roles but alienated players who wanted less structured play.
 
-**On Cross-Influence:**
-"The line between tabletop and video game design is increasingly blurred. Designers play both and steal shamelessly from each. The best ideas don't care about medium."
+- **Baldur's Gate 3** — Baldur's Gate 3 (2023) is widely described as the most effective advertisement D&D has ever had, with millions of people playing 5th Edition rules who would never open a tabletop rulebook, and as proof that faithful adaptation can be a massive commercial success.
+
+- **Cross-influence** — Designers on both sides play both kinds of game and borrow freely; the line between tabletop and video-game design keeps blurring, and good ideas do not respect the boundary.
 
 **Statistics:**
 - **Baldur's Gate 3**: 10+ million copies sold

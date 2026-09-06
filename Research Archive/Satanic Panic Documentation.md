@@ -1,9 +1,8 @@
 ---
 title: "The Satanic Panic and Dungeons & Dragons - Historical Documentation"
-type: web-archive
-source-url: Multiple sources
+type: synthesis
+sources: []
 source-type: academic/journalistic
-archived-date: 2024-12-20
 author: Various (Michael Stackpole, Paul Cardwell, academic researchers)
 publication: Multiple publications and archives
 topics:
@@ -18,13 +17,18 @@ topics:
 relevance: 5
 tags:
   - research
-  - web-archive
+  - synthesis
   - cultural-history
   - controversy
   - 1980s
   - social-impact
   - legal-history
 ---
+> [!warning] Synthesis
+> This note is an AI-written synthesis (October 2025), not an archived web page, and it has no
+> primary-source citations. The "perspectives" it originally presented as quotations were
+> illustrative, not real quotes; they have been rewritten as paraphrase. Verify every claim
+> against the works named in the text and in `sources:` before reusing it.
 
 ## Resource Overview
 
@@ -211,22 +215,19 @@ The Satanic Panic of the 1980s-early 1990s represents one of the most significan
 - Importance of statistical literacy
 - Pattern recognition for future controversies
 
-## Key Quotes/Facts
+## Key Points (paraphrased)
 
-**From The Pulling Report (Stackpole):**
-"BADD's statistics are not just incorrect, they are impossible. The claimed number of D&D-related deaths would require every teen suicide in America to be a gamer, plus hundreds more that didn't happen."
+*Paraphrased summaries written for this synthesis. None is a verbatim quotation. Where a person or document is named, the line summarises the position commonly attributed to them; check their own published words before citing.*
 
-**On Media Coverage:**
-"The 60 Minutes segment interviewed Patricia Pulling and Dr. Radecki extensively, but gave only brief time to defenders and failed to fact-check any claims. This pattern repeated across media coverage."
+- **Michael Stackpole, *The Pulling Report* (1990)** — Stackpole showed that BADD's statistics were not merely wrong but impossible: the claimed number of D&D-related deaths would have required every teenage suicide in America to be a gamer, and then some.
 
-**From Joseph Laycock (Academic):**
-"The Satanic Panic around D&D reveals deep anxieties about children's play, fantasy versus reality, and parental control over teenage culture. D&D became a scapegoat for normal adolescent rebellion and tragic but unrelated deaths."
+- **Media coverage** — Critics of the coverage note that the 1985 *60 Minutes* segment gave Patricia Pulling and Thomas Radecki extended time, gave defenders little, and did not fact-check the claims, a pattern repeated across the media of the period.
 
-**Legal Finding (Multiple Cases):**
-"No court has ever found Dungeons & Dragons or any roleplaying game to be a contributing factor in suicide, murder, or any criminal activity. All such cases were dismissed or found no causation."
+- **Joseph Laycock** — Laycock reads the panic as an expression of anxieties about children's play, fantasy versus reality, and parental control over teenage culture, with D&D serving as a scapegoat for ordinary adolescent rebellion and for tragic but unrelated deaths.
 
-**TSR Response:**
-"We deeply regret that some have misunderstood our games as anything other than creative entertainment. Millions play safely and enjoyably, and no credible evidence suggests any harm."
+- **Legal outcomes** — No court has found Dungeons & Dragons or any role-playing game to be a contributing factor in a suicide, murder or other crime; suits attempting to establish such a link were dismissed or found no causation.
+
+- **TSR's response** — TSR's public position was that its games were creative entertainment played safely by millions, that it regretted the misunderstanding, and that no credible evidence pointed to harm.
 
 ## Related Vault Entries
 
