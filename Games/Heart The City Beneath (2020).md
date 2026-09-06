@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Heart The City Beneath"
-  - "Heart The City Beneath"
   - "Heart: The City Beneath"
 title: "Heart: The City Beneath"
 type: game

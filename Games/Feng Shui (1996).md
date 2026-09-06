@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Feng Shui"
-  - "Feng Shui"
 title: Feng Shui
 type: game
 publisher: [[Daedalus Entertainment]], [[Atlas Games]]

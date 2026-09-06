@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Earthdawn"
-  - "Earthdawn"
 title: Earthdawn
 type: game
 publisher: [[FASA Corporation]]

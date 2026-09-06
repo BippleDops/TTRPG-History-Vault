@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Ars Magica"
-  - "Ars Magica"
 title: Ars Magica
 type: game
 publisher: [[Lion Rampant]]

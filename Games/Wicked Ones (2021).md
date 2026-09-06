@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Wicked Ones"
-  - "Wicked Ones"
 title: Wicked Ones
 type: game
 publisher: [[Bandit Camp]]

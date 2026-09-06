@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Golden Sky Stories"
-  - "Golden Sky Stories"
 title: Golden Sky Stories
 type: game
 publisher: [[Tsugihagi Honpo]], [[Star Line Publishing]], [[Ewen Cluney Games]]

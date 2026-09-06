@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Das Schwarze Auge (The Dark Eye)"
-  - "Das Schwarze Auge (The Dark Eye)"
   - "Das Schwarze Auge"
   - "The Dark Eye"
 title: Das Schwarze Auge (The Dark Eye)

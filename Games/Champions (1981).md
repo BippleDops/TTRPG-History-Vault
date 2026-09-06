@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Champions"
-  - "Champions"
 title: Champions
 type: game
 publisher: [[Hero Games]]

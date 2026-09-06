@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Over the Edge"
-  - "Over the Edge"
 title: Over the Edge
 type: game
 publisher: [[Atlas Games]]

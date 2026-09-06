@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Symbaroum"
-  - "Symbaroum"
 title: Symbaroum
 type: game
 publisher: [[Järnringen]], [[Free League Publishing]]

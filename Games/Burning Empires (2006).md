@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Burning Empires"
-  - "Burning Empires"
 title: Burning Empires
 type: game
 publisher: [[Luke Crane]]

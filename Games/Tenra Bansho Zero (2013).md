@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Tenra Bansho Zero"
-  - "Tenra Bansho Zero"
 title: Tenra Bansho Zero
 type: game
 publisher: [[Bouken]], [[Kotodama Heavy Industries]]

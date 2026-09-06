@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Mobile Frame Zero Firebrands"
-  - "Mobile Frame Zero Firebrands"
   - "Mobile Frame Zero: Firebrands"
 title: "Mobile Frame Zero: Firebrands"
 type: game

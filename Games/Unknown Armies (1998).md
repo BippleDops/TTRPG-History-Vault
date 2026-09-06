@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Unknown Armies"
-  - "Unknown Armies"
 title: Unknown Armies
 type: game
 publisher: [[Atlas Games]]

@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Urban Shadows"
-  - "Urban Shadows"
 title: Urban Shadows
 type: game
 publisher: [[Magpie Games]]

@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Mork Borg"
-  - "Mork Borg"
 title: Mork Borg
 type: game
 publisher: [[Stockholm Kartell]], [[Free League Publishing]]

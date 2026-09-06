@@ -1,7 +1,6 @@
 ---
 aliases:
   - "HeroQuest"
-  - "HeroQuest"
 title: HeroQuest
 type: game
 publisher: [[Issaries Inc]], [[Moon Design Publications]]

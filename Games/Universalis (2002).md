@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Universalis"
-  - "Universalis"
 title: Universalis
 type: game
 publisher: [[Ramshead Publishing]]

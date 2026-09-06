@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Spire The City Must Fall"
-  - "Spire The City Must Fall"
   - "Spire: The City Must Fall"
   - "Spire"
 title: "Spire: The City Must Fall"

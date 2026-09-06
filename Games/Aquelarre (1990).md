@@ -1,7 +1,6 @@
 ---
 aliases:
   - "Aquelarre"
-  - "Aquelarre"
 title: Aquelarre
 type: game
 publisher: [[Joc Internacional]], [[Nosolorol Ediciones]], [[Nocturnal Media]]
