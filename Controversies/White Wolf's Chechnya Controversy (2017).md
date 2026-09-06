@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "White Wolf's Chechnya Controversy"
 type: controversy
 time-period: 2017-2018
 key-figures:

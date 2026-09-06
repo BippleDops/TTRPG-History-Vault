@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "My Life with Master"
 title: My Life with Master
 type: game
 publisher: [[Half Meme Press]]

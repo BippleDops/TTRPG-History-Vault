@@ -1,4 +1,11 @@
 ---
+aliases:
+  - "Advanced Dungeons & Dragons Second Edition"
+  - "Advanced Dungeons & Dragons 2nd Edition"
+  - "Advanced Dungeons & Dragons 2nd Edition (1989)"
+  - "AD&D 2nd Edition"
+  - "AD&D 2E"
+  - "AD&D Second Edition"
 title: Advanced Dungeons & Dragons Second Edition
 type: game
 publisher: [[TSR]]

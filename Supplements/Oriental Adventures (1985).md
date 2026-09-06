@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Oriental Adventures"
 type: supplement
 supplement-title: Oriental Adventures
 parent-game: "[[Advanced Dungeons & Dragons (1977)]]"

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Founding of TSR"
 type: historical-event
 event-name: Founding of TSR
 date: 1973-10-01

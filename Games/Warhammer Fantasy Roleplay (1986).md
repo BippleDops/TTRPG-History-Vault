@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Warhammer Fantasy Roleplay"
+  - "Warhammer Fantasy Roleplay"
 title: Warhammer Fantasy Roleplay
 type: game
 publisher: [[Games Workshop]]

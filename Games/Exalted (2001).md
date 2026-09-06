@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Exalted"
+  - "Exalted"
 title: Exalted
 type: game
 publisher: [[White Wolf Publishing]]

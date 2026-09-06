@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Tomas Härenstam"
 title: Tomas Härenstam
 type: designer
 birth-year: 1972

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Trophy Gold"
 title: Trophy Gold
 type: game
 publisher: [[The Gauntlet]]

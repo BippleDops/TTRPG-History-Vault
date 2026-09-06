@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Quiet Year"
 title: The Quiet Year
 type: game
 publisher: [[Buried Without Ceremony]]

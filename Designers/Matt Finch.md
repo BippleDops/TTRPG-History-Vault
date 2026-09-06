@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Matthew Finch"
 type: designer
 designer-name: Matt Finch
 birth-year: 1964

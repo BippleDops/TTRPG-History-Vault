@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Modiphius"
 type: publisher
 publisher-name: Modiphius Entertainment
 founded: 2012

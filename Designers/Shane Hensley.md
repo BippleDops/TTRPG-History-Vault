@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Shane Lacy Hensley"
 title: Shane Hensley
 type: designer
 birth-year: 1970

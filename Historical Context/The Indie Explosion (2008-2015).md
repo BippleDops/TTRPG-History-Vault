@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Indie Explosion"
 era-name: The Indie Explosion
 type: historical-era
 date-range: 2008-2015

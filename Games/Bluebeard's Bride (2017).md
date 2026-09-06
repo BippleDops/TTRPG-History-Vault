@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Bluebeard's Bride"
+  - "Bluebeard's Bride"
 title: Bluebeard's Bride
 type: game
 publisher: [[Magpie Games]]

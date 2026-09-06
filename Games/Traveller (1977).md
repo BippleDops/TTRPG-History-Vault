@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Traveller"
 title: Traveller
 type: game
 publisher: [[Game Designers Workshop]]

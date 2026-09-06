@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Ironsworn"
 title: Ironsworn
 type: game
 publisher: [[Shawn Tomkin Games]]

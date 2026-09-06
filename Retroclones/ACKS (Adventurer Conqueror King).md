@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "ACKS"
+  - "Adventurer Conqueror King"
+  - "Adventurer Conqueror King System"
 type: retroclone
 emulates: B/X D&D with domain management focus
 designer: Alexander Macris, Tavis Allison, Greg Tito

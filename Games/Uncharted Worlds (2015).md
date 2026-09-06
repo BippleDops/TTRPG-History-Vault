@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Uncharted Worlds"
 title: Uncharted Worlds
 type: game
 publisher: Self-published

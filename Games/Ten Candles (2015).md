@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Ten Candles"
 title: Ten Candles
 type: game
 publisher: [[Cavalry Games]]

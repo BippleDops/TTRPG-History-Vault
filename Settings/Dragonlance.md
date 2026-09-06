@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Dragonlance Campaign Setting"
 type: setting
 associated-games:
   - "[[Advanced Dungeons & Dragons]]"

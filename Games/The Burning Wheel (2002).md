@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "The Burning Wheel"
+  - "Burning Wheel"
+  - "Burning Wheel (2002)"
 title: The Burning Wheel
 type: game
 publisher: [[Burning Wheel Headquarters]]

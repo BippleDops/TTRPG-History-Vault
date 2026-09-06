@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Critical Role Premiere"
 title: Critical Role Premiere
 type: historical-event
 year: 2015

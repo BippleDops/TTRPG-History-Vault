@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "Rowan, Rook and Decard"
+  - "Rowan, Rook & Decard"
+  - "RRD"
 title: Rowan, Rook and Decard
 type: publisher
 founded: 2016

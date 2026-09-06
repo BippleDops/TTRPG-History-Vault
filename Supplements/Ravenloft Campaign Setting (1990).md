@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Ravenloft Campaign Setting"
 type: supplement
 supplement-title: Ravenloft Campaign Setting
 parent-game: "[[Advanced Dungeons & Dragons (1977)]]"

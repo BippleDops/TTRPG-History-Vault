@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Numenera"
 title: Numenera
 type: game
 publisher: [[Monte Cook Games]]

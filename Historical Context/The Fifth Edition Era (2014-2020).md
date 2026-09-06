@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Fifth Edition Era"
 era-name: The Fifth Edition Era
 type: historical-era
 date-range: 2014-2020

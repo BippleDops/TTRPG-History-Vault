@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Atlas"
 title: Atlas Games
 type: publisher
 founded: 1990

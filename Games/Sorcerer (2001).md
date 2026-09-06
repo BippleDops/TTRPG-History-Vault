@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Sorcerer"
 title: Sorcerer
 type: game
 publisher: [[Adept Press]]

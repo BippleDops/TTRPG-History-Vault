@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Manual of the Planes"
 type: supplement
 supplement-title: Manual of the Planes
 parent-game: "[[Advanced Dungeons & Dragons (1977)]]"

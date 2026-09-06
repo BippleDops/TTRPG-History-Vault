@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Planescape Campaign Setting"
 type: supplement
 supplement-title: Planescape Campaign Setting
 parent-game: "[[Advanced Dungeons & Dragons (1977)]]"

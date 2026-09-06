@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Paranoia"
+  - "Paranoia"
 title: Paranoia
 type: game
 publisher: [[West End Games]]

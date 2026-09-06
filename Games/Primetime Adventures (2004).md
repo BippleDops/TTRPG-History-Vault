@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Primetime Adventures"
 title: Primetime Adventures
 type: game
 publisher: Dog Eared Designs

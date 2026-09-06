@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Fate-Stay Night TRPG"
+  - "Fate-Stay Night TRPG"
 title: Fate/Stay Night TRPG
 type: game
 publisher: [[Kadokawa Shoten]], [[Enterbrain]]

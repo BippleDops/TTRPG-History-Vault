@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "D&D Rules Cyclopedia"
 title: D&D Rules Cyclopedia
 type: game
 publisher: [[TSR]]

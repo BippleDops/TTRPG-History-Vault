@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "FFG"
 title: Fantasy Flight Games
 type: publisher
 founded: 1995

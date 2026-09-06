@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "World of Darkness"
 type: setting
 associated-games:
   - "[[Vampire: The Masquerade]]"

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Adventure Zone: Balance"
 type: actual-play
 title: "The Adventure Zone: Balance"
 show-name: The Adventure Zone

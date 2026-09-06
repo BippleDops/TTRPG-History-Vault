@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Mouse Guard RPG"
 title: Mouse Guard RPG
 type: game
 publisher: [[Archaia Entertainment]]

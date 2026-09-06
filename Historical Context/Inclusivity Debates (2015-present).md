@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Inclusivity Debates"
 title: Inclusivity Debates (2015-present)
 type: historical-event
 year-occurred: 2015-present

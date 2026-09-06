@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Unearthed Arcana"
 type: supplement
 supplement-title: Unearthed Arcana
 parent-game: "[[Advanced Dungeons & Dragons (1977)]]"

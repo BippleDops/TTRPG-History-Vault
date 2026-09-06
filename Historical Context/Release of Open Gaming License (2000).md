@@ -1,4 +1,9 @@
 ---
+aliases:
+  - "Release of Open Gaming License"
+  - "Open Gaming License"
+  - "Open Game License"
+  - "OGL"
 type: historical-event
 event-name: Release of the Open Gaming License
 date: 2000-01-01

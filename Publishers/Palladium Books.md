@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Palladium"
 type: publisher
 publisher-name: Palladium Books
 founded: 1981

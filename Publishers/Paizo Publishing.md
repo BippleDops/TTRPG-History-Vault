@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "Paizo"
+  - "Paizo Inc"
+  - "Paizo Inc."
 title: Paizo Publishing
 type: publisher
 founded: 2002

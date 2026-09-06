@@ -1,4 +1,11 @@
 ---
+aliases:
+  - "D&D Fourth Edition"
+  - "Dungeons & Dragons Fourth Edition"
+  - "Dungeons & Dragons Fourth Edition (2008)"
+  - "Dungeons & Dragons 4th Edition (2008)"
+  - "D&D 4th Edition"
+  - "D&D 4E"
 title: D&D Fourth Edition
 type: game
 publisher: [[Wizards of the Coast]]

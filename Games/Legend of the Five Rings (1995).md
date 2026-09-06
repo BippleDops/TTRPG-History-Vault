@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Legend of the Five Rings"
+  - "L5R"
 title: Legend of the Five Rings
 type: game
 publisher: [[Alderac Entertainment Group]]

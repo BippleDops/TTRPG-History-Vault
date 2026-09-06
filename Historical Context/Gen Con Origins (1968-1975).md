@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Gen Con Origins"
+  - "Gen Con"
 title: Gen Con Origins
 type: historical-event
 year: 1968

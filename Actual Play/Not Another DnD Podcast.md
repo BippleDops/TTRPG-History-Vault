@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Not Another D&D Podcast"
+  - "NADDPOD"
 type: actual-play
 title: Not Another D&D Podcast
 show-name: Not Another D&D Podcast

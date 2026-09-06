@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Sleepaway"
 title: Sleepaway
 type: game
 publisher: [[Possum Creek Games]]

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Arc Dream"
 title: Arc Dream Publishing
 type: publisher
 founded: 2006

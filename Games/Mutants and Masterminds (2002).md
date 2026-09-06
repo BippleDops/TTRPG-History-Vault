@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "Mutants and Masterminds"
+  - "Mutants & Masterminds"
+  - "Mutants & Masterminds (2002)"
 title: Mutants and Masterminds
 type: game
 publisher: [[Green Ronin Publishing]]

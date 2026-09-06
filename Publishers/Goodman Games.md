@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Goodman Games LLC"
 type: publisher
 publisher-name: Goodman Games
 founded: 2001

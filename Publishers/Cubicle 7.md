@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Cubicle 7 Entertainment"
 type: publisher
 publisher-name: Cubicle 7
 founded: 2006

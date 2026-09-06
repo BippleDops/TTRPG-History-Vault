@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Mothership"
+  - "Mothership RPG (2018)"
 title: Mothership
 type: game
 publisher: [[Tuesday Knight Games]]

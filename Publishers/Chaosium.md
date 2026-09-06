@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Chaosium Inc"
+  - "Chaosium Inc."
 type: publisher
 publisher-name: Chaosium
 founded: 1975

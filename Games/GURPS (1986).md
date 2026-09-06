@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "GURPS"
 title: GURPS
 type: game
 publisher: [[Steve Jackson Games]]

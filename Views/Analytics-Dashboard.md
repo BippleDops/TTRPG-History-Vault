@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Analytics Dashboard"
 type: moc
 title: Analytics Dashboard
 category: analytics

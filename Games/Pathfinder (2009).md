@@ -1,4 +1,10 @@
 ---
+aliases:
+  - "Pathfinder"
+  - "Pathfinder RPG"
+  - "Pathfinder RPG (2009)"
+  - "Pathfinder Roleplaying Game"
+  - "Pathfinder 1st Edition"
 title: Pathfinder Roleplaying Game
 type: game
 publisher: [[Paizo Publishing]]

@@ -1,4 +1,9 @@
 ---
+aliases:
+  - "Dream Askew Dream Apart"
+  - "Dream Askew Dream Apart"
+  - "Dream Askew / Dream Apart"
+  - "Dream Askew"
 title: Dream Askew / Dream Apart
 type: game
 publisher: [[Buried Without Ceremony]]

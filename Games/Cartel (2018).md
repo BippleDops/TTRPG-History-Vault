@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Cartel"
 title: Cartel
 type: game
 publisher: [[Magpie Games]]

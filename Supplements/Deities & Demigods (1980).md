@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Deities & Demigods"
 type: supplement
 supplement-title: Deities & Demigods
 parent-game: "[[Advanced Dungeons & Dragons (1977)]]"

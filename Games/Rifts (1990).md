@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Rifts"
 title: Rifts
 type: game
 publisher: [[Palladium Books]]

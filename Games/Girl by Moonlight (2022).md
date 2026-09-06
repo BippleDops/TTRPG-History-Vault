@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Girl by Moonlight"
 title: Girl by Moonlight
 type: game
 publisher: [[Evil Hat Productions]]

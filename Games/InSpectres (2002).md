@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "InSpectres"
 title: InSpectres
 type: game
 publisher: [[Memento Mori Theatricks]]

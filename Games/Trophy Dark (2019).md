@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Trophy Dark"
 title: Trophy Dark
 type: game
 publisher: [[The Gauntlet]]

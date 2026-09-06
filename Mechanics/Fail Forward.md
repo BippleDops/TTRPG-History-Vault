@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Failing Forward"
 title: Montage Resolution
 type: mechanics
 first-appeared: "[[Blades in the Dark]] (2017)"

@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Zeb Cook"
+  - "David \"Zeb\" Cook"
 type: designer
 designer-name: David "Zeb" Cook
 birth-year: 1957

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Pelgrane"
 title: Pelgrane Press
 type: publisher
 founded: 2000

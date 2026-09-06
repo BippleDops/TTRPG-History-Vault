@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Call of Cthulhu"
+  - "CoC"
 title: Call of Cthulhu
 type: game
 publisher: [[Chaosium]]

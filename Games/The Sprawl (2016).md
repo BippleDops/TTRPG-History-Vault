@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Sprawl"
 title: The Sprawl
 type: game
 publisher: [[Hamish Cameron]]

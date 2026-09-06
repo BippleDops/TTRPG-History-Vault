@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Evil Hat"
 title: Evil Hat Productions
 type: publisher
 founded: 2005

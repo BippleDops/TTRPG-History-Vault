@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "DriveThruRPG"
+  - "RPGNow"
 title: "DriveThruRPG and Digital Distribution Revolution"
 type: web-archive
 source-url: https://www.drivethrurpg.com/

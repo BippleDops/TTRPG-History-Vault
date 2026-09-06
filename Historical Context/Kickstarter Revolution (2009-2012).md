@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "Kickstarter Revolution"
+  - "Kickstarter"
+  - "Crowdfunding in TTRPGs"
 title: Kickstarter Revolution
 type: historical-event
 year: 2009

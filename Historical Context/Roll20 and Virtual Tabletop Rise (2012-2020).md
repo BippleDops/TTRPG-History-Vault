@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Roll20 and Virtual Tabletop Rise"
 title: Roll20 and Virtual Tabletop Rise
 type: historical-event
 year: 2012

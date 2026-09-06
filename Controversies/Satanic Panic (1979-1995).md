@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Satanic Panic"
 type: controversy
 time-period: 1979-1995
 key-figures:

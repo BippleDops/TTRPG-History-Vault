@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Modern Landscape"
 era-name: The Modern Landscape
 type: historical-era
 date-range: 2020-Present

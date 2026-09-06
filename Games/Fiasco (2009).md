@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Fiasco"
 title: Fiasco
 type: game
 publisher: [[Bully Pulpit Games]]

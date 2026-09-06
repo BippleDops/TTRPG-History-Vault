@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Dread"
 title: Dread
 type: game
 publisher: [[The Impossible Dream]]

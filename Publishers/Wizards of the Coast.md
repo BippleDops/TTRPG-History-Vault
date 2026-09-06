@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "WotC"
 type: publisher
 publisher-name: Wizards of the Coast
 founded: 1990

@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "RuneQuest"
+  - "RuneQuest"
 title: RuneQuest
 type: game
 publisher: [[Chaosium]]

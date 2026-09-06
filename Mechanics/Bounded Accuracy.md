@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Bounded-Accuracy"
 title: Bounded Accuracy
 type: mechanics
 first-appeared: "[[D&D 5th Edition]] (2014)"

@@ -1,4 +1,9 @@
 ---
+aliases:
+  - "TSR Inc."
+  - "TSR Inc"
+  - "TSR Hobbies"
+  - "Tactical Studies Rules"
 type: publisher
 publisher-name: TSR, Inc.
 founded: 1973

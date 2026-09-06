@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "OSRIC"
 type: retroclone
 clone-title: OSRIC (Old School Reference and Index Compilation)
 emulates: "[[Advanced Dungeons & Dragons (1977)]]"

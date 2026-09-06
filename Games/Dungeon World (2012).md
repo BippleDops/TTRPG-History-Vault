@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Dungeon World"
 title: Dungeon World
 type: game
 publisher: [[Sage Kobold Productions]]

@@ -1,4 +1,12 @@
 ---
+aliases:
+  - "Dungeons & Dragons Fifth Edition"
+  - "D&D 5th Edition"
+  - "D&D 5E"
+  - "D&D 5e"
+  - "D&D Fifth Edition"
+  - "Dungeons & Dragons 5th Edition"
+  - "Dungeons & Dragons 5th Edition (2014)"
 title: Dungeons & Dragons Fifth Edition
 type: game
 publisher: [[Wizards of the Coast]]

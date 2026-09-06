@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Masks A New Generation"
 title: "Masks: A New Generation"
 type: game
 publisher: [[Magpie Games]]

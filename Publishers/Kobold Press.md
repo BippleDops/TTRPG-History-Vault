@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Open Design"
 type: publisher
 publisher-name: Kobold Press
 founded: 2006

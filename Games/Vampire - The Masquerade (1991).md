@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "Vampire - The Masquerade"
+  - "Vampire: The Masquerade"
+  - "VtM"
 title: Vampire - The Masquerade
 type: game
 publisher: [[White Wolf Publishing]]

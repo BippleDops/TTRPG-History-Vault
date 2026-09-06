@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Vincent Baker"
 type: designer
 designer-name: D. Vincent Baker
 birth-year: 1968

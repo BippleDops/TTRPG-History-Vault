@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "D&D Fourth Edition Release"
 title: D&D Fourth Edition Release
 type: historical-event
 year: 2008

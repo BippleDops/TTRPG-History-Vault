@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Powered by the Apocalypse"
+  - "PbtA"
 type: mechanic
 mechanic-name: Powered by the Apocalypse (Moves)
 first-appearance: "[[Apocalypse World (2010)]]"

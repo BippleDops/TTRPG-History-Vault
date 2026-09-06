@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Pathfinder Outsells D&D"
 title: Pathfinder Outsells D&D
 type: historical-event
 year: 2011

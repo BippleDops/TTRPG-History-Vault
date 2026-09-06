@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Dialect"
+  - "Dialect"
 title: Dialect
 type: game
 publisher: Thorny Games

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "d20"
 type: mechanic
 mechanic-name: d20 System
 first-appearance: "[[Dungeons & Dragons (1974)]]"

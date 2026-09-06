@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "LotFP"
+  - "Lamentations of the Flame Princess (2010)"
 type: retroclone
 emulates: B/X D&D with significant modifications
 designer: James Edward Raggi IV

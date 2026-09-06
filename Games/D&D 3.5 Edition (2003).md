@@ -1,4 +1,10 @@
 ---
+aliases:
+  - "D&D 3.5 Edition"
+  - "Dungeons & Dragons 3.5 Edition"
+  - "Dungeons & Dragons 3.5 (2003)"
+  - "D&D 3.5"
+  - "D&D v3.5"
 title: D&D 3.5 Edition
 type: game
 publisher: [[Wizards of the Coast]]

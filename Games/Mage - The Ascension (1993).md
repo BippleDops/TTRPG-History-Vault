@@ -1,4 +1,10 @@
 ---
+aliases:
+  - "Mage - The Ascension"
+  - "Mage: The Ascension"
+  - "Mage - The Ascension"
+  - "Mage: The Ascension"
+  - "MtA"
 title: Mage - The Ascension
 type: game
 publisher: [[White Wolf Publishing]]

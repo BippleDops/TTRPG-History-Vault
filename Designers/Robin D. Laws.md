@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Robin Laws"
 title: Robin D. Laws
 type: designer
 birth-year: 1964

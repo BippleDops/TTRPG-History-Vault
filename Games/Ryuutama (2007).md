@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Ryuutama"
+  - "Ryuutama"
 title: Ryuutama
 type: game
 publisher: [[Kotobuki Game Field]], [[Kotodama Heavy Industries]]

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Foundry Virtual Tabletop"
 type: vtt-platform
 platform-name: Foundry VTT
 launch-year: 2020

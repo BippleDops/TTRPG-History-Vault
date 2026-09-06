@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "White Wolf Acquisition by CCP"
 title: White Wolf Acquisition by CCP
 type: historical-event
 year: 2006

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Critical Role (2015)"
 type: actual-play
 show-title: Critical Role
 format: livestream

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Swords & Wizardry (2008)"
 type: retroclone
 emulates: Original D&D (1974 White Box)
 designer: Matt Finch

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Eldritch Wizardry"
 type: supplement
 supplement-title: Eldritch Wizardry
 parent-game: "[[Dungeons & Dragons (1974)]]"

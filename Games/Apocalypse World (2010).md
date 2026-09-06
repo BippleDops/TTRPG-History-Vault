@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Apocalypse World"
 title: Apocalypse World
 type: game
 publisher: [[Lumpley Games]]

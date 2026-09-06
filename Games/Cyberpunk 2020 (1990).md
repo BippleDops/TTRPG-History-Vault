@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Cyberpunk 2020"
 title: Cyberpunk 2020
 type: game
 publisher: [[R. Talsorian Games]]

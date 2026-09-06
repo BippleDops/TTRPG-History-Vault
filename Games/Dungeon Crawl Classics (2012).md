@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "Dungeon Crawl Classics RPG (2012)"
+  - "DCC RPG"
+  - "DCC"
 title: Dungeon Crawl Classics
 type: game
 publisher: [[Goodman Games]]

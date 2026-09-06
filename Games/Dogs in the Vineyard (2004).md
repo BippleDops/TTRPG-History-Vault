@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Dogs in the Vineyard"
 title: Dogs in the Vineyard
 type: game
 publisher: [[Lumpley Games]]

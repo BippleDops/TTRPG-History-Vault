@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Golden Age"
 era-name: The Golden Age
 type: historical-era
 date-range: 1980-1989

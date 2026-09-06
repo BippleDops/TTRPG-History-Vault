@@ -1,4 +1,10 @@
 ---
+aliases:
+  - "Dungeons & Dragons"
+  - "Original D&D"
+  - "OD&D"
+  - "Original Dungeons & Dragons"
+  - "D&D"
 title: Dungeons & Dragons (Original)
 type: game
 publisher: [[TSR]]

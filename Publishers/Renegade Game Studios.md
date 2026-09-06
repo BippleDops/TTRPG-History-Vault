@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Renegade Games"
 type: publisher
 publisher-name: Renegade Game Studios
 founded: 2014

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Golarion"
 type: setting
 associated-games:
   - "[[Pathfinder]]"

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Mountain Witch"
 title: The Mountain Witch
 type: game
 publisher: Timfire Games

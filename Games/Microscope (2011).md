@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Microscope"
 title: Microscope
 type: game
 publisher: Lame Mage Productions

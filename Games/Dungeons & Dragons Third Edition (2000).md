@@ -7,6 +7,7 @@ aliases:
   - "D&D 3rd Edition"
   - "D&D 3E"
   - "D&D 3.0"
+  - "Dungeons & Dragons 3rd Edition"
 type: game
 publisher: [[Wizards of the Coast]]
 designer:

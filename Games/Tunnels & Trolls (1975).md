@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Tunnels & Trolls"
 title: Tunnels & Trolls
 type: game
 publisher: [[Flying Buffalo]]

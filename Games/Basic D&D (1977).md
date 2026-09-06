@@ -1,4 +1,8 @@
 ---
+aliases:
+  - "Basic D&D"
+  - "Basic Dungeons & Dragons"
+  - "D&D Basic Set"
 title: Basic D&D
 type: game
 publisher: [[TSR]]

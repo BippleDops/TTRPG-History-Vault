@@ -1,4 +1,9 @@
 ---
+aliases:
+  - "Spire The City Must Fall"
+  - "Spire The City Must Fall"
+  - "Spire: The City Must Fall"
+  - "Spire"
 title: "Spire: The City Must Fall"
 type: game
 publisher: [[Rowan Rook and Decard]]

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Bully Pulpit"
 title: Bully Pulpit Games
 type: publisher
 founded: 2005

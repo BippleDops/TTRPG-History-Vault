@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Onyx Path"
 type: publisher
 publisher-name: Onyx Path Publishing
 founded: 2012

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Green Ronin"
 title: Green Ronin Publishing
 type: publisher
 founded: 2000

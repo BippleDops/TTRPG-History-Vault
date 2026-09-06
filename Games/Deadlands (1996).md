@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Deadlands"
 title: Deadlands
 type: game
 publisher: [[Pinnacle Entertainment Group]]

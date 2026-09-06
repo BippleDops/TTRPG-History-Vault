@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Shadowrun"
+  - "Shadowrun"
 title: Shadowrun
 type: game
 publisher: [[FASA Corporation]]

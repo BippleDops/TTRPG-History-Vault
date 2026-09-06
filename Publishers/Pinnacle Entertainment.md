@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Pinnacle Entertainment Group"
+  - "Pinnacle"
 title: Pinnacle Entertainment Group
 type: publisher
 founded: 1994

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Alice is Missing"
 title: Alice is Missing
 type: game
 publisher: [[Hunters Entertainment]]

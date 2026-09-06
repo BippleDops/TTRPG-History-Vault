@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Fate Core"
+  - "FATE Core"
 title: Fate Core
 type: game
 publisher: [[Evil Hat Productions]]

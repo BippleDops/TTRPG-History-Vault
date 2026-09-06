@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "The Satanic Panic"
 type: historical-event
 event-name: The Satanic Panic
 date: 1982-1989

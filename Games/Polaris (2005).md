@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Polaris"
 title: Polaris - Chivalric Tragedy at the Utmost North
 type: game
 publisher: [[These Are Our Games]]

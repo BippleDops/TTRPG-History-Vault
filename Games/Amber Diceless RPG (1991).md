@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Amber Diceless RPG"
 title: Amber Diceless RPG
 type: game
 publisher: [[Phage Press]]

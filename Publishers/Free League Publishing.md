@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Free League"
+  - "Fria Ligan"
 type: publisher
 publisher-name: Free League Publishing
 founded: 2011

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "White Wolf"
 type: publisher
 publisher-name: White Wolf Publishing
 founded: 1991

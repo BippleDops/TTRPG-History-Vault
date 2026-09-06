@@ -1,3 +1,7 @@
+---
+aliases:
+  - "Designer-Influence-Network"
+---
 # Designer Collaboration Network
 
 ## Designer Relationships and Collaborations

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "FASA"
 title: FASA Corporation
 type: publisher
 founded: 1980

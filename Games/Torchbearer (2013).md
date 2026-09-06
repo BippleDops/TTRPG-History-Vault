@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Torchbearer"
 title: Torchbearer
 type: game
 publisher: [[Burning Wheel Headquarters]]

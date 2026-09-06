@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Matthew Colville"
 type: designer
 designer-name: Matt Colville
 birth-year: 1974

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Monsterhearts"
 title: Monsterhearts
 type: game
 publisher: [[Buried Without Ceremony]]

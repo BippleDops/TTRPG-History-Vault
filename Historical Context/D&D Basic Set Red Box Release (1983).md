@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "D&D Basic Set Red Box Release"
+  - "Dungeons & Dragons Basic Set Red Box Release (1983)"
 title: D&D Basic Set Red Box Release
 type: historical-event
 year: 1983

@@ -1,4 +1,10 @@
 ---
+aliases:
+  - "Werewolf - The Apocalypse"
+  - "Werewolf: The Apocalypse"
+  - "Werewolf - The Apocalypse"
+  - "Werewolf: The Apocalypse"
+  - "WtA"
 title: Werewolf - The Apocalypse
 type: game
 publisher: [[White Wolf Publishing]]

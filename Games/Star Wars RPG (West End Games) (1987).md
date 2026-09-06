@@ -1,4 +1,9 @@
 ---
+aliases:
+  - "Star Wars RPG (West End Games)"
+  - "Star Wars RPG"
+  - "Star Wars: The Roleplaying Game"
+  - "Star Wars D6"
 title: Star Wars RPG (West End Games)
 type: game
 publisher: [[West End Games]]

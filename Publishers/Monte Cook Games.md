@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "MCG"
 type: publisher
 publisher-name: Monte Cook Games
 founded: 2012

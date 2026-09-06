@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "For the Queen"
 title: For the Queen
 type: game
 publisher: [[Evil Hat Productions]]

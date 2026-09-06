@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Dimension 20: Fantasy High"
+  - "Fantasy High"
 type: actual-play
 title: "Dimension 20: Fantasy High"
 show-name: Dimension 20

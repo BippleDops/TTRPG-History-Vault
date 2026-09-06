@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "Legend of Wulin"
+  - "Legend of Wulin"
 title: Legend of Wulin
 type: game
 publisher: [[Taiwanese publisher]], [[Vigilance Press]]

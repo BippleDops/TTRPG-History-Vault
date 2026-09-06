@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Pendragon"
 title: Pendragon
 type: game
 publisher: [[Chaosium]]

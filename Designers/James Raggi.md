@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "James Raggi IV"
+  - "James Edward Raggi IV"
 type: designer
 designer-name: James Raggi
 birth-year: 1975

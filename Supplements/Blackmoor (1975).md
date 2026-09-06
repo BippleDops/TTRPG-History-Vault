@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Blackmoor"
 type: supplement
 supplement-title: Blackmoor
 parent-game: "[[Dungeons & Dragons (1974)]]"

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Mongoose"
 title: Mongoose Publishing
 type: publisher
 founded: 2001

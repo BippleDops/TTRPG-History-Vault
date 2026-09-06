@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Savage Worlds"
 title: Savage Worlds
 type: game
 publisher: [[Pinnacle Entertainment]]

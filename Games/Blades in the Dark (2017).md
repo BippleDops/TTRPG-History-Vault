@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Blades in the Dark"
 title: Blades in the Dark
 type: game
 publisher: [[Evil Hat Productions]]

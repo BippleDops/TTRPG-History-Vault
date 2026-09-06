@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "SJG"
 title: Steve Jackson Games
 type: publisher
 founded: 1980

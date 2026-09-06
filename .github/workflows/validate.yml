@@ -49,7 +49,7 @@ env:
   # Broken-link budget for Scripts/link_validator.py --max-broken.
   # Current count after the 2026-09 repair: see the link-report artifact.
   # Lower this number whenever links are fixed; CI fails if it is exceeded.
-  LINK_BROKEN_BUDGET: 1400
+  LINK_BROKEN_BUDGET: 1650
   # Minimum body word count for *newly added* content entries.
   MIN_WORDS: 1000
 

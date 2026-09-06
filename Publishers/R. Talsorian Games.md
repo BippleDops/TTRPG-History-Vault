@@ -1,4 +1,7 @@
 ---
+aliases:
+  - "R. Talsorian"
+  - "Talsorian"
 type: publisher
 publisher-name: R. Talsorian Games
 founded: 1985

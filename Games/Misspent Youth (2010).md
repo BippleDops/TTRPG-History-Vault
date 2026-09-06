@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Misspent Youth"
 title: Misspent Youth
 type: game
 publisher: Self-published

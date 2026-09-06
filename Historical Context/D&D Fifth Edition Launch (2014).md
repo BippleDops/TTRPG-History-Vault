@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "D&D Fifth Edition Launch"
 title: D&D Fifth Edition Launch
 type: historical-event
 year: 2014

@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Alchemy VTT"
 type: vtt-platform
 platform-name: Alchemy RPG
 launch-year: 2020

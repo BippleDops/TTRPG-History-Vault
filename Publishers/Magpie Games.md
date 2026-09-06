@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Magpie"
 title: Magpie Games
 type: publisher
 founded: 2012

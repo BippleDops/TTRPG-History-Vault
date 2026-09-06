@@ -1,4 +1,6 @@
 ---
+aliases:
+  - "Night Witches"
 title: Night Witches
 type: game
 publisher: [[Bully Pulpit Games]]
